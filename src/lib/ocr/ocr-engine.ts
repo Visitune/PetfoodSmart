@@ -30,14 +30,37 @@ export async function recognizeText(
   languages: string = DEFAULT_OCR_LANGUAGES
 ): Promise<OcrResult> {
   const Tesseract = (await import('tesseract.js')).default;
+
+  // Tesseract runs recognition inside a Web Worker. When something goes wrong
+  // in there (OOM, a WASM init failure, a network error loading a language
+  // file...) the outer promise can reject with `undefined` and no useful
+  // message. logger/errorHandler are the only way to see what actually
+  // happened, so we capture both and fold them into the thrown error.
+  let lastStatus = 'unknown';
+  let workerError: unknown;
+
   let result;
   try {
     result = await Tesseract.recognize(imageDataUrl, languages, {
-      logger: () => {}, // suppress logs
+      logger: (m) => {
+        lastStatus = `${m.status} (${Math.round(m.progress * 100)}%)`;
+      },
+      errorHandler: (err: unknown) => {
+        workerError = err;
+      },
     });
   } catch (err) {
-    const detail = err instanceof Error ? err.message : JSON.stringify(err);
-    throw new Error(`Tesseract recognition failed (languages: ${languages}): ${detail}`);
+    const rejection = err instanceof Error ? err.message : String(err);
+    const workerDetail =
+      workerError instanceof Error
+        ? workerError.message
+        : workerError !== undefined
+          ? JSON.stringify(workerError)
+          : null;
+    const detail = [rejection, workerDetail].filter((d) => d && d !== '{}').join(' | worker: ');
+    throw new Error(
+      `Tesseract recognition failed (languages: ${languages}, last stage: ${lastStatus}): ${detail || 'no additional detail'}`
+    );
   }
 
   const rawText = result.data.text.trim();

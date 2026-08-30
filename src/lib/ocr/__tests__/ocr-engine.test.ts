@@ -51,12 +51,23 @@ describe('recognizeText', () => {
     );
   });
 
-  it('wraps a Tesseract failure in a descriptive Error', async () => {
+  it('wraps a Tesseract failure in a descriptive Error, including the rejection reason', async () => {
     mockRecognize.mockRejectedValue('worker crashed');
 
     await expect(
       recognizeText('data:image/jpeg;base64,abc123', 'eng+fra')
-    ).rejects.toThrow(/Tesseract recognition failed \(languages: eng\+fra\)/);
+    ).rejects.toThrow(/Tesseract recognition failed \(languages: eng\+fra,.*worker crashed/);
+  });
+
+  it('surfaces the last known progress stage on failure', async () => {
+    mockRecognize.mockImplementation(async (_image, _langs, options) => {
+      options?.logger?.({ status: 'loading language traineddata', progress: 0.5, jobId: '1', userJobId: '1', workerId: '1' });
+      throw new Error('network timeout');
+    });
+
+    await expect(
+      recognizeText('data:image/jpeg;base64,abc123', 'eng+fra')
+    ).rejects.toThrow(/last stage: loading language traineddata \(50%\)/);
   });
 
   it('detects Chinese language', async () => {
