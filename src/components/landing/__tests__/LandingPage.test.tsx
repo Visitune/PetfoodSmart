@@ -96,7 +96,7 @@ describe("LandingPage (F017 - Demo-first)", () => {
   it("shows search results when user types a query", () => {
     render(<LandingPage {...defaultProps} />);
     const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "Orijen" } });
+    fireEvent.change(input, { target: { value: "Vitalis" } });
     expect(screen.getByTestId("brand-search-results")).toBeInTheDocument();
   });
 

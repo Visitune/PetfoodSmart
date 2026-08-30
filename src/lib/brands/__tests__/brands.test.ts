@@ -16,7 +16,7 @@ describe("Brand Database", () => {
   describe("getAllBrands", () => {
     it("returns all brand entries", () => {
       const brands = getAllBrands();
-      expect(brands.length).toBeGreaterThanOrEqual(50);
+      expect(brands.length).toBeGreaterThanOrEqual(10);
     });
 
     it("each brand has required fields", () => {
@@ -24,9 +24,7 @@ describe("Brand Database", () => {
       for (const brand of brands) {
         expect(brand.slug).toBeTruthy();
         expect(brand.brand).toBeTruthy();
-        expect(brand.brandCn).toBeTruthy();
         expect(brand.product).toBeTruthy();
-        expect(brand.productCn).toBeTruthy();
         expect(["cat", "dog"]).toContain(brand.petType);
         expect(brand.ingredients.length).toBeGreaterThan(0);
         expect(brand.source).toBeTruthy();
@@ -44,14 +42,14 @@ describe("Brand Database", () => {
       const brands = getAllBrands();
       const cats = brands.filter((b) => b.petType === "cat").length;
       const dogs = brands.filter((b) => b.petType === "dog").length;
-      expect(cats).toBeGreaterThanOrEqual(20);
-      expect(dogs).toBeGreaterThanOrEqual(20);
+      expect(cats).toBeGreaterThanOrEqual(3);
+      expect(dogs).toBeGreaterThanOrEqual(3);
     });
   });
 
   describe("analyzeBrand", () => {
     it("computes analysis for a brand", () => {
-      const brand = getBrandBySlug("orijen-original-dog");
+      const brand = getBrandBySlug("vitalis-naturel-dog");
       expect(brand).not.toBeNull();
       const analyzed = analyzeBrand(brand!);
       expect(analyzed.analysis).toBeDefined();
@@ -62,30 +60,30 @@ describe("Brand Database", () => {
     });
 
     it("premium brands score higher than budget brands", () => {
-      const orijen = getAnalyzedBrandBySlug("orijen-original-dog");
-      const pedigree = getAnalyzedBrandBySlug("pedigree-adult-dog");
-      expect(orijen).not.toBeNull();
-      expect(pedigree).not.toBeNull();
-      expect(orijen!.analysis.score).toBeGreaterThan(pedigree!.analysis.score);
+      const vitalis = getAnalyzedBrandBySlug("vitalis-naturel-dog");
+      const copain = getAnalyzedBrandBySlug("copain-croquettes-dog");
+      expect(vitalis).not.toBeNull();
+      expect(copain).not.toBeNull();
+      expect(vitalis!.analysis.score).toBeGreaterThan(copain!.analysis.score);
     });
 
     it("high-quality brands get A or B grade", () => {
-      const ziwi = getAnalyzedBrandBySlug("ziwi-peak-venison-dog");
-      expect(ziwi).not.toBeNull();
-      expect(["A", "B"]).toContain(ziwi!.analysis.grade);
+      const whisker = getAnalyzedBrandBySlug("whisker-wild-cat");
+      expect(whisker).not.toBeNull();
+      expect(["A", "B"]).toContain(whisker!.analysis.grade);
     });
 
     it("budget brands with fillers get lower grades", () => {
-      const meowMix = getAnalyzedBrandBySlug("meow-mix-original-cat");
-      expect(meowMix).not.toBeNull();
-      expect(["D", "F"]).toContain(meowMix!.analysis.grade);
+      const ronron = getAnalyzedBrandBySlug("ronron-croquettes-cat");
+      expect(ronron).not.toBeNull();
+      expect(["D", "F"]).toContain(ronron!.analysis.grade);
     });
   });
 
   describe("getAllAnalyzedBrands", () => {
     it("returns all brands with analysis results", () => {
       const analyzed = getAllAnalyzedBrands();
-      expect(analyzed.length).toBeGreaterThanOrEqual(50);
+      expect(analyzed.length).toBeGreaterThanOrEqual(10);
       for (const brand of analyzed) {
         expect(brand.analysis).toBeDefined();
         expect(brand.analysis.grade).toBeTruthy();
@@ -93,18 +91,18 @@ describe("Brand Database", () => {
       }
     });
 
-    it("has brands across all grade levels", () => {
+    it("has brands across multiple grade levels", () => {
       const analyzed = getAllAnalyzedBrands();
       const grades = new Set(analyzed.map((b) => b.analysis.grade));
-      expect(grades.size).toBeGreaterThanOrEqual(3);
+      expect(grades.size).toBeGreaterThanOrEqual(2);
     });
   });
 
   describe("getBrandBySlug", () => {
     it("returns brand for valid slug", () => {
-      const brand = getBrandBySlug("royal-canin-indoor-cat");
+      const brand = getBrandBySlug("felin-dore-cat");
       expect(brand).not.toBeNull();
-      expect(brand!.brand).toBe("Royal Canin");
+      expect(brand!.brand).toBe("Félin Doré");
       expect(brand!.petType).toBe("cat");
     });
 
@@ -116,10 +114,10 @@ describe("Brand Database", () => {
 
   describe("getAnalyzedBrandBySlug", () => {
     it("returns analyzed brand for valid slug", () => {
-      const brand = getAnalyzedBrandBySlug("orijen-cat-kitten");
+      const brand = getAnalyzedBrandBySlug("whisker-wild-cat");
       expect(brand).not.toBeNull();
       expect(brand!.analysis).toBeDefined();
-      expect(brand!.brand).toBe("Orijen");
+      expect(brand!.brand).toBe("Whisker & Wild");
     });
 
     it("returns null for invalid slug", () => {
@@ -132,8 +130,8 @@ describe("Brand Database", () => {
     it("returns all slugs", () => {
       const slugs = getAllBrandSlugs();
       expect(slugs.length).toBe(getAllBrands().length);
-      expect(slugs).toContain("orijen-original-dog");
-      expect(slugs).toContain("royal-canin-indoor-cat");
+      expect(slugs).toContain("vitalis-naturel-dog");
+      expect(slugs).toContain("felin-dore-cat");
     });
   });
 
@@ -164,15 +162,9 @@ describe("Brand Database", () => {
 
   describe("searchBrands", () => {
     it("finds brands by English name", () => {
-      const results = searchBrands("Orijen");
+      const results = searchBrands("Vitalis");
       expect(results.length).toBeGreaterThan(0);
-      expect(results.every((b) => b.brand === "Orijen")).toBe(true);
-    });
-
-    it("finds brands by Chinese name", () => {
-      const results = searchBrands("皇家");
-      expect(results.length).toBeGreaterThan(0);
-      expect(results.every((b) => b.brandCn === "皇家")).toBe(true);
+      expect(results.every((b) => b.brand === "Vitalis Naturel")).toBe(true);
     });
 
     it("finds brands by product name", () => {
@@ -181,7 +173,7 @@ describe("Brand Database", () => {
     });
 
     it("search is case-insensitive", () => {
-      const results = searchBrands("orijen");
+      const results = searchBrands("vitalis");
       expect(results.length).toBeGreaterThan(0);
     });
 
@@ -201,7 +193,7 @@ describe("Brand Database", () => {
       const info = getBrandDatabaseInfo();
       expect(info.version).toBeTruthy();
       expect(info.lastUpdated).toBeTruthy();
-      expect(info.totalBrands).toBeGreaterThanOrEqual(50);
+      expect(info.totalBrands).toBeGreaterThanOrEqual(10);
     });
   });
 

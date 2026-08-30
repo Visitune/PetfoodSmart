@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
   }
 
   const title = `${brand.brand} ${brand.product} — Grade ${brand.analysis.grade} | PetFoodSmart`;
-  const description = `${brand.brand} ${brand.product} (${brand.brandCn} ${brand.productCn}) scored ${brand.analysis.score}/100 (Grade ${brand.analysis.grade}). ${brand.analysis.verdict}`;
+  const description = `${brand.brand} ${brand.product} scored ${brand.analysis.score}/100 (Grade ${brand.analysis.grade}). ${brand.analysis.verdict}`;
 
   return {
     title,

@@ -81,9 +81,9 @@ export function searchBrands(query: string): BrandEntry[] {
   return db.brands.filter(
     (b) =>
       b.brand.toLowerCase().includes(q) ||
-      b.brandCn.includes(q) ||
+      (b.brandCn?.includes(q) ?? false) ||
       b.product.toLowerCase().includes(q) ||
-      b.productCn.includes(q) ||
+      (b.productCn?.includes(q) ?? false) ||
       b.slug.includes(q)
   );
 }

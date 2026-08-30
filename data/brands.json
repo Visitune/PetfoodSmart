@@ -1,756 +1,102 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2026-03-19",
+  "version": "2.0.0",
+  "lastUpdated": "2026-08-30",
   "brands": [
     {
-      "slug": "orijen-original-dog",
-      "brand": "Orijen",
-      "brandCn": "渴望",
+      "slug": "vitalis-naturel-dog",
+      "brand": "Vitalis Naturel",
       "product": "Original Dog Food",
-      "productCn": "六种鲜肉犬粮",
       "petType": "dog",
-      "ingredients": ["chicken", "turkey", "whole herring", "chicken liver", "turkey liver", "chicken heart", "turkey heart", "chicken meal", "turkey meal", "herring meal", "chicken fat", "whole egg", "pea", "lentil", "chickpea", "pea fiber", "salmon oil", "pumpkin", "butternut squash", "carrot", "spinach", "apple", "pear", "cranberry", "blueberry", "chicory root", "turmeric", "rosemary extract", "mixed tocopherols", "zinc proteinate", "taurine"],
-      "source": "packaging"
+      "ingredients": ["chicken", "turkey", "whole herring", "chicken meal", "turkey meal", "herring meal", "pea", "blueberry", "salmon oil", "rosemary extract", "mixed tocopherols", "taurine"],
+      "source": "demo"
     },
     {
-      "slug": "orijen-cat-kitten",
-      "brand": "Orijen",
-      "brandCn": "渴望",
-      "product": "Cat & Kitten",
-      "productCn": "全猫粮",
+      "slug": "ferme-du-terroir-dog",
+      "brand": "Ferme du Terroir",
+      "product": "Countryside Dog",
+      "petType": "dog",
+      "ingredients": ["chicken", "brown rice", "oatmeal", "chicken meal", "beet pulp", "fish oil", "dl-methionine"],
+      "source": "demo"
+    },
+    {
+      "slug": "croc-malin-dog",
+      "brand": "Croc'Malin",
+      "product": "Adult Dog",
+      "petType": "dog",
+      "ingredients": ["Viandes et Sous-Produits Animaux", "Céréales", "Huiles et Graisses", "Substances Minérales", "Levures"],
+      "source": "demo"
+    },
+    {
+      "slug": "copain-croquettes-dog",
+      "brand": "Copain Croquettes",
+      "product": "Economy Dog",
+      "petType": "dog",
+      "ingredients": ["corn", "corn gluten meal", "meat and bone meal", "animal fat", "wheat middlings", "caramel color", "red 40", "bha", "bht"],
+      "source": "demo"
+    },
+    {
+      "slug": "nutri-griffe-dog",
+      "brand": "Nutri'Griffe",
+      "product": "Senior Dog",
+      "petType": "dog",
+      "ingredients": ["chicken meal", "brown rice", "barley", "glucosamine", "fish oil"],
+      "source": "demo"
+    },
+    {
+      "slug": "bon-appetit-dog",
+      "brand": "Bon Appétit",
+      "product": "Classic Dog",
+      "petType": "dog",
+      "ingredients": ["wheat middlings", "soy", "corn", "caramel color", "yellow 5", "bha"],
+      "source": "demo"
+    },
+    {
+      "slug": "whisker-wild-cat",
+      "brand": "Whisker & Wild",
+      "product": "Salmon Cat",
       "petType": "cat",
-      "ingredients": ["chicken", "turkey", "whole herring", "chicken liver", "turkey liver", "chicken heart", "turkey heart", "chicken meal", "turkey meal", "herring meal", "chicken fat", "whole egg", "pea", "lentil", "chickpea", "pea fiber", "salmon oil", "pumpkin", "butternut squash", "carrot", "spinach", "apple", "blueberry", "cranberry", "chicory root", "turmeric", "rosemary extract", "mixed tocopherols", "zinc proteinate", "taurine", "dl-methionine"],
-      "source": "packaging"
+      "ingredients": ["salmon", "herring", "salmon meal", "pea", "taurine", "salmon oil", "blueberry"],
+      "source": "demo"
     },
     {
-      "slug": "acana-grasslands-dog",
-      "brand": "Acana",
-      "brandCn": "爱肯拿",
-      "product": "Grasslands Dog",
-      "productCn": "草原盛宴犬粮",
-      "petType": "dog",
-      "ingredients": ["lamb", "duck", "whole egg", "lamb meal", "duck meal", "lamb liver", "lamb fat", "pea", "lentil", "chickpea", "pea fiber", "herring oil", "duck liver", "pumpkin", "butternut squash", "carrot", "spinach", "apple", "pear", "cranberry", "blueberry", "chicory root", "turmeric", "rosemary extract", "mixed tocopherols", "zinc proteinate", "taurine"],
-      "source": "packaging"
-    },
-    {
-      "slug": "acana-pacifica-cat",
-      "brand": "Acana",
-      "brandCn": "爱肯拿",
-      "product": "Pacifica Cat",
-      "productCn": "海洋盛宴猫粮",
+      "slug": "chat-gourmet-cat",
+      "brand": "Chat Gourmet",
+      "product": "Poultry Cat",
       "petType": "cat",
-      "ingredients": ["herring", "salmon", "mackerel", "herring meal", "salmon meal", "pollock", "herring oil", "pea", "lentil", "chickpea", "pea fiber", "pumpkin", "butternut squash", "carrot", "spinach", "apple", "blueberry", "cranberry", "chicory root", "turmeric", "rosemary extract", "mixed tocopherols", "zinc proteinate", "taurine", "dl-methionine"],
-      "source": "packaging"
+      "ingredients": ["chicken", "chicken meal", "rice", "chicken fat", "taurine"],
+      "source": "demo"
     },
     {
-      "slug": "ziwi-peak-venison-dog",
-      "brand": "Ziwi Peak",
-      "brandCn": "巅峰",
-      "product": "Air-Dried Venison Dog",
-      "productCn": "风干鹿肉犬粮",
-      "petType": "dog",
-      "ingredients": ["venison", "venison heart", "venison liver", "venison meal", "new zealand green mussel", "lecithin", "chicory root", "kelp", "parsley", "mixed tocopherols", "zinc proteinate", "taurine", "vitamin e", "vitamin d3"],
-      "source": "packaging"
-    },
-    {
-      "slug": "ziwi-peak-mackerel-lamb-cat",
-      "brand": "Ziwi Peak",
-      "brandCn": "巅峰",
-      "product": "Air-Dried Mackerel & Lamb Cat",
-      "productCn": "风干鲭鱼羊肉猫粮",
+      "slug": "miaou-nature-cat",
+      "brand": "Miaou Nature",
+      "product": "Adult Cat",
       "petType": "cat",
-      "ingredients": ["mackerel", "lamb", "lamb heart", "lamb liver", "lamb meal", "new zealand green mussel", "lecithin", "chicory root", "kelp", "parsley", "mixed tocopherols", "zinc proteinate", "taurine", "vitamin e", "vitamin d3", "dl-methionine"],
-      "source": "packaging"
+      "ingredients": ["Poissons et Sous-Produits de Poissons", "Céréales", "Levures", "Substances Minérales"],
+      "source": "demo"
     },
     {
-      "slug": "wellness-core-original-dog",
-      "brand": "Wellness",
-      "brandCn": "健康核心",
-      "product": "CORE Original Dog",
-      "productCn": "经典无谷犬粮",
-      "petType": "dog",
-      "ingredients": ["turkey", "turkey meal", "chicken meal", "chicken fat", "pea", "potato", "pea protein", "salmon oil", "flaxseed", "spinach", "broccoli", "carrot", "parsley", "apple", "blueberry", "kale", "sweet potato", "chicory root", "taurine", "glucosamine hydrochloride", "chondroitin sulfate", "mixed tocopherols", "rosemary extract"],
-      "source": "packaging"
-    },
-    {
-      "slug": "wellness-core-indoor-cat",
-      "brand": "Wellness",
-      "brandCn": "健康核心",
-      "product": "CORE Indoor Cat",
-      "productCn": "室内猫粮",
+      "slug": "ronron-croquettes-cat",
+      "brand": "Ronron Croquettes",
+      "product": "Economy Cat",
       "petType": "cat",
-      "ingredients": ["turkey", "turkey meal", "chicken meal", "chicken fat", "pea", "pea protein", "salmon oil", "flaxseed", "cranberry", "chicory root", "spinach", "broccoli", "carrot", "taurine", "dl-methionine", "mixed tocopherols", "rosemary extract"],
-      "source": "packaging"
+      "ingredients": ["corn", "corn gluten meal", "chicken by-product meal", "animal digest", "caramel color", "bha"],
+      "source": "demo"
     },
     {
-      "slug": "blue-buffalo-life-protection-dog",
-      "brand": "Blue Buffalo",
-      "brandCn": "蓝馐",
-      "product": "Life Protection Chicken & Brown Rice Dog",
-      "productCn": "鸡肉糙米成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "oatmeal", "barley", "chicken fat", "pea", "flaxseed", "potato", "pea protein", "tomato pomace", "fish oil", "alfalfa", "sweet potato", "carrot", "garlic", "blueberry", "cranberry", "parsley", "kelp", "taurine", "glucosamine hydrochloride", "chondroitin sulfate", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "blue-buffalo-indoor-cat",
-      "brand": "Blue Buffalo",
-      "brandCn": "蓝馐",
-      "product": "Indoor Health Chicken & Brown Rice Cat",
-      "productCn": "室内鸡肉糙米猫粮",
+      "slug": "felin-dore-cat",
+      "brand": "Félin Doré",
+      "product": "Indoor Cat",
       "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "oatmeal", "barley", "chicken fat", "pea", "flaxseed", "fish meal", "tomato pomace", "pea fiber", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
+      "ingredients": ["chicken meal", "brown rice", "chicken fat", "cranberry"],
+      "source": "demo"
     },
     {
-      "slug": "royal-canin-indoor-cat",
-      "brand": "Royal Canin",
-      "brandCn": "皇家",
-      "product": "Indoor Adult Cat",
-      "productCn": "室内成猫粮",
+      "slug": "copain-ronron-cat",
+      "brand": "Copain Ronron",
+      "product": "Classic Cat",
       "petType": "cat",
-      "ingredients": ["chicken meal", "corn", "wheat gluten", "corn gluten meal", "chicken fat", "rice", "wheat", "pea fiber", "beet pulp", "chicken by-product meal", "fish oil", "salt", "potassium chloride", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "royal-canin-medium-dog",
-      "brand": "Royal Canin",
-      "brandCn": "皇家",
-      "product": "Medium Adult Dog",
-      "productCn": "中型犬成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken by-product meal", "corn", "wheat", "chicken fat", "brown rice", "oatmeal", "corn gluten meal", "wheat gluten", "beet pulp", "fish oil", "salt", "potassium chloride", "taurine", "mixed tocopherols", "glucosamine hydrochloride"],
-      "source": "packaging"
-    },
-    {
-      "slug": "hills-science-diet-adult-dog",
-      "brand": "Hill's Science Diet",
-      "brandCn": "希尔斯",
-      "product": "Adult Chicken & Barley Dog",
-      "productCn": "成犬鸡肉大麦配方",
-      "petType": "dog",
-      "ingredients": ["chicken", "whole grain wheat", "corn gluten meal", "pork fat", "chicken meal", "barley", "sorghum", "beet pulp", "soy protein concentrate", "flaxseed", "chicken fat", "fish oil", "salt", "potassium chloride", "taurine", "mixed tocopherols", "vitamin e"],
-      "source": "packaging"
-    },
-    {
-      "slug": "hills-science-diet-indoor-cat",
-      "brand": "Hill's Science Diet",
-      "brandCn": "希尔斯",
-      "product": "Indoor Adult Cat",
-      "productCn": "室内成猫配方",
-      "petType": "cat",
-      "ingredients": ["chicken", "corn gluten meal", "wheat", "chicken meal", "pork fat", "cellulose", "chicken fat", "soy protein concentrate", "beet pulp", "flaxseed", "fish oil", "salt", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "purina-pro-plan-savor-dog",
-      "brand": "Purina Pro Plan",
-      "brandCn": "冠能",
-      "product": "SAVOR Chicken & Rice Dog",
-      "productCn": "鸡肉米饭成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "white rice", "corn gluten meal", "chicken by-product meal", "wheat", "animal fat", "fish meal", "corn", "soy protein concentrate", "oatmeal", "salt", "potassium chloride", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "purina-pro-plan-indoor-cat",
-      "brand": "Purina Pro Plan",
-      "brandCn": "冠能",
-      "product": "Indoor Care Turkey & Rice Cat",
-      "productCn": "室内火鸡米饭猫粮",
-      "petType": "cat",
-      "ingredients": ["turkey", "white rice", "corn gluten meal", "chicken by-product meal", "wheat", "animal fat", "fish meal", "soy protein concentrate", "cellulose", "salt", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "purina-one-smartblend-dog",
-      "brand": "Purina ONE",
-      "brandCn": "普瑞纳优选",
-      "product": "SmartBlend Chicken & Rice Dog",
-      "productCn": "鸡肉米饭成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "white rice", "corn gluten meal", "chicken by-product meal", "soy protein concentrate", "wheat", "animal fat", "corn", "salt", "potassium chloride", "glycerin", "taurine", "mixed tocopherols", "caramel color"],
-      "source": "packaging"
-    },
-    {
-      "slug": "meow-mix-original-cat",
-      "brand": "Meow Mix",
-      "brandCn": "喵喵拌",
-      "product": "Original Choice Cat",
-      "productCn": "经典猫粮",
-      "petType": "cat",
-      "ingredients": ["corn", "corn gluten meal", "chicken by-product meal", "soy protein concentrate", "animal fat", "wheat", "wheat middlings", "salmon meal", "cellulose", "animal digest", "salt", "potassium chloride", "caramel color", "red 40", "yellow 5", "blue 2", "bha", "bht"],
-      "source": "packaging"
-    },
-    {
-      "slug": "friskies-surfin-turf-cat",
-      "brand": "Friskies",
-      "brandCn": "喜跃",
-      "product": "Surfin' & Turfin' Favorites Cat",
-      "productCn": "海鲜拼盘猫粮",
-      "petType": "cat",
-      "ingredients": ["corn", "corn gluten meal", "chicken by-product meal", "soy protein concentrate", "animal fat", "wheat flour", "animal digest", "meat and bone meal", "salmon meal", "salt", "potassium chloride", "red 40", "yellow 5", "yellow 6", "blue 2", "bha", "bht"],
-      "source": "packaging"
-    },
-    {
-      "slug": "iams-proactive-health-dog",
-      "brand": "Iams",
-      "brandCn": "爱慕思",
-      "product": "ProActive Health Adult Dog",
-      "productCn": "成犬健康配方",
-      "petType": "dog",
-      "ingredients": ["chicken", "corn", "chicken by-product meal", "corn gluten meal", "wheat", "animal fat", "beet pulp", "chicken fat", "fish oil", "flaxseed", "salt", "potassium chloride", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "iams-proactive-health-cat",
-      "brand": "Iams",
-      "brandCn": "爱慕思",
-      "product": "ProActive Health Adult Cat",
-      "productCn": "成猫健康配方",
-      "petType": "cat",
-      "ingredients": ["chicken", "corn gluten meal", "corn", "chicken by-product meal", "animal fat", "beet pulp", "fish meal", "flaxseed", "salt", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "taste-of-the-wild-high-prairie-dog",
-      "brand": "Taste of the Wild",
-      "brandCn": "荒野盛宴",
-      "product": "High Prairie Dog",
-      "productCn": "草原配方犬粮",
-      "petType": "dog",
-      "ingredients": ["bison", "lamb meal", "chicken meal", "sweet potato", "pea", "potato", "chicken fat", "egg", "salmon oil", "tomato pomace", "pea protein", "flaxseed", "blueberry", "raspberry", "chicory root", "yucca schidigera extract", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "taste-of-the-wild-rocky-mountain-cat",
-      "brand": "Taste of the Wild",
-      "brandCn": "荒野盛宴",
-      "product": "Rocky Mountain Feline",
-      "productCn": "落基山猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "pea", "sweet potato", "chicken fat", "salmon", "salmon meal", "pea protein", "potato", "egg", "salmon oil", "flaxseed", "tomato pomace", "blueberry", "raspberry", "chicory root", "yucca schidigera extract", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "natural-balance-lid-dog",
-      "brand": "Natural Balance",
-      "brandCn": "天然平衡",
-      "product": "L.I.D. Sweet Potato & Fish Dog",
-      "productCn": "红薯鱼肉低敏犬粮",
-      "petType": "dog",
-      "ingredients": ["salmon", "salmon meal", "sweet potato", "potato", "pea", "canola oil", "flaxseed", "salmon oil", "potato protein", "salt", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "canidae-pure-dog",
-      "brand": "Canidae",
-      "brandCn": "卡比",
-      "product": "PURE Real Salmon & Sweet Potato Dog",
-      "productCn": "纯粹三文鱼红薯犬粮",
-      "petType": "dog",
-      "ingredients": ["salmon", "salmon meal", "sweet potato", "pea", "chickpea", "potato", "canola oil", "flaxseed", "salmon oil", "sun-cured alfalfa", "cranberry", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "merrick-grain-free-dog",
-      "brand": "Merrick",
-      "brandCn": "麻利",
-      "product": "Grain Free Real Chicken & Sweet Potato Dog",
-      "productCn": "无谷鸡肉红薯犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "sweet potato", "potato", "pea", "chicken fat", "pea protein", "salmon meal", "flaxseed", "salmon oil", "apple", "blueberry", "chicory root", "taurine", "glucosamine hydrochloride", "chondroitin sulfate", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "nulo-freestyle-dog",
-      "brand": "Nulo",
-      "brandCn": "纽乐芙",
-      "product": "Freestyle Salmon & Peas Dog",
-      "productCn": "三文鱼豌豆犬粮",
-      "petType": "dog",
-      "ingredients": ["salmon", "turkey meal", "chicken meal", "sweet potato", "pea", "chickpea", "chicken fat", "flaxseed", "salmon oil", "tomato pomace", "pumpkin", "apple", "carrot", "blueberry", "cranberry", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "nulo-freestyle-cat",
-      "brand": "Nulo",
-      "brandCn": "纽乐芙",
-      "product": "Freestyle Chicken & Cod Cat",
-      "productCn": "鸡肉鳕鱼猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "turkey meal", "cod", "chicken meal", "pea", "chicken fat", "sweet potato", "chickpea", "flaxseed", "salmon oil", "tomato pomace", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "fromm-gold-adult-dog",
-      "brand": "Fromm",
-      "brandCn": "福摩",
-      "product": "Gold Adult Dog",
-      "productCn": "金装成犬粮",
-      "petType": "dog",
-      "ingredients": ["duck", "chicken meal", "chicken", "oatmeal", "brown rice", "millet", "barley", "chicken fat", "pea", "sweet potato", "salmon oil", "egg", "flaxseed", "chicory root", "cranberry", "blueberry", "taurine", "glucosamine hydrochloride", "chondroitin sulfate", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "fromm-gold-adult-cat",
-      "brand": "Fromm",
-      "brandCn": "福摩",
-      "product": "Gold Adult Cat",
-      "productCn": "金装成猫粮",
-      "petType": "cat",
-      "ingredients": ["duck", "chicken meal", "turkey", "chicken fat", "brown rice", "oatmeal", "pea", "salmon oil", "egg", "flaxseed", "cranberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "nutro-wholesome-essentials-dog",
-      "brand": "Nutro",
-      "brandCn": "美士",
-      "product": "Wholesome Essentials Chicken & Brown Rice Dog",
-      "productCn": "鸡肉糙米成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "barley", "oatmeal", "chicken fat", "pea", "sweet potato", "beet pulp", "flaxseed", "fish oil", "pumpkin", "spinach", "apple", "carrot", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "nutro-wholesome-essentials-cat",
-      "brand": "Nutro",
-      "brandCn": "美士",
-      "product": "Wholesome Essentials Indoor Chicken & Brown Rice Cat",
-      "productCn": "室内鸡肉糙米猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "pea protein", "oatmeal", "chicken fat", "beet pulp", "fish oil", "flaxseed", "cranberry", "pumpkin", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "rachael-ray-nutrish-dog",
-      "brand": "Rachael Ray Nutrish",
-      "brandCn": "瑞秋芮",
-      "product": "Real Chicken & Veggies Dog",
-      "productCn": "鸡肉蔬菜犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "corn gluten meal", "chicken meal", "corn", "soy", "wheat", "chicken fat", "beet pulp", "pea", "fish meal", "salt", "potassium chloride", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "pedigree-adult-dog",
-      "brand": "Pedigree",
-      "brandCn": "宝路",
-      "product": "Complete Nutrition Adult Dog",
-      "productCn": "成犬全营养犬粮",
-      "petType": "dog",
-      "ingredients": ["corn", "meat and bone meal", "corn gluten meal", "animal fat", "soy", "wheat middlings", "chicken by-product meal", "beet pulp", "salt", "potassium chloride", "caramel color", "bha", "bht"],
-      "source": "packaging"
-    },
-    {
-      "slug": "whiskas-adult-cat",
-      "brand": "Whiskas",
-      "brandCn": "伟嘉",
-      "product": "Adult Chicken Cat",
-      "productCn": "成猫鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["corn", "corn gluten meal", "chicken by-product meal", "animal fat", "soy", "wheat middlings", "meat and bone meal", "beet pulp", "animal digest", "salt", "potassium chloride", "caramel color", "red 40", "yellow 5"],
-      "source": "packaging"
-    },
-    {
-      "slug": "instinct-original-chicken-dog",
-      "brand": "Instinct",
-      "brandCn": "百利",
-      "product": "Original Grain-Free Chicken Dog",
-      "productCn": "无谷鸡肉犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "turkey meal", "pea", "chickpea", "chicken fat", "tapioca", "salmon meal", "salmon oil", "flaxseed", "tomato pomace", "pumpkin", "apple", "blueberry", "cranberry", "chicory root", "taurine", "probiotics", "mixed tocopherols", "rosemary extract"],
-      "source": "packaging"
-    },
-    {
-      "slug": "instinct-original-chicken-cat",
-      "brand": "Instinct",
-      "brandCn": "百利",
-      "product": "Original Grain-Free Chicken Cat",
-      "productCn": "无谷鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "turkey meal", "pea", "chickpea", "chicken fat", "salmon meal", "salmon oil", "flaxseed", "tomato pomace", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols", "rosemary extract"],
-      "source": "packaging"
-    },
-    {
-      "slug": "open-farm-wild-caught-salmon-dog",
-      "brand": "Open Farm",
-      "brandCn": "开放农场",
-      "product": "Wild-Caught Salmon Dog",
-      "productCn": "野生三文鱼犬粮",
-      "petType": "dog",
-      "ingredients": ["salmon", "whitefish meal", "pea", "lentil", "chickpea", "herring meal", "salmon oil", "coconut oil", "pumpkin", "spinach", "cranberry", "chicory root", "probiotics", "taurine", "glucosamine hydrochloride", "chondroitin sulfate", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "open-farm-homestead-turkey-cat",
-      "brand": "Open Farm",
-      "brandCn": "开放农场",
-      "product": "Homestead Turkey & Chicken Cat",
-      "productCn": "农场火鸡鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["turkey", "chicken meal", "turkey meal", "pea", "lentil", "chickpea", "chicken fat", "herring meal", "salmon oil", "coconut oil", "cranberry", "chicory root", "probiotics", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "stella-chewy-raw-coated-dog",
-      "brand": "Stella & Chewy's",
-      "brandCn": "星厨",
-      "product": "Raw Coated Chicken Dog",
-      "productCn": "冻干生骨肉鸡肉犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "pea", "lentil", "chickpea", "chicken fat", "pumpkin seed", "flaxseed", "salmon oil", "freeze-dried chicken", "freeze-dried chicken liver", "pumpkin", "cranberry", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "stella-chewy-raw-coated-cat",
-      "brand": "Stella & Chewy's",
-      "brandCn": "星厨",
-      "product": "Raw Coated Chicken Cat",
-      "productCn": "冻干生骨肉鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "pea", "lentil", "chickpea", "chicken fat", "flaxseed", "salmon oil", "freeze-dried chicken", "freeze-dried chicken liver", "pumpkin", "cranberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "pure-nature-chicken-dog",
-      "brand": "伯纳天纯",
-      "brandCn": "伯纳天纯",
-      "product": "Grain-Free Chicken Adult Dog",
-      "productCn": "无谷鸡肉成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken meal", "pea", "sweet potato", "chicken fat", "tapioca", "egg", "salmon oil", "flaxseed", "beet pulp", "chicory root", "cranberry", "blueberry", "taurine", "glucosamine hydrochloride", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "pure-nature-salmon-cat",
-      "brand": "伯纳天纯",
-      "brandCn": "伯纳天纯",
-      "product": "Grain-Free Salmon Adult Cat",
-      "productCn": "无谷三文鱼成猫粮",
-      "petType": "cat",
-      "ingredients": ["salmon meal", "pea", "chicken fat", "tapioca", "egg", "salmon oil", "flaxseed", "beet pulp", "chicory root", "cranberry", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "netease-yanxuan-chicken-dog",
-      "brand": "NetEase Yanxuan",
-      "brandCn": "网易严选",
-      "product": "Full Price Chicken Adult Dog",
-      "productCn": "全价鸡肉成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken meal", "corn", "wheat", "chicken fat", "brown rice", "pea", "soy protein concentrate", "beet pulp", "fish oil", "flaxseed", "salt", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "netease-yanxuan-chicken-cat",
-      "brand": "NetEase Yanxuan",
-      "brandCn": "网易严选",
-      "product": "Full Price Chicken Adult Cat",
-      "productCn": "全价鸡肉成猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "corn", "wheat", "chicken fat", "pea", "soy protein concentrate", "beet pulp", "fish oil", "flaxseed", "salt", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "crazy-puppy-chicken-dog",
-      "brand": "Crazy Puppy",
-      "brandCn": "疯狂小狗",
-      "product": "Chicken Adult Dog",
-      "productCn": "鸡肉成犬粮",
-      "petType": "dog",
-      "ingredients": ["corn", "chicken meal", "wheat", "chicken fat", "soy", "corn gluten meal", "beet pulp", "animal fat", "salt", "potassium chloride", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "myfoodie-chicken-cat",
-      "brand": "Myfoodie",
-      "brandCn": "麦富迪",
-      "product": "Chicken Adult Cat",
-      "productCn": "鸡肉成猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "corn", "wheat", "chicken fat", "corn gluten meal", "pea", "beet pulp", "fish oil", "salt", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "care-fresh-chicken-dog",
-      "brand": "Care",
-      "brandCn": "好主人",
-      "product": "Fresh Chicken Adult Dog",
-      "productCn": "鲜鸡肉成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "oatmeal", "chicken fat", "pea", "sweet potato", "flaxseed", "salmon oil", "beet pulp", "cranberry", "chicory root", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "wanshi-nutrition-dog",
-      "brand": "Wanshi",
-      "brandCn": "卫仕",
-      "product": "Full Nutrition Adult Dog",
-      "productCn": "全营养成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken meal", "corn", "wheat", "chicken fat", "soy protein concentrate", "brown rice", "beet pulp", "fish oil", "salt", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "wanshi-nutrition-cat",
-      "brand": "Wanshi",
-      "brandCn": "卫仕",
-      "product": "Full Nutrition Adult Cat",
-      "productCn": "全营养成猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "corn", "wheat", "chicken fat", "corn gluten meal", "pea", "beet pulp", "fish oil", "salt", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "bridge-petcare-salmon-dog",
-      "brand": "Bridge Petcare",
-      "brandCn": "比瑞吉",
-      "product": "Grain-Free Salmon Adult Dog",
-      "productCn": "无谷三文鱼成犬粮",
-      "petType": "dog",
-      "ingredients": ["salmon meal", "pea", "sweet potato", "chicken fat", "tapioca", "flaxseed", "salmon oil", "beet pulp", "chicory root", "cranberry", "taurine", "glucosamine hydrochloride", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "bridge-petcare-chicken-cat",
-      "brand": "Bridge Petcare",
-      "brandCn": "比瑞吉",
-      "product": "Chicken & Fish Adult Cat",
-      "productCn": "鸡肉鱼肉成猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "fish meal", "pea", "chicken fat", "brown rice", "tapioca", "salmon oil", "flaxseed", "beet pulp", "cranberry", "chicory root", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "lusi-chicken-cat",
-      "brand": "Lusi",
-      "brandCn": "路斯",
-      "product": "Freeze-Dried Chicken Cat",
-      "productCn": "冻干鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "freeze-dried chicken", "pea", "chicken fat", "tapioca", "salmon oil", "egg", "cranberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "champion-petfoods-dog",
-      "brand": "Champion Petfoods",
-      "brandCn": "冠军宠粮",
-      "product": "Chicken & Turkey Dog",
-      "productCn": "鸡肉火鸡成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "turkey", "chicken meal", "turkey meal", "chicken fat", "pea", "lentil", "chickpea", "flaxseed", "salmon oil", "pumpkin", "carrot", "spinach", "apple", "cranberry", "chicory root", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "go-solutions-carnivore-dog",
-      "brand": "GO! Solutions",
-      "brandCn": "Go!",
-      "product": "Carnivore Grain-Free Chicken Turkey Duck Dog",
-      "productCn": "无谷含肉量犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "turkey meal", "chicken meal", "duck meal", "pea", "lentil", "chickpea", "chicken fat", "tapioca", "salmon oil", "flaxseed", "pumpkin", "cranberry", "blueberry", "chicory root", "taurine", "mixed tocopherols", "rosemary extract"],
-      "source": "packaging"
-    },
-    {
-      "slug": "go-solutions-carnivore-cat",
-      "brand": "GO! Solutions",
-      "brandCn": "Go!",
-      "product": "Carnivore Grain-Free Chicken Turkey Duck Cat",
-      "productCn": "无谷含肉量猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "turkey meal", "chicken meal", "duck meal", "pea", "lentil", "chickpea", "chicken fat", "salmon oil", "flaxseed", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "mixed tocopherols", "rosemary extract"],
-      "source": "packaging"
-    },
-    {
-      "slug": "now-fresh-adult-dog",
-      "brand": "NOW Fresh",
-      "brandCn": "Now!",
-      "product": "Grain-Free Adult Dog",
-      "productCn": "无谷成犬粮",
-      "petType": "dog",
-      "ingredients": ["turkey", "potato", "pea", "egg", "pea fiber", "canola oil", "coconut oil", "flaxseed", "salmon oil", "spinach", "cranberry", "blueberry", "pumpkin", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "now-fresh-adult-cat",
-      "brand": "NOW Fresh",
-      "brandCn": "Now!",
-      "product": "Grain-Free Adult Cat",
-      "productCn": "无谷成猫粮",
-      "petType": "cat",
-      "ingredients": ["turkey", "potato", "pea", "egg", "pea fiber", "canola oil", "coconut oil", "flaxseed", "salmon oil", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "farmina-n-d-chicken-dog",
-      "brand": "Farmina",
-      "brandCn": "法米纳",
-      "product": "N&D Prime Chicken & Pomegranate Dog",
-      "productCn": "鸡肉石榴犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "pea", "chicken fat", "egg", "herring meal", "herring oil", "flaxseed", "pomegranate", "spinach", "pumpkin", "apple", "blueberry", "chicory root", "turmeric", "rosemary extract", "taurine", "glucosamine hydrochloride", "chondroitin sulfate", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "farmina-n-d-chicken-cat",
-      "brand": "Farmina",
-      "brandCn": "法米纳",
-      "product": "N&D Prime Chicken & Pomegranate Cat",
-      "productCn": "鸡肉石榴猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "pea", "chicken fat", "egg", "herring meal", "herring oil", "flaxseed", "pomegranate", "apple", "blueberry", "chicory root", "taurine", "dl-methionine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "grandma-lucy-pureformance-dog",
-      "brand": "Grandma Lucy's",
-      "brandCn": "露西奶奶",
-      "product": "Pureformance Chicken Dog",
-      "productCn": "高性能鸡肉犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "sweet potato", "pumpkin", "carrot", "apple", "blueberry", "flaxseed", "salmon oil", "kelp", "chicory root", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "diamond-naturals-dog",
-      "brand": "Diamond Naturals",
-      "brandCn": "钻石天然",
-      "product": "Adult Chicken & Rice Dog",
-      "productCn": "鸡肉米饭成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "barley", "pea", "chicken fat", "egg", "flaxseed", "fish oil", "tomato pomace", "pumpkin", "blueberry", "coconut", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "diamond-naturals-indoor-cat",
-      "brand": "Diamond Naturals",
-      "brandCn": "钻石天然",
-      "product": "Indoor Hairball Control Cat",
-      "productCn": "室内化毛猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "brown rice", "pea fiber", "chicken fat", "egg", "flaxseed", "fish oil", "cranberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "solid-gold-mighty-mini-dog",
-      "brand": "Solid Gold",
-      "brandCn": "素力高",
-      "product": "Mighty Mini Chicken Dog",
-      "productCn": "小型犬鸡肉配方",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "sweet potato", "pea", "chickpea", "chicken fat", "salmon meal", "salmon oil", "flaxseed", "pumpkin", "blueberry", "cranberry", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "solid-gold-indigo-moon-cat",
-      "brand": "Solid Gold",
-      "brandCn": "素力高",
-      "product": "Indigo Moon Chicken & Egg Cat",
-      "productCn": "金装素力高猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "pea", "chickpea", "chicken fat", "egg", "salmon meal", "salmon oil", "tapioca", "flaxseed", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "k9-natural-chicken-feast-dog",
-      "brand": "K9 Natural",
-      "brandCn": "K9自然派",
-      "product": "Freeze-Dried Chicken Feast Dog",
-      "productCn": "冻干鸡肉犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken heart", "chicken liver", "chicken gizzard", "egg", "flaxseed", "kelp", "new zealand green mussel", "pumpkin", "broccoli", "chicory root", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "k9-natural-lamb-feast-cat",
-      "brand": "K9 Natural",
-      "brandCn": "K9自然派",
-      "product": "Freeze-Dried Lamb Feast Cat (Feline Natural)",
-      "productCn": "冻干羊肉猫粮",
-      "petType": "cat",
-      "ingredients": ["lamb", "lamb heart", "lamb liver", "lamb kidney", "new zealand green mussel", "egg", "flaxseed", "kelp", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "ol-roy-dinner-rounds-dog",
-      "brand": "Ol' Roy",
-      "brandCn": "老罗伊",
-      "product": "Dinner Rounds Dog",
-      "productCn": "犬粮",
-      "petType": "dog",
-      "ingredients": ["corn", "meat and bone meal", "soy", "corn gluten meal", "animal fat", "wheat middlings", "salt", "potassium chloride", "caramel color", "red 40", "yellow 5", "yellow 6", "bha", "bht"],
-      "source": "packaging"
-    },
-    {
-      "slug": "9-lives-daily-essentials-cat",
-      "brand": "9Lives",
-      "brandCn": "九命",
-      "product": "Daily Essentials Cat",
-      "productCn": "日常猫粮",
-      "petType": "cat",
-      "ingredients": ["corn", "corn gluten meal", "soy protein concentrate", "chicken by-product meal", "animal fat", "wheat middlings", "animal digest", "salt", "potassium chloride", "caramel color", "red 40", "yellow 5", "yellow 6", "bha"],
-      "source": "packaging"
-    },
-    {
-      "slug": "kibbles-n-bits-dog",
-      "brand": "Kibbles 'n Bits",
-      "brandCn": "其乐",
-      "product": "Original Savory Beef & Chicken Dog",
-      "productCn": "牛肉鸡肉犬粮",
-      "petType": "dog",
-      "ingredients": ["corn", "soy", "chicken by-product meal", "corn gluten meal", "animal fat", "wheat", "animal digest", "meat and bone meal", "salt", "potassium chloride", "caramel color", "red 40", "yellow 5", "yellow 6", "bha", "bht"],
-      "source": "packaging"
-    },
-    {
-      "slug": "fancy-feast-gourmet-cat",
-      "brand": "Fancy Feast",
-      "brandCn": "珍致",
-      "product": "Gourmet Gold Chicken Cat",
-      "productCn": "金装鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken by-product meal", "corn gluten meal", "corn", "chicken fat", "soy protein concentrate", "wheat", "animal digest", "fish meal", "beet pulp", "salt", "taurine", "caramel color", "bha"],
-      "source": "packaging"
-    },
-    {
-      "slug": "grandpa-chen-chicken-cat",
-      "brand": "Grandpa Chen",
-      "brandCn": "陈大爷",
-      "product": "Full Price Chicken Cat",
-      "productCn": "全价鸡肉猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken meal", "pea", "chicken fat", "tapioca", "salmon oil", "egg", "flaxseed", "cranberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "navarch-lamb-dog",
-      "brand": "Navarch",
-      "brandCn": "耐威克",
-      "product": "Lamb & Rice Adult Dog",
-      "productCn": "羊肉米饭成犬粮",
-      "petType": "dog",
-      "ingredients": ["lamb meal", "brown rice", "corn", "chicken fat", "wheat", "beet pulp", "flaxseed", "fish oil", "salt", "taurine", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "gaoyuan-chicken-dog",
-      "brand": "Gaoyuan",
-      "brandCn": "高爷家",
-      "product": "Fresh Chicken Adult Dog",
-      "productCn": "鲜鸡肉成犬粮",
-      "petType": "dog",
-      "ingredients": ["chicken", "chicken meal", "pea", "sweet potato", "chicken fat", "flaxseed", "salmon oil", "pumpkin", "cranberry", "chicory root", "taurine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
-    },
-    {
-      "slug": "gaoyuan-chicken-cat",
-      "brand": "Gaoyuan",
-      "brandCn": "高爷家",
-      "product": "Fresh Chicken Adult Cat",
-      "productCn": "鲜鸡肉全价猫粮",
-      "petType": "cat",
-      "ingredients": ["chicken", "chicken meal", "pea", "chicken fat", "tapioca", "salmon oil", "flaxseed", "egg", "cranberry", "blueberry", "chicory root", "taurine", "dl-methionine", "probiotics", "mixed tocopherols"],
-      "source": "packaging"
+      "ingredients": ["wheat", "soy protein concentrate", "animal fat", "red 40", "yellow 5", "bht"],
+      "source": "demo"
     }
   ]
 }

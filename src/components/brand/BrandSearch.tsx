@@ -98,7 +98,7 @@ export function BrandSearch({ onScanOwn }: BrandSearchProps) {
                             {brand.brand} — {brand.product}
                           </p>
                           <p className="truncate text-xs text-neutral-500">
-                            {locale === "zh" ? `${brand.brandCn} ${brand.productCn} · ` : ""}
+                            {locale === "zh" && brand.brandCn ? `${brand.brandCn} ${brand.productCn} · ` : ""}
                             {getPetEmoji(brand.petType)}
                           </p>
                         </div>

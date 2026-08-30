@@ -80,7 +80,7 @@ jest.mock("@/components/grade", () => ({
 
 // Get a real analyzed brand for testing
 function getTestBrand() {
-  const brand = getAnalyzedBrandBySlug("orijen-original-dog");
+  const brand = getAnalyzedBrandBySlug("vitalis-naturel-dog");
   if (!brand) throw new Error("Test brand not found");
   return brand;
 }
@@ -94,24 +94,21 @@ describe("BrandResultClient", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders the Chinese brand name only in Chinese locale", () => {
-    const brand = getTestBrand();
+  it("renders the Chinese brand name only in Chinese locale, when present", () => {
+    const brand = { ...getTestBrand(), brandCn: "维塔利斯", productCn: "天然狗粮" };
     render(
       <I18nProvider initialLocale="zh">
         <BrandResultClient brand={brand} />
       </I18nProvider>,
     );
-    expect(
-      screen.getByText(`${brand.brandCn} ${brand.productCn}`)
-    ).toBeInTheDocument();
+    expect(screen.getByText("维塔利斯 天然狗粮")).toBeInTheDocument();
   });
 
-  it("does not render the Chinese brand name in other locales", () => {
+  it("does not render a Chinese brand name for demo brands (none provided)", () => {
     const brand = getTestBrand();
+    expect(brand.brandCn).toBeUndefined();
     render(<BrandResultClient brand={brand} />);
-    expect(
-      screen.queryByText(`${brand.brandCn} ${brand.productCn}`)
-    ).not.toBeInTheDocument();
+    expect(screen.queryByText(/维塔利斯|渴望|皇家/)).not.toBeInTheDocument();
   });
 
   it("shows pet type indicator", () => {
@@ -173,7 +170,7 @@ describe("BrandResultClient", () => {
   });
 
   it("shows cat food indicator for cat brands", () => {
-    const catBrand = getAnalyzedBrandBySlug("orijen-cat-kitten");
+    const catBrand = getAnalyzedBrandBySlug("whisker-wild-cat");
     if (!catBrand) throw new Error("Cat test brand not found");
     render(<BrandResultClient brand={catBrand} />);
     expect(screen.getByText(/🐱 Cat Food/)).toBeInTheDocument();

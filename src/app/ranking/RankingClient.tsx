@@ -136,7 +136,7 @@ export function RankingClient({ brands }: RankingClientProps) {
                     <p className="truncate text-sm font-bold text-neutral-100">
                       {brand.brand} {brand.product}
                     </p>
-                    {locale === "zh" && (
+                    {locale === "zh" && brand.brandCn && (
                       <p className="truncate text-xs text-neutral-500">
                         {brand.brandCn} {brand.productCn}
                       </p>

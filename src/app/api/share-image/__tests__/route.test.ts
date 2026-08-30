@@ -71,7 +71,7 @@ function collectStyles(element: React.ReactElement): Record<string, unknown>[] {
 describe("Share Image API — integration", () => {
   describe("brand share image generation", () => {
     it("generates OG share data for a valid brand", () => {
-      const brand = getAnalyzedBrandBySlug("orijen-original-dog");
+      const brand = getAnalyzedBrandBySlug("vitalis-naturel-dog");
       expect(brand).toBeDefined();
       if (!brand) return;
 
@@ -81,7 +81,6 @@ describe("Share Image API — integration", () => {
         summary: brand.analysis.summary,
         verdict: brand.analysis.verdict,
         foodName: `${brand.brand} ${brand.product}`,
-        foodNameCn: `${brand.brandCn} ${brand.productCn}`,
         petType: brand.petType,
         harmfulNames: brand.analysis.ingredients
           .filter((i) => i.flag === "red")
@@ -95,7 +94,7 @@ describe("Share Image API — integration", () => {
     });
 
     it("generates square share data for a valid brand", () => {
-      const brand = getAnalyzedBrandBySlug("orijen-original-dog");
+      const brand = getAnalyzedBrandBySlug("vitalis-naturel-dog");
       expect(brand).toBeDefined();
       if (!brand) return;
 
@@ -127,7 +126,6 @@ describe("Share Image API — integration", () => {
           summary: brand.analysis.summary,
           verdict: brand.analysis.verdict,
           foodName: `${brand.brand} ${brand.product}`,
-          foodNameCn: `${brand.brandCn} ${brand.productCn}`,
           petType: brand.petType,
         };
 

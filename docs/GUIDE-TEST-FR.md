@@ -17,10 +17,13 @@ détecté automatiquement selon la langue du navigateur au premier chargement.
 ➡️ Ce qui est traduit à ce stade : toute l'interface (boutons, textes,
 méthodologie, mentions légales, etc.).
 
-➡️ Ce qui n'est **pas encore traduit** : le contenu de la base de données
-(les noms et explications des 512 ingrédients, et les 75 marques). Un
-ingrédient scanné s'affichera donc toujours avec son nom et son
-explication en anglais, même si le reste de l'interface est en français.
+➡️ Ce qui n'est **encore traduit que partiellement** : le contenu de la base
+de données. Une dizaine de déclarations génériques de type UE (viandes et
+sous-produits animaux, céréales, substances minérales...) ont des alias et
+explications en français, mais la grande majorité des 512 ingrédients (noms
+spécifiques comme "chicken", "salmon") restent en anglais uniquement. La
+base de marques a été remplacée par 12 marques fictives de démonstration
+(voir `data/brands.json`).
 C'est la limite actuelle du travail réalisé jusqu'ici (traduction de
 l'interface uniquement, pas encore du contenu métier).
 

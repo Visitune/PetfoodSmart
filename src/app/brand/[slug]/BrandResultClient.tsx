@@ -66,7 +66,7 @@ export function BrandResultClient({ brand }: BrandResultClientProps) {
           data-testid="brand-header"
         >
           <h1 className="text-xl font-bold text-neutral-100">{displayName}</h1>
-          {locale === "zh" && (
+          {locale === "zh" && brand.brandCn && (
             <p className="mt-1 text-sm text-neutral-400">{displayNameCn}</p>
           )}
           <p className="mt-1 text-xs text-neutral-600">

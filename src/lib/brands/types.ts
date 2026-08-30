@@ -12,16 +12,16 @@ export type BrandPetType = "cat" | "dog";
 
 /** Raw brand entry as stored in data/brands.json */
 export interface BrandEntry {
-  /** URL-safe slug, e.g. "royal-canin-indoor-cat" */
+  /** URL-safe slug, e.g. "felin-dore-cat" */
   slug: string;
   /** English brand name */
   brand: string;
-  /** Chinese brand name */
-  brandCn: string;
+  /** Chinese brand name (omitted for fictional demo brands) */
+  brandCn?: string;
   /** English product line name */
   product: string;
-  /** Chinese product line name */
-  productCn: string;
+  /** Chinese product line name (omitted for fictional demo brands) */
+  productCn?: string;
   /** Target pet type */
   petType: BrandPetType;
   /** Ordered ingredient list from packaging */

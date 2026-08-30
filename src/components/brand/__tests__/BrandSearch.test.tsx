@@ -82,15 +82,15 @@ describe("BrandSearch", () => {
   it("shows results when user types a query", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "Orijen" } });
+    fireEvent.change(input, { target: { value: "Vitalis" } });
     expect(screen.getByTestId("brand-search-results")).toBeInTheDocument();
   });
 
   it("displays matching brands with grade badges", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "Orijen" } });
-    // Orijen brands should appear with links
+    fireEvent.change(input, { target: { value: "Vitalis" } });
+    // Matching brands should appear with links
     const results = screen.getByTestId("brand-search-results");
     const links = results.querySelectorAll("a");
     expect(links.length).toBeGreaterThan(0);
@@ -98,15 +98,6 @@ describe("BrandSearch", () => {
     links.forEach((link) => {
       expect(link.getAttribute("href")).toMatch(/^\/brand\//);
     });
-  });
-
-  it("searches by Chinese brand name", () => {
-    render(<BrandSearch />);
-    const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "渴望" } });
-    const results = screen.getByTestId("brand-search-results");
-    const links = results.querySelectorAll("a");
-    expect(links.length).toBeGreaterThan(0);
   });
 
   it("shows no results message for unmatched query", () => {
@@ -119,15 +110,15 @@ describe("BrandSearch", () => {
   it("displays brand name and product in results", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "Royal Canin" } });
+    fireEvent.change(input, { target: { value: "Félin Doré" } });
     const results = screen.getByTestId("brand-search-results");
-    expect(results.textContent).toContain("Royal Canin");
+    expect(results.textContent).toContain("Félin Doré");
   });
 
   it("shows pet type emoji in results", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "Orijen" } });
+    fireEvent.change(input, { target: { value: "Vitalis" } });
     const results = screen.getByTestId("brand-search-results");
     // Should show cat or dog emoji
     expect(results.textContent).toMatch(/🐱|🐶/);
@@ -152,7 +143,7 @@ describe("BrandSearch", () => {
   it("clears results when input is emptied", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
-    fireEvent.change(input, { target: { value: "Orijen" } });
+    fireEvent.change(input, { target: { value: "Vitalis" } });
     expect(screen.getByTestId("brand-search-results")).toBeInTheDocument();
     fireEvent.change(input, { target: { value: "" } });
     expect(screen.queryByTestId("brand-search-results")).not.toBeInTheDocument();

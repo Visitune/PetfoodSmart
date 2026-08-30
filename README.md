@@ -29,8 +29,8 @@ Scan a pet food label → get an instant A-F safety grade with every ingredient 
 </p>
 
 <p align="center">
-  <img src="docs/images/grade-a.png" alt="Grade A Example - Orijen" width="280" />
-  <img src="docs/images/grade-f.png" alt="Grade F Example - Meow Mix" width="280" />
+  <img src="docs/images/grade-a.png" alt="Grade A Example" width="280" />
+  <img src="docs/images/grade-f.png" alt="Grade F Example" width="280" />
 </p>
 
 ---
@@ -54,7 +54,7 @@ No signup. No paywall. Works offline (except AI explanations).
 |---------|-------------|
 | **Camera Scan** | Point, shoot, analyze — 3 taps to a grade |
 | **512 Ingredients** | Curated database with safety ratings, categories, and bilingual names |
-| **75 Pre-Analyzed Brands** | Orijen, Royal Canin, Acana, Ziwi Peak — 48 brands ready to browse |
+| **Demo Brand Database** | 12 fictional demo brands (dog + cat) spanning grades A-F, ready to browse |
 | **A-F Grading** | 100-point scoring with harmful penalties, protein bonuses, filler detection |
 | **Brand Rankings** | Sortable leaderboard — "which cat food is safest?" answered instantly |
 | **Pet Profiles** | Breed-specific warnings (e.g., grain sensitivity for certain breeds) |
@@ -74,7 +74,7 @@ No signup. No paywall. Works offline (except AI explanations).
 | Font | MiSans (Xiaomi open-source) |
 | OCR | Tesseract.js (client-side, eng + chi_sim) |
 | AI | Claude API (ingredient explanations) |
-| Data | 512 ingredients + 75 brand products (JSON) |
+| Data | 512+ ingredients + 12 demo brand products (JSON) |
 | Testing | Jest + React Testing Library (538 tests) |
 | Deployment | Vercel / Docker (standalone output) |
 
@@ -105,7 +105,7 @@ src/
 ├── app/                        # Next.js App Router
 │   ├── page.tsx                # Homepage (demo-first with brand data)
 │   ├── useAppState.ts          # App state machine (scan → analyze → result)
-│   ├── brand/[slug]/           # 75 pre-rendered brand pages (SSG)
+│   ├── brand/[slug]/           # pre-rendered brand pages (SSG)
 │   ├── ranking/                # Brand safety leaderboard
 │   └── api/explain/            # Claude AI explanation endpoint
 │
@@ -132,7 +132,7 @@ src/
 │
 data/
 ├── ingredients.json            # 512 ingredients, 17 categories, bilingual
-└── brands.json                 # 75 products from 48 brands (dog + cat)
+└── brands.json                 # 12 fictional demo products (dog + cat)
 ```
 
 ## Grading System
@@ -164,13 +164,12 @@ The ingredient database (`data/ingredients.json`) is the core of PetFoodSmart:
 - Sources: AAFCO standards, veterinary nutrition literature
 - Fuzzy matching handles OCR artifacts, hyphens, plurals, "X Supplement" patterns
 
-The brand database (`data/brands.json`) includes **75 products** from **48 brands**:
-- Premium: Orijen, Acana, Ziwi Peak, K9 Natural
-- Mid-tier: Royal Canin, Hill's, Purina Pro Plan
-- Budget: Meow Mix, Friskies, Pedigree
-- Chinese domestic: 伯纳天纯, 网易严选, 疯狂小狗, 麦富迪, 高爷家
-
-All ingredient lists sourced from real product packaging.
+The brand database (`data/brands.json`) ships with **12 fictional demo brands**
+(6 dog, 6 cat) spanning grades A through F — deliberately not real trademarked
+products, to keep the dataset small and avoid grading real commercial brands.
+Swap in your own market's real (or fictional) products by editing this file;
+each entry just needs an ordered ingredient list matching names in
+`data/ingredients.json`.
 
 ## Commands
 
@@ -270,7 +269,7 @@ PetFoodSmart 让你秒出答案。把摄像头对准配料表，应用会：
 |------|------|
 | **拍照扫描** | 对准、拍照、分析 —— 三步出评级 |
 | **512 种成分** | 精心整理的数据库，含安全评级、分类和中英文名称 |
-| **75 款预分析产品** | 渴望、皇家、爱肯拿、巅峰 —— 48 个品牌随时浏览 |
+| **示例品牌数据库** | 12 个虚构演示品牌（猫粮 + 狗粮），覆盖 A-F 各等级 |
 | **A-F 评级** | 百分制评分，有害成分扣分、优质蛋白加分、填充物检测 |
 | **品牌排行榜** | 可排序的安全榜单 —— "哪款猫粮最安全？"一目了然 |
 | **宠物档案** | 品种特异性提醒（如特定品种的谷物敏感警告） |
@@ -290,7 +289,7 @@ PetFoodSmart 让你秒出答案。把摄像头对准配料表，应用会：
 | 字体 | MiSans（小米开源字体） |
 | OCR | Tesseract.js（客户端运行，eng + chi_sim） |
 | AI | Claude API（成分解读生成） |
-| 数据 | 512 种成分 + 75 款品牌产品（JSON） |
+| 数据 | 512+ 种成分 + 12 款演示品牌产品（JSON） |
 | 测试 | Jest + React Testing Library（538 项测试） |
 | 部署 | Vercel / Docker（standalone 输出） |
 
@@ -321,7 +320,7 @@ src/
 ├── app/                        # Next.js App Router
 │   ├── page.tsx                # 首页（demo-first，展示品牌数据）
 │   ├── useAppState.ts          # 应用状态机（扫描 → 分析 → 结果）
-│   ├── brand/[slug]/           # 75 个品牌页面（SSG 预渲染）
+│   ├── brand/[slug]/           # 品牌页面（SSG 预渲染）
 │   ├── ranking/                # 品牌安全排行榜
 │   └── api/explain/            # Claude AI 解读接口
 │
@@ -348,7 +347,7 @@ src/
 │
 data/
 ├── ingredients.json            # 512 种成分，17 个分类，中英双语
-└── brands.json                 # 75 款产品，来自 48 个品牌（猫粮 + 狗粮）
+└── brands.json                 # 12 款虚构演示产品（猫粮 + 狗粮）
 ```
 
 ## 评分体系
@@ -380,11 +379,10 @@ PetFoodSmart 采用百分制评分：
 - 数据来源：AAFCO 标准、兽医营养学文献
 - 模糊匹配可处理 OCR 识别偏差、连字符、复数形式、"X Supplement" 格式
 
-品牌数据库（`data/brands.json`）收录 **48 个品牌** 的 **75 款产品**：
-- 高端：渴望、爱肯拿、巅峰、K9 Natural
-- 中端：皇家、希尔斯、冠能
-- 经济：Meow Mix、Friskies、Pedigree
-- 国产：伯纳天纯、网易严选、疯狂小狗、麦富迪、高爷家
+品牌数据库（`data/brands.json`）内置 **12 个虚构演示品牌**（6 款狗粮，6 款猫粮），
+评级覆盖 A 到 F —— 刻意使用虚构名称而非真实商标产品，以保持数据集精简并避免对
+真实商业品牌做出评级。你可以编辑该文件，替换为你所在市场的真实（或虚构）产品；
+每条记录只需一份与 `data/ingredients.json` 中名称匹配的有序成分列表。
 
 所有配料表均来自真实产品包装。
 
