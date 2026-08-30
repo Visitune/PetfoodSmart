@@ -5,18 +5,16 @@
     "backToHistory": "← Retour à l'historique",
     "scanYourFood": "Scannez votre propre aliment",
     "viewRankings": "Voir tous les classements",
-    "or": "ou",
-    "petEmojiCat": "🐱",
-    "petEmojiDog": "🐶"
+    "or": "ou"
   },
   "landing": {
     "tagline": "L'alimentation de votre animal est-elle sûre ? Recherchez ou scannez pour le savoir.",
     "searchPlaceholder": "Rechercher une marque...",
     "noResults": "Aucune marque trouvée pour « {query} »",
-    "worstRated": "⚠️ Moins bien notées",
-    "topRated": "🏆 Mieux notées",
+    "worstRated": "Moins bien notées",
+    "topRated": "Mieux notées",
     "viewFullRanking": "Voir le classement complet →",
-    "scanButton": "📸 Scanner votre étiquette",
+    "scanButton": "Scanner votre étiquette",
     "viewHistory": "Voir l'historique des scans",
     "readyToScan": "Prêt à scanner ?",
     "readyToScanDesc": "Découvrez ce qu'il y a vraiment dans l'aliment de votre animal.",
@@ -145,8 +143,8 @@
     "shareResult": "Partager le résultat",
     "brandName": "PetFoodSmart",
     "brandSubtitle": "Scanner d'aliments pour animaux",
-    "harmfulIngredients": "⚠ Ingrédients signalés",
-    "qualityIngredients": "✓ Ingrédients de qualité",
+    "harmfulIngredients": "Ingrédients signalés",
+    "qualityIngredients": "Ingrédients de qualité",
     "footer": "Scanné avec PetFoodSmart · Sécurité alimentaire pour animaux par IA",
     "formatSquare": "1:1 Carré",
     "formatLandscape": "16:9 Paysage"
@@ -156,8 +154,8 @@
     "noResults": "Aucune marque trouvée pour « {query} »",
     "brandsCount": "{count} marques dans la base de données ·",
     "orScanYourOwn": "ou scannez votre propre étiquette",
-    "catFood": "🐱 Nourriture pour chat",
-    "dogFood": "🐶 Nourriture pour chien",
+    "catFood": "Nourriture pour chat",
+    "dogFood": "Nourriture pour chien",
     "notFound": "Marque introuvable"
   },
   "ranking": {
@@ -166,9 +164,9 @@
     "productsRanked": "{count} produits classés",
     "scoreDenominator": "/ 100",
     "gradeAriaLabel": "Note {grade}",
-    "all": "🐾 Tous",
-    "dog": "🐶 Chien",
-    "cat": "🐱 Chat"
+    "all": "Tous",
+    "dog": "Chien",
+    "cat": "Chat"
   },
   "legal": {
     "disclaimer": "Les notes sont des évaluations algorithmiques fournies à titre indicatif uniquement, et non des évaluations vétérinaires ou réglementaires. Consultez votre vétérinaire avant tout changement alimentaire.",

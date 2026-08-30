@@ -8,6 +8,7 @@ import { HistoryList, ComparisonView } from "@/components/history";
 import { LandingPage } from "@/components/landing";
 import { useTranslation } from "@/lib/i18n";
 import { useAppState } from "./useAppState";
+import { AlertTriangle } from "lucide-react";
 
 const pageVariants = {
   initial: { opacity: 0, y: 10 },
@@ -253,7 +254,7 @@ export default function Home() {
           className="flex min-h-dvh flex-col items-center justify-center px-4"
         >
           <div className="w-full max-w-md text-center">
-            <p className="text-5xl">⚠️</p>
+            <AlertTriangle size={48} className="mx-auto text-amber-400" aria-hidden="true" />
             <h2 className="mt-5 text-2xl font-bold text-neutral-100">
               {ta("scanFailed")}
             </h2>

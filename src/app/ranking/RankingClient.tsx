@@ -6,6 +6,7 @@ import { motion, AnimatePresence, type Variants } from "framer-motion";
 import type { AnalyzedBrand } from "@/lib/brands/types";
 import { GRADE_COLORS, GRADE_ORDER } from "@/lib/grade";
 import { useTranslation, useLocale } from "@/lib/i18n";
+import { PawPrint, Dog, Cat, type LucideIcon } from "lucide-react";
 
 type PetFilter = "all" | "cat" | "dog";
 
@@ -50,10 +51,10 @@ export function RankingClient({ brands }: RankingClientProps) {
     });
   }, [brands, filter]);
 
-  const tabs: { key: PetFilter; labelKey: string }[] = [
-    { key: "all", labelKey: "all" },
-    { key: "dog", labelKey: "dog" },
-    { key: "cat", labelKey: "cat" },
+  const tabs: { key: PetFilter; labelKey: string; icon: LucideIcon }[] = [
+    { key: "all", labelKey: "all", icon: PawPrint },
+    { key: "dog", labelKey: "dog", icon: Dog },
+    { key: "cat", labelKey: "cat", icon: Cat },
   ];
 
   return (
@@ -88,7 +89,7 @@ export function RankingClient({ brands }: RankingClientProps) {
               key={tab.key}
               onClick={() => setFilter(tab.key)}
               whileTap={{ scale: 0.95 }}
-              className={`flex-1 rounded-full px-4 py-2.5 text-sm font-semibold transition-all ${
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded-full px-4 py-2.5 text-sm font-semibold transition-all ${
                 filter === tab.key
                   ? "bg-neutral-100 text-neutral-900 shadow-md"
                   : "bg-neutral-800 text-neutral-400 hover:bg-neutral-700 hover:text-neutral-200"
@@ -96,6 +97,7 @@ export function RankingClient({ brands }: RankingClientProps) {
               data-testid={`filter-${tab.key}`}
               aria-pressed={filter === tab.key}
             >
+              <tab.icon size={16} aria-hidden="true" />
               {t(tab.labelKey)}
             </motion.button>
           ))}

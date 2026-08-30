@@ -114,7 +114,7 @@ describe("BrandResultClient", () => {
   it("shows pet type indicator", () => {
     const brand = getTestBrand();
     render(<BrandResultClient brand={brand} />);
-    expect(screen.getByText(/🐶 Dog Food/)).toBeInTheDocument();
+    expect(screen.getByText("Dog Food")).toBeInTheDocument();
   });
 
   it("renders the grade badge", () => {
@@ -173,7 +173,7 @@ describe("BrandResultClient", () => {
     const catBrand = getAnalyzedBrandBySlug("whisker-wild-cat");
     if (!catBrand) throw new Error("Cat test brand not found");
     render(<BrandResultClient brand={catBrand} />);
-    expect(screen.getByText(/🐱 Cat Food/)).toBeInTheDocument();
+    expect(screen.getByText("Cat Food")).toBeInTheDocument();
   });
 
   it("renders brand header with testid", () => {

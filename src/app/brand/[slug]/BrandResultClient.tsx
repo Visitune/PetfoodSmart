@@ -10,6 +10,7 @@ import { SummaryBar } from "@/components/analysis/SummaryBar";
 import { ShareButton } from "@/components/sharing";
 import { useTranslation, useLocale } from "@/lib/i18n";
 import { Disclaimer } from "@/components/shared/Disclaimer";
+import { PetTypeIcon } from "@/components/shared/PetTypeIcon";
 
 interface BrandResultClientProps {
   brand: AnalyzedBrand;
@@ -69,7 +70,8 @@ export function BrandResultClient({ brand }: BrandResultClientProps) {
           {locale === "zh" && brand.brandCn && (
             <p className="mt-1 text-sm text-neutral-400">{displayNameCn}</p>
           )}
-          <p className="mt-1 text-xs text-neutral-600">
+          <p className="mt-1 flex items-center justify-center gap-1 text-xs text-neutral-600">
+            <PetTypeIcon petType={brand.petType} size={13} />
             {brand.petType === "cat" ? tb("catFood") : tb("dogFood")}
           </p>
         </motion.div>

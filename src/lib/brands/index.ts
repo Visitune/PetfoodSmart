@@ -88,11 +88,6 @@ export function searchBrands(query: string): BrandEntry[] {
   );
 }
 
-/** Get pet type emoji for display */
-export function getPetEmoji(petType: BrandPetType): string {
-  return petType === "cat" ? "🐱" : "🐶";
-}
-
 /** Get brand database metadata */
 export function getBrandDatabaseInfo(): { version: string; lastUpdated: string; totalBrands: number } {
   return {

@@ -9,6 +9,7 @@ import { forwardRef } from "react";
 import type { AnalysisResult } from "@/lib/analyzer/types";
 import { GRADE_COLORS } from "@/lib/grade";
 import { useTranslation } from "@/lib/i18n";
+import { AlertTriangle, Check } from "lucide-react";
 
 interface ShareCardProps {
   result: AnalysisResult;
@@ -110,7 +111,8 @@ export const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
         {/* Key Findings */}
         {harmfulIngredients.length > 0 && (
           <div className="mb-3" data-testid="share-harmful">
-            <p className="mb-1 text-xs font-medium text-red-400">
+            <p className="mb-1 flex items-center gap-1 text-xs font-medium text-red-400">
+              <AlertTriangle size={12} aria-hidden="true" />
               {ts("harmfulIngredients")}
             </p>
             <p className="text-xs text-neutral-400">
@@ -121,7 +123,8 @@ export const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
 
         {safeIngredients.length > 0 && (
           <div className="mb-3" data-testid="share-safe">
-            <p className="mb-1 text-xs font-medium text-emerald-400">
+            <p className="mb-1 flex items-center gap-1 text-xs font-medium text-emerald-400">
+              <Check size={12} aria-hidden="true" />
               {ts("qualityIngredients")}
             </p>
             <p className="text-xs text-neutral-400">

@@ -5,18 +5,16 @@
     "backToHistory": "← Terug naar geschiedenis",
     "scanYourFood": "Scan je eigen voeding",
     "viewRankings": "Bekijk alle ranglijsten",
-    "or": "of",
-    "petEmojiCat": "🐱",
-    "petEmojiDog": "🐶"
+    "or": "of"
   },
   "landing": {
     "tagline": "Eet je huisdier veilig? Zoek of scan om het te ontdekken.",
     "searchPlaceholder": "Zoek een merk...",
     "noResults": "Geen merken gevonden voor “{query}”",
-    "worstRated": "⚠️ Slechtst beoordeeld",
-    "topRated": "🏆 Best beoordeeld",
+    "worstRated": "Slechtst beoordeeld",
+    "topRated": "Best beoordeeld",
     "viewFullRanking": "Bekijk volledige ranglijst →",
-    "scanButton": "📸 Scan je etiket",
+    "scanButton": "Scan je etiket",
     "viewHistory": "Bekijk scangeschiedenis",
     "readyToScan": "Klaar om te scannen?",
     "readyToScanDesc": "Ontdek wat er echt in het voer van je huisdier zit.",
@@ -145,8 +143,8 @@
     "shareResult": "Resultaat delen",
     "brandName": "PetFoodSmart",
     "brandSubtitle": "Huisdiervoerscanner",
-    "harmfulIngredients": "⚠ Gemarkeerde ingrediënten",
-    "qualityIngredients": "✓ Kwaliteitsingrediënten",
+    "harmfulIngredients": "Gemarkeerde ingrediënten",
+    "qualityIngredients": "Kwaliteitsingrediënten",
     "footer": "Gescand met PetFoodSmart · AI-gestuurde voedselveiligheid voor huisdieren",
     "formatSquare": "1:1 Vierkant",
     "formatLandscape": "16:9 Liggend"
@@ -156,8 +154,8 @@
     "noResults": "Geen merken gevonden voor “{query}”",
     "brandsCount": "{count} merken in de database ·",
     "orScanYourOwn": "of scan je eigen etiket",
-    "catFood": "🐱 Kattenvoer",
-    "dogFood": "🐶 Hondenvoer",
+    "catFood": "Kattenvoer",
+    "dogFood": "Hondenvoer",
     "notFound": "Merk niet gevonden"
   },
   "ranking": {
@@ -166,9 +164,9 @@
     "productsRanked": "{count} producten gerangschikt",
     "scoreDenominator": "/ 100",
     "gradeAriaLabel": "Cijfer {grade}",
-    "all": "🐾 Alles",
-    "dog": "🐶 Hond",
-    "cat": "🐱 Kat"
+    "all": "Alles",
+    "dog": "Hond",
+    "cat": "Kat"
   },
   "legal": {
     "disclaimer": "Cijfers zijn algoritmische beoordelingen, uitsluitend ter indicatie, geen veterinaire of wettelijke beoordelingen. Raadpleeg je dierenarts voordat je het dieet wijzigt.",

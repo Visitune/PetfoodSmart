@@ -17,6 +17,7 @@ import type { Grade } from "@/lib/analyzer/types";
 import { GRADE_STYLES } from "@/lib/grade";
 import { useTranslation } from "@/lib/i18n";
 import { CountUp } from "@/components/motion";
+import { Search } from "lucide-react";
 
 type CeremonyStage = "scan" | "extract" | "categorize" | "reveal";
 
@@ -193,11 +194,10 @@ function ScanBeamStage({ label }: { label: string }) {
         {/* Pulsing icon */}
         <div className="flex h-full items-center justify-center">
           <motion.div
-            className="text-4xl"
             animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }}
             transition={{ duration: 0.8, repeat: Infinity }}
           >
-            🔍
+            <Search size={40} className="text-neutral-300" aria-hidden="true" />
           </motion.div>
         </div>
       </div>

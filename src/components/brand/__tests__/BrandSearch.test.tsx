@@ -115,13 +115,13 @@ describe("BrandSearch", () => {
     expect(results.textContent).toContain("Félin Doré");
   });
 
-  it("shows pet type emoji in results", () => {
+  it("shows a pet type icon in results", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
     fireEvent.change(input, { target: { value: "Vitalis" } });
     const results = screen.getByTestId("brand-search-results");
-    // Should show cat or dog emoji
-    expect(results.textContent).toMatch(/🐱|🐶/);
+    // Should show a cat or dog SVG icon
+    expect(results.querySelector("svg")).toBeInTheDocument();
   });
 
   it("renders scan own label link when no onScanOwn prop", () => {

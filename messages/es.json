@@ -5,18 +5,16 @@
     "backToHistory": "← Volver al historial",
     "scanYourFood": "Escanea tu propia comida",
     "viewRankings": "Ver todas las clasificaciones",
-    "or": "o",
-    "petEmojiCat": "🐱",
-    "petEmojiDog": "🐶"
+    "or": "o"
   },
   "landing": {
     "tagline": "¿Tu mascota come de forma segura? Busca o escanea para descubrirlo.",
     "searchPlaceholder": "Buscar una marca...",
     "noResults": "No se encontraron marcas para “{query}”",
-    "worstRated": "⚠️ Peor valoradas",
-    "topRated": "🏆 Mejor valoradas",
+    "worstRated": "Peor valoradas",
+    "topRated": "Mejor valoradas",
     "viewFullRanking": "Ver clasificación completa →",
-    "scanButton": "📸 Escanea tu etiqueta",
+    "scanButton": "Escanea tu etiqueta",
     "viewHistory": "Ver historial de escaneos",
     "readyToScan": "¿Listo para escanear?",
     "readyToScanDesc": "Descubre qué hay realmente en la comida de tu mascota.",
@@ -145,8 +143,8 @@
     "shareResult": "Compartir resultado",
     "brandName": "PetFoodSmart",
     "brandSubtitle": "Escáner de comida para mascotas",
-    "harmfulIngredients": "⚠ Ingredientes señalados",
-    "qualityIngredients": "✓ Ingredientes de calidad",
+    "harmfulIngredients": "Ingredientes señalados",
+    "qualityIngredients": "Ingredientes de calidad",
     "footer": "Escaneado con PetFoodSmart · Seguridad alimentaria para mascotas con IA",
     "formatSquare": "1:1 Cuadrado",
     "formatLandscape": "16:9 Horizontal"
@@ -156,8 +154,8 @@
     "noResults": "No se encontraron marcas para “{query}”",
     "brandsCount": "{count} marcas en la base de datos ·",
     "orScanYourOwn": "o escanea tu propia etiqueta",
-    "catFood": "🐱 Comida para gatos",
-    "dogFood": "🐶 Comida para perros",
+    "catFood": "Comida para gatos",
+    "dogFood": "Comida para perros",
     "notFound": "Marca no encontrada"
   },
   "ranking": {
@@ -166,9 +164,9 @@
     "productsRanked": "{count} productos clasificados",
     "scoreDenominator": "/ 100",
     "gradeAriaLabel": "Nota {grade}",
-    "all": "🐾 Todos",
-    "dog": "🐶 Perro",
-    "cat": "🐱 Gato"
+    "all": "Todos",
+    "dog": "Perro",
+    "cat": "Gato"
   },
   "legal": {
     "disclaimer": "Las calificaciones son evaluaciones algorítmicas solo de referencia, no evaluaciones veterinarias o regulatorias. Consulta a tu veterinario antes de hacer cambios en la dieta.",

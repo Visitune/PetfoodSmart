@@ -13,13 +13,15 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { getAllAnalyzedBrands, searchBrands, getBrandGrade, getPetEmoji } from "@/lib/brands";
+import { getAllAnalyzedBrands, searchBrands, getBrandGrade } from "@/lib/brands";
 import type { AnalyzedBrand } from "@/lib/brands/types";
 import type { Grade } from "@/lib/analyzer/types";
 import { GRADE_COLORS, GRADE_TEXT_COLORS } from "@/lib/grade";
 import { useTranslation, useLocale } from "@/lib/i18n";
 import { CountUp, ScrollReveal } from "@/components/motion";
 import { Disclaimer } from "@/components/shared/Disclaimer";
+import { PetTypeIcon } from "@/components/shared/PetTypeIcon";
+import { AlertTriangle, Trophy, Camera } from "lucide-react";
 
 interface LandingPageProps {
   onStartScan: () => void;
@@ -75,9 +77,9 @@ function BrandListItem({ brand }: { brand: AnalyzedBrand }) {
         <p className="truncate text-sm font-semibold text-neutral-100">
           {brand.brand} — {brand.product}
         </p>
-        <p className="truncate text-xs text-neutral-500">
+        <p className="flex items-center gap-1 truncate text-xs text-neutral-500">
           {locale === "zh" && brand.brandCn ? `${brand.brandCn} ${brand.productCn} · ` : ""}
-          {getPetEmoji(brand.petType)}
+          <PetTypeIcon petType={brand.petType} size={14} />
         </p>
       </div>
       <span className={`text-sm font-bold ${GRADE_TEXT_COLORS[brand.analysis.grade]}`}>
@@ -222,9 +224,9 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
                             <p className="truncate text-sm font-semibold text-neutral-100">
                               {brand.brand} — {brand.product}
                             </p>
-                            <p className="truncate text-xs text-neutral-500">
+                            <p className="flex items-center gap-1 truncate text-xs text-neutral-500">
                               {locale === "zh" && brand.brandCn ? `${brand.brandCn} ${brand.productCn} · ` : ""}
-                              {getPetEmoji(brand.petType)}
+                              <PetTypeIcon petType={brand.petType} size={14} />
                             </p>
                           </div>
                         </Link>
@@ -243,10 +245,11 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
         <motion.button
           onClick={onStartScan}
           whileTap={{ scale: 0.95 }}
-          className="rounded-full bg-red-500 px-10 py-3.5 text-base font-bold text-white shadow-lg shadow-red-500/20 transition-all hover:bg-red-400 hover:shadow-red-500/35"
+          className="inline-flex items-center gap-2 rounded-full bg-red-500 px-10 py-3.5 text-base font-bold text-white shadow-lg shadow-red-500/20 transition-all hover:bg-red-400 hover:shadow-red-500/35"
           type="button"
           data-testid="hero-scan-button"
         >
+          <Camera size={18} aria-hidden="true" />
           {t("scanButton")}
         </motion.button>
         <button
@@ -263,7 +266,8 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
       <ScrollReveal>
         <section className="pb-8" data-testid="worst-brands">
           <div className="mb-3 flex items-center justify-between">
-            <h2 className="text-lg font-bold text-neutral-100">
+            <h2 className="flex items-center gap-1.5 text-lg font-bold text-neutral-100">
+              <AlertTriangle size={18} className="text-amber-400" aria-hidden="true" />
               {t("worstRated")}
             </h2>
             <Link
@@ -285,7 +289,8 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
       {/* Best-Rated Brands */}
       <ScrollReveal delay={0.1}>
         <section className="pb-8" data-testid="best-brands">
-          <h2 className="mb-3 text-lg font-bold text-neutral-100">
+          <h2 className="mb-3 flex items-center gap-1.5 text-lg font-bold text-neutral-100">
+            <Trophy size={18} className="text-amber-400" aria-hidden="true" />
             {t("topRated")}
           </h2>
           <div className="space-y-2">

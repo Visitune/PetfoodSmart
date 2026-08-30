@@ -3,10 +3,11 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { searchBrands, getAllBrands, getBrandGrade, getPetEmoji } from "@/lib/brands";
+import { searchBrands, getAllBrands, getBrandGrade } from "@/lib/brands";
 import type { Grade } from "@/lib/analyzer/types";
 import { GRADE_COLORS } from "@/lib/grade";
 import { useTranslation, useLocale } from "@/lib/i18n";
+import { PetTypeIcon } from "@/components/shared/PetTypeIcon";
 
 interface BrandSearchProps {
   onScanOwn?: () => void;
@@ -97,9 +98,9 @@ export function BrandSearch({ onScanOwn }: BrandSearchProps) {
                           <p className="truncate text-sm font-semibold text-neutral-100">
                             {brand.brand} — {brand.product}
                           </p>
-                          <p className="truncate text-xs text-neutral-500">
+                          <p className="flex items-center gap-1 truncate text-xs text-neutral-500">
                             {locale === "zh" && brand.brandCn ? `${brand.brandCn} ${brand.productCn} · ` : ""}
-                            {getPetEmoji(brand.petType)}
+                            <PetTypeIcon petType={brand.petType} size={14} />
                           </p>
                         </div>
                       </Link>

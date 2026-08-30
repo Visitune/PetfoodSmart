@@ -11,6 +11,7 @@ import { useState } from "react";
 import type { ScanHistoryEntry } from "@/lib/history/types";
 import { GRADE_COLORS } from "@/lib/grade";
 import { useTranslation } from "@/lib/i18n";
+import { ClipboardList, X } from "lucide-react";
 
 interface HistoryListProps {
   entries: ScanHistoryEntry[];
@@ -70,7 +71,7 @@ export function HistoryList({
   if (entries.length === 0) {
     return (
       <div className="text-center py-12" data-testid="history-empty">
-        <p className="text-3xl">📋</p>
+        <ClipboardList size={36} className="mx-auto text-neutral-500" aria-hidden="true" />
         <p className="mt-3 text-neutral-400">{t("empty")}</p>
         <p className="mt-1 text-sm text-neutral-500">
           {t("emptyDesc")}
@@ -128,7 +129,7 @@ export function HistoryList({
                 aria-label={`Delete ${entry.foodName || "scan"}`}
                 data-testid="history-delete"
               >
-                ✕
+                <X size={16} aria-hidden="true" />
               </button>
             )}
           </div>
