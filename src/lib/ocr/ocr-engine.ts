@@ -1,9 +1,11 @@
 /**
  * OCR Engine - wraps Tesseract.js for ingredient label text extraction.
  *
- * Uses client-side Tesseract.js with eng+fra+spa+nld+chi_sim languages so
- * accented French/Spanish/Dutch label text (é, ñ, ç...) is recognized
- * correctly, not just misread through the English-only model.
+ * Uses client-side Tesseract.js. The caller picks which language pack(s) to
+ * load (see DEFAULT_OCR_LANGUAGES) — kept to at most two languages at a time
+ * (the UI's current language + English) rather than always loading every
+ * supported language, since each additional pack is a real download/memory
+ * cost that has caused OCR to fail outright on some mobile devices.
  * The worker is created on-demand and reused for performance.
  */
 
@@ -13,20 +15,30 @@ import { detectLanguage } from './parser';
 /** Minimum confidence threshold (0-100) to consider OCR successful */
 const MIN_CONFIDENCE = 60;
 
-/** Tesseract.js language codes loaded for recognition (traineddata fetched on first use) */
-const OCR_LANGUAGES = 'eng+fra+spa+nld+chi_sim';
+/** Fallback Tesseract.js language string when the caller doesn't specify one */
+const DEFAULT_OCR_LANGUAGES = 'eng';
 
 /**
  * Extract text from an image using Tesseract.js OCR.
  *
  * @param imageDataUrl - Base64 data URL of the image (from camera/upload)
+ * @param languages - Tesseract.js language code(s), e.g. "eng+fra". Defaults to "eng".
  * @returns OcrResult with raw text, confidence, and language
  */
-export async function recognizeText(imageDataUrl: string): Promise<OcrResult> {
+export async function recognizeText(
+  imageDataUrl: string,
+  languages: string = DEFAULT_OCR_LANGUAGES
+): Promise<OcrResult> {
   const Tesseract = (await import('tesseract.js')).default;
-  const result = await Tesseract.recognize(imageDataUrl, OCR_LANGUAGES, {
-    logger: () => {}, // suppress logs
-  });
+  let result;
+  try {
+    result = await Tesseract.recognize(imageDataUrl, languages, {
+      logger: () => {}, // suppress logs
+    });
+  } catch (err) {
+    const detail = err instanceof Error ? err.message : JSON.stringify(err);
+    throw new Error(`Tesseract recognition failed (languages: ${languages}): ${detail}`);
+  }
 
   const rawText = result.data.text.trim();
   const confidence = Math.round(result.data.confidence);

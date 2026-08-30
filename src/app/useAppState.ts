@@ -10,10 +10,25 @@ import {
   deleteFromHistory,
   clearHistory,
 } from "@/lib/history";
+import { useLocale } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n";
 import type { AnalysisResult } from "@/lib/analyzer/types";
 import type { PetProfile } from "@/lib/profile/types";
 import type { ParsedIngredient } from "@/lib/ocr/types";
 import type { ScanHistoryEntry } from "@/lib/history/types";
+
+/**
+ * Tesseract.js language pack(s) to load for OCR, per UI locale.
+ * Kept to two languages max — loading every supported language at once has
+ * caused OCR to fail outright on some mobile devices.
+ */
+const OCR_LANGUAGES_BY_LOCALE: Record<Locale, string> = {
+  en: "eng",
+  zh: "eng+chi_sim",
+  fr: "eng+fra",
+  es: "eng+spa",
+  nl: "eng+nld",
+};
 
 export type AppState =
   | "idle"
@@ -41,6 +56,7 @@ export function useAppState() {
   const [selectedHistoryEntry, setSelectedHistoryEntry] =
     useState<ScanHistoryEntry | null>(null);
   const lastParsedIngredients = useRef<ParsedIngredient[] | null>(null);
+  const locale = useLocale();
 
   useEffect(() => {
     const saved = loadProfile();
@@ -97,7 +113,7 @@ export function useAppState() {
   const handleImageConfirmed = useCallback(async (imageDataUrl: string) => {
     setState("analyzing");
 
-    const extraction = await extractIngredients(imageDataUrl);
+    const extraction = await extractIngredients(imageDataUrl, OCR_LANGUAGES_BY_LOCALE[locale]);
 
     if (!extraction.success) {
       setErrorMessage(extraction.error ?? "Failed to extract ingredients.");
@@ -114,7 +130,7 @@ export function useAppState() {
     );
     setAnalysisResult(result);
     setState("ceremony");
-  }, [petProfile]);
+  }, [petProfile, locale]);
 
   const handleCeremonyComplete = useCallback(() => {
     setState("results");

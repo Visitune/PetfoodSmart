@@ -32,9 +32,31 @@ describe('recognizeText', () => {
     expect(result.language).toBe('eng');
     expect(mockRecognize).toHaveBeenCalledWith(
       'data:image/jpeg;base64,abc123',
-      'eng+fra+spa+nld+chi_sim',
+      'eng',
       expect.any(Object)
     );
+  });
+
+  it('uses the provided language string instead of the default', async () => {
+    mockRecognize.mockResolvedValue({
+      data: { text: 'Ingredients: poulet, riz', confidence: 80 },
+    } as Tesseract.RecognizeResult);
+
+    await recognizeText('data:image/jpeg;base64,abc123', 'eng+fra');
+
+    expect(mockRecognize).toHaveBeenCalledWith(
+      'data:image/jpeg;base64,abc123',
+      'eng+fra',
+      expect.any(Object)
+    );
+  });
+
+  it('wraps a Tesseract failure in a descriptive Error', async () => {
+    mockRecognize.mockRejectedValue('worker crashed');
+
+    await expect(
+      recognizeText('data:image/jpeg;base64,abc123', 'eng+fra')
+    ).rejects.toThrow(/Tesseract recognition failed \(languages: eng\+fra\)/);
   });
 
   it('detects Chinese language', async () => {

@@ -16,11 +16,15 @@ import type { ExtractionResult } from './types';
  * Full extraction pipeline: image → OCR → parse → structured ingredients.
  *
  * @param imageDataUrl - Base64 data URL from camera capture or file upload
+ * @param ocrLanguages - Tesseract.js language code(s) to use, e.g. "eng+fra"
  * @returns ExtractionResult with parsed ingredients or error
  */
-export async function extractIngredients(imageDataUrl: string): Promise<ExtractionResult> {
+export async function extractIngredients(
+  imageDataUrl: string,
+  ocrLanguages?: string
+): Promise<ExtractionResult> {
   try {
-    const ocrResult = await recognizeText(imageDataUrl);
+    const ocrResult = await recognizeText(imageDataUrl, ocrLanguages);
 
     if (!isConfident(ocrResult)) {
       return {
@@ -53,7 +57,10 @@ export async function extractIngredients(imageDataUrl: string): Promise<Extracti
       confidence: ocrResult.confidence,
     };
   } catch (error) {
-    const message = error instanceof Error ? error.message : 'Unknown OCR error';
+    const message = error instanceof Error ? error.message : JSON.stringify(error);
+    if (typeof console !== 'undefined') {
+      console.error('[extractIngredients] OCR pipeline failed:', error);
+    }
     return {
       success: false,
       ingredients: [],
