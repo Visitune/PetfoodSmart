@@ -70,7 +70,6 @@ export async function GET(request: NextRequest) {
     summary,
     verdict,
     foodName: `${brand.brand} ${brand.product}`,
-    foodNameCn: `${brand.brandCn} ${brand.productCn}`,
     petType: brand.petType,
     harmfulNames: ingredients
       .filter((i) => i.flag === "red")

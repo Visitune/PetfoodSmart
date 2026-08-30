@@ -161,22 +161,11 @@ export default async function OgImage({ params }: { params: Promise<{ slug: stri
               fontWeight: 800,
               color: "#f5f5f5",
               textAlign: "center",
-              marginBottom: "2px",
+              marginBottom: "18px",
               letterSpacing: "-0.01em",
             }}
           >
             {`${brand.brand} ${brand.product}`}
-          </div>
-          <div
-            style={{
-              display: "flex",
-              fontSize: 20,
-              color: "#737373",
-              textAlign: "center",
-              marginBottom: "18px",
-            }}
-          >
-            {`${brand.brandCn} ${brand.productCn}`}
           </div>
 
           {/* Stats */}
