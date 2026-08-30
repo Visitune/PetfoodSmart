@@ -13,12 +13,12 @@ export function ImagePreview({ src, onRetake, onConfirm }: ImagePreviewProps) {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="w-full overflow-hidden rounded-2xl bg-black">
+      <div className="flex h-[50vh] max-h-[420px] min-h-[280px] w-full items-center justify-center overflow-hidden rounded-2xl bg-black">
         {/* eslint-disable-next-line @next/next/no-img-element -- data URL from camera/upload, not optimizable by next/image */}
         <img
           src={src}
           alt={t("capturedLabel")}
-          className="h-auto w-full object-contain"
+          className="h-full w-full object-contain"
         />
       </div>
       <div className="mt-4 flex w-full gap-3">

@@ -32,7 +32,7 @@ describe('recognizeText', () => {
     expect(result.language).toBe('eng');
     expect(mockRecognize).toHaveBeenCalledWith(
       'data:image/jpeg;base64,abc123',
-      'eng+chi_sim',
+      'eng+fra+spa+nld+chi_sim',
       expect.any(Object)
     );
   });

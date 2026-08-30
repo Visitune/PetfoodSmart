@@ -1,7 +1,9 @@
 /**
  * OCR Engine - wraps Tesseract.js for ingredient label text extraction.
  *
- * Uses client-side Tesseract.js with eng+chi_sim languages for bilingual support.
+ * Uses client-side Tesseract.js with eng+fra+spa+nld+chi_sim languages so
+ * accented French/Spanish/Dutch label text (é, ñ, ç...) is recognized
+ * correctly, not just misread through the English-only model.
  * The worker is created on-demand and reused for performance.
  */
 
@@ -11,6 +13,9 @@ import { detectLanguage } from './parser';
 /** Minimum confidence threshold (0-100) to consider OCR successful */
 const MIN_CONFIDENCE = 60;
 
+/** Tesseract.js language codes loaded for recognition (traineddata fetched on first use) */
+const OCR_LANGUAGES = 'eng+fra+spa+nld+chi_sim';
+
 /**
  * Extract text from an image using Tesseract.js OCR.
  *
@@ -19,7 +24,7 @@ const MIN_CONFIDENCE = 60;
  */
 export async function recognizeText(imageDataUrl: string): Promise<OcrResult> {
   const Tesseract = (await import('tesseract.js')).default;
-  const result = await Tesseract.recognize(imageDataUrl, 'eng+chi_sim', {
+  const result = await Tesseract.recognize(imageDataUrl, OCR_LANGUAGES, {
     logger: () => {}, // suppress logs
   });
 

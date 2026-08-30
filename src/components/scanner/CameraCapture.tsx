@@ -81,14 +81,14 @@ export function CameraCapture({ onCapture, onError }: CameraCaptureProps) {
 
   return (
     <div className="relative flex flex-col items-center">
-      <div className="relative w-full overflow-hidden rounded-2xl bg-black">
+      <div className="relative h-[50vh] max-h-[420px] min-h-[280px] w-full overflow-hidden rounded-2xl bg-black">
         <video
           ref={videoRef}
           data-testid="camera-video"
           autoPlay
           playsInline
           muted
-          className="h-auto w-full"
+          className="h-full w-full object-cover"
         />
         {!isReady && (
           <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
