@@ -6,6 +6,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { BrandResultClient } from "../[slug]/BrandResultClient";
 import { getAnalyzedBrandBySlug } from "@/lib/brands";
+import { I18nProvider } from "@/lib/i18n";
 
 // Mock framer-motion to avoid animation issues in JSDOM
 /* eslint-disable react/display-name */
@@ -93,12 +94,24 @@ describe("BrandResultClient", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders the Chinese brand name", () => {
+  it("renders the Chinese brand name only in Chinese locale", () => {
     const brand = getTestBrand();
-    render(<BrandResultClient brand={brand} />);
+    render(
+      <I18nProvider initialLocale="zh">
+        <BrandResultClient brand={brand} />
+      </I18nProvider>,
+    );
     expect(
       screen.getByText(`${brand.brandCn} ${brand.productCn}`)
     ).toBeInTheDocument();
+  });
+
+  it("does not render the Chinese brand name in other locales", () => {
+    const brand = getTestBrand();
+    render(<BrandResultClient brand={brand} />);
+    expect(
+      screen.queryByText(`${brand.brandCn} ${brand.productCn}`)
+    ).not.toBeInTheDocument();
   });
 
   it("shows pet type indicator", () => {

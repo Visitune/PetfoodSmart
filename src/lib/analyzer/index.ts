@@ -43,6 +43,14 @@ function ratingToFlag(rating: string): IngredientFlag {
   }
 }
 
+/**
+ * If at least this fraction of ingredients are unrecognized, the grade is not
+ * meaningful — most of the label wasn't understood, and unknowns are neutral
+ * in the scoring formula, so a badly-matched label can otherwise still score
+ * high by default. UI should show "insufficient data" instead of the grade.
+ */
+const UNKNOWN_RATIO_THRESHOLD = 0.5;
+
 /** Categories that count as "concerning" even if rated safe */
 const CONCERN_CATEGORIES = new Set(["filler", "byproduct", "coloring", "sweetener"]);
 
@@ -213,6 +221,9 @@ export function analyzeIngredients(
   const grade = scoreToGrade(score);
   const summary = buildSummary(analyzed);
   const verdict = generateVerdict(grade, summary);
+  const insufficientData =
+    summary.totalIngredients > 0 &&
+    summary.unknownCount / summary.totalIngredients >= UNKNOWN_RATIO_THRESHOLD;
 
   return {
     grade,
@@ -220,6 +231,7 @@ export function analyzeIngredients(
     ingredients: analyzed,
     summary,
     verdict,
+    insufficientData,
     profileWarnings,
   };
 }

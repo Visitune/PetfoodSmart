@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import type { AnalyzedBrand } from "@/lib/brands/types";
 import { GRADE_COLORS, GRADE_ORDER } from "@/lib/grade";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLocale } from "@/lib/i18n";
 
 type PetFilter = "all" | "cat" | "dog";
 
@@ -34,6 +34,7 @@ export function RankingClient({ brands }: RankingClientProps) {
   const [filter, setFilter] = useState<PetFilter>("all");
   const { t: tc } = useTranslation("common");
   const { t } = useTranslation("ranking");
+  const locale = useLocale();
 
   const filtered = useMemo(() => {
     const list =
@@ -135,9 +136,11 @@ export function RankingClient({ brands }: RankingClientProps) {
                     <p className="truncate text-sm font-bold text-neutral-100">
                       {brand.brand} {brand.product}
                     </p>
-                    <p className="truncate text-xs text-neutral-500">
-                      {brand.brandCn} {brand.productCn}
-                    </p>
+                    {locale === "zh" && (
+                      <p className="truncate text-xs text-neutral-500">
+                        {brand.brandCn} {brand.productCn}
+                      </p>
+                    )}
                   </div>
 
                   {/* Score */}

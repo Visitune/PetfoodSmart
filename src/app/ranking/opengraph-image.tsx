@@ -3,7 +3,7 @@ import { getAllAnalyzedBrands } from "@/lib/brands";
 import { GRADE_HEX, OG_WIDTH, OG_HEIGHT } from "@/lib/og/constants";
 import type { Grade } from "@/lib/analyzer/types";
 
-export const alt = "Pet Food Safety Rankings | ToxicPaw";
+export const alt = "Pet Food Safety Rankings | PetFoodSmart";
 export const size = { width: OG_WIDTH, height: OG_HEIGHT };
 export const contentType = "image/png";
 
@@ -88,7 +88,7 @@ export default async function OgImage() {
               letterSpacing: "0.04em",
             }}
           >
-            {`${brands.length} brands analyzed by ToxicPaw`}
+            {`${brands.length} brands analyzed by PetFoodSmart`}
           </div>
 
           {/* Grade distribution */}

@@ -25,7 +25,7 @@ beforeAll(async () => {
 describe("Brand OG Image", () => {
   describe("metadata exports", () => {
     it("exports correct alt text", () => {
-      expect(ogModule.alt).toBe("ToxicPaw Brand Safety Grade");
+      expect(ogModule.alt).toBe("PetFoodSmart Brand Safety Grade");
     });
 
     it("exports standard OG dimensions", () => {

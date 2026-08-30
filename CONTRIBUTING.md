@@ -1,4 +1,4 @@
-# Contributing to ToxicPaw
+# Contributing to PetFoodSmart
 
 [English](#contributing) | [中文](#贡献指南)
 
@@ -31,7 +31,7 @@ We welcome contributions! Here are the most impactful areas:
 
 ```bash
 git clone https://github.com/toffee-desuwa/toxicpaw.git
-cd toxicpaw
+cd petfoodsmart
 npm install
 npm run dev    # http://localhost:2999
 npm test       # Run tests
@@ -78,7 +78,7 @@ Be respectful. We're here to help pets eat better.
 
 ```bash
 git clone https://github.com/toffee-desuwa/toxicpaw.git
-cd toxicpaw
+cd petfoodsmart
 npm install
 npm run dev    # http://localhost:2999
 npm test       # 运行测试

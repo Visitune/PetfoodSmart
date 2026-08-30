@@ -130,7 +130,7 @@ export function ShareButton({ result, foodName, brandSlug }: ShareButtonProps) {
     setSharing(true);
     try {
       const blob = await generateImage();
-      const filename = `toxicpaw-${format === "square" ? "square" : "og"}.png`;
+      const filename = `petfoodsmart-${format === "square" ? "square" : "og"}.png`;
       const file = new File([blob], filename, { type: "image/png" });
 
       const shareText = foodName
@@ -168,7 +168,7 @@ export function ShareButton({ result, foodName, brandSlug }: ShareButtonProps) {
           const blob = await generateImage();
           downloadBlob(
             blob,
-            `toxicpaw-${format === "square" ? "square" : "og"}.png`
+            `petfoodsmart-${format === "square" ? "square" : "og"}.png`
           );
           setShared(true);
           setTimeout(() => setShared(false), 3000);

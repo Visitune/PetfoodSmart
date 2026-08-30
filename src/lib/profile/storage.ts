@@ -4,7 +4,7 @@
 
 import type { PetProfile } from "./types";
 
-export const STORAGE_KEY = "toxicpaw_pet_profile";
+export const STORAGE_KEY = "petfoodsmart_pet_profile";
 
 /** Save a pet profile to localStorage */
 export function saveProfile(profile: PetProfile): void {

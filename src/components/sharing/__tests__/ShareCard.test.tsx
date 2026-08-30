@@ -41,6 +41,7 @@ function makeResult(overrides: Partial<AnalysisResult> = {}): AnalysisResult {
     ],
     summary: makeSummary(),
     verdict: "Good quality food with some concerns.",
+    insufficientData: false,
     ...overrides,
   };
 }
@@ -51,9 +52,9 @@ describe("ShareCard", () => {
     expect(screen.getByTestId("share-card")).toBeInTheDocument();
   });
 
-  it("displays the ToxicPaw branding", () => {
+  it("displays the PetFoodSmart branding", () => {
     render(<ShareCard result={makeResult()} />);
-    expect(screen.getByText("ToxicPaw")).toBeInTheDocument();
+    expect(screen.getByText("PetFoodSmart")).toBeInTheDocument();
     expect(screen.getByText("Pet Food Scanner")).toBeInTheDocument();
   });
 
@@ -137,7 +138,7 @@ describe("ShareCard", () => {
 
   it("shows footer branding", () => {
     render(<ShareCard result={makeResult()} />);
-    expect(screen.getByText(/Scanned with ToxicPaw/)).toBeInTheDocument();
+    expect(screen.getByText(/Scanned with PetFoodSmart/)).toBeInTheDocument();
   });
 
   it("forwards ref to the card div", () => {

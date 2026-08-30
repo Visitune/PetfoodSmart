@@ -69,6 +69,11 @@ export interface AnalysisResult {
   summary: AnalysisSummary;
   /** Short plain-language verdict */
   verdict: string;
+  /**
+   * True when too few ingredients were recognized (see UNKNOWN_RATIO_THRESHOLD)
+   * to make the grade meaningful. UI should prefer showing this over the raw grade.
+   */
+  insufficientData: boolean;
   /** Personalized warnings based on pet profile (only present when profile is provided) */
   profileWarnings?: string[];
 }

@@ -3,19 +3,19 @@ import { getAllAnalyzedBrands } from "@/lib/brands";
 import { RankingClient } from "./RankingClient";
 
 export const metadata: Metadata = {
-  title: "Pet Food Safety Rankings | ToxicPaw",
+  title: "Pet Food Safety Rankings | PetFoodSmart",
   description:
     "Complete pet food safety rankings — compare 75+ cat and dog food brands by ingredient quality. 宠物粮安全排行榜",
   openGraph: {
-    title: "Pet Food Safety Rankings | ToxicPaw",
+    title: "Pet Food Safety Rankings | PetFoodSmart",
     description:
       "Compare 75+ cat and dog food brands ranked by ingredient safety. Find the safest food for your pet.",
-    siteName: "ToxicPaw",
+    siteName: "PetFoodSmart",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pet Food Safety Rankings | ToxicPaw",
+    title: "Pet Food Safety Rankings | PetFoodSmart",
     description:
       "Compare 75+ cat and dog food brands ranked by ingredient safety.",
   },
@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     languages: {
       'en': '/ranking',
       'zh-CN': '/ranking',
+      'fr': '/ranking',
+      'es': '/ranking',
+      'nl': '/ranking',
     },
   },
 };

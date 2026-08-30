@@ -1,6 +1,6 @@
 {
-  "name": "ToxicPaw - Pet Food Scanner",
-  "short_name": "ToxicPaw",
+  "name": "PetFoodSmart - Pet Food Scanner",
+  "short_name": "PetFoodSmart",
   "description": "AI-powered pet food ingredient scanner. Scan a label, get a safety grade.",
   "start_url": "/",
   "display": "standalone",

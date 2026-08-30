@@ -121,7 +121,7 @@ describe("buildShareImage", () => {
   it("square format includes footer branding", () => {
     const result = buildShareImage(makeData(), "square");
     const json = JSON.stringify(result);
-    expect(json).toContain("toxicpaw.com");
+    expect(json).toContain("petfoodsmart.com");
   });
 
   it("limits harmful ingredients to 5 in display", () => {

@@ -5,7 +5,7 @@
 import type { ScanHistoryEntry } from "./types";
 import type { AnalysisResult } from "../analyzer/types";
 
-export const HISTORY_STORAGE_KEY = "toxicpaw_scan_history";
+export const HISTORY_STORAGE_KEY = "petfoodsmart_scan_history";
 export const MAX_HISTORY_ENTRIES = 50;
 
 /** Generate a simple unique ID */

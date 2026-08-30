@@ -56,8 +56,8 @@ export function normalizeIngredient(raw: string): string {
   // Collapse multiple spaces/newlines into single space
   cleaned = cleaned.replace(/\s+/g, ' ');
 
-  // Remove percentage values like "(30%)" or "30%"
-  cleaned = cleaned.replace(/\(?\s*\d+(\.\d+)?\s*%\s*\)?/g, '').trim();
+  // Remove percentage values like "(30%)", "30%", or "5,4%" (French/EU decimal comma)
+  cleaned = cleaned.replace(/\(?\s*\d+[.,]?\d*\s*%\s*\)?/g, '').trim();
 
   // Normalize to lowercase for English text
   if (!containsChinese(cleaned)) {
@@ -101,8 +101,15 @@ export function parseIngredients(rawText: string): ParsedIngredient[] {
   // Remove trailing period or other sentence-ending punctuation
   text = text.replace(/[.。!！]+\s*$/, '').trim();
 
-  // Split by separators
-  const parts = text.split(SEPARATOR_PATTERN);
+  // Protect French/EU-style decimal commas (e.g. "5,4%") from being
+  // split as if the comma were an ingredient separator.
+  const DECIMAL_COMMA_PLACEHOLDER = '\u0000';
+  text = text.replace(/(\d),(\d)/g, `$1${DECIMAL_COMMA_PLACEHOLDER}$2`);
+
+  // Split by separators, then restore the protected decimal commas
+  const parts = text
+    .split(SEPARATOR_PATTERN)
+    .map((p) => p.split(DECIMAL_COMMA_PLACEHOLDER).join(','));
 
   const ingredients: ParsedIngredient[] = [];
 

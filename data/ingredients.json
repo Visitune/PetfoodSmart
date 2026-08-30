@@ -1133,8 +1133,12 @@
       "common_aliases": [
         "Green Beans",
         "String Beans",
-        "四季豆"
+        "四季豆",
+        "Haricots Verts",
+        "Haricot Vert",
+        "Haricots Verts Séchés"
       ],
+      "explanation_fr": "Légume peu calorique, riche en fibres, vitamines et minéraux.",
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
     },
@@ -1764,8 +1768,11 @@
         "Cane Sugar",
         "Sugar Cane",
         "白糖",
-        "蔗糖"
+        "蔗糖",
+        "Sucre",
+        "Sucres"
       ],
+      "explanation_fr": "Le sucre ajouté n'a pas sa place dans l'alimentation animale. Favorise l'obésité, les problèmes dentaires et le diabète.",
       "explanation_zh": "添加糖在宠物食品中毫无必要。导致肥胖、糖尿病和牙齿问题。",
       "sources": ["FDA CVM", "AAFCO"]
     },
@@ -6432,6 +6439,103 @@
       ],
       "explanation_zh": "天然调味剂和口气清新剂。一般对宠物安全，可改善口腔健康。",
       "sources": ["AAFCO"]
+    },
+    {
+      "name": "Meat and Animal Derivatives",
+      "category": "byproduct",
+      "safety_rating": "caution",
+      "explanation": "A generic EU-style declaration covering unspecified meat and animal parts. The exact source and quality can vary significantly between batches and manufacturers, and it does not disclose which species or cuts are used — a concern for pets with known allergies.",
+      "common_aliases": [
+        "Meat and Animal By-Products",
+        "Viandes et Sous-Produits Animaux",
+        "Viande et Sous-Produits d'Origine Animale",
+        "Viandes et Sous-Produits d'Origine Animale"
+      ],
+      "explanation_fr": "Déclaration générique de type UE regroupant des viandes et parties animales non précisées. La source et la qualité réelles peuvent varier fortement d'un lot à l'autre, et le fabricant ne précise ni l'espèce ni les morceaux utilisés — un point de vigilance en cas d'allergie connue.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Fish and Fish Derivatives",
+      "category": "byproduct",
+      "safety_rating": "caution",
+      "explanation": "A generic EU-style declaration covering unspecified fish and fish parts. Does not disclose which species are used, which matters for pets with fish allergies or for sustainability concerns.",
+      "common_aliases": [
+        "Fish and Fish By-Products",
+        "Poissons et Sous-Produits de Poissons",
+        "Poisson et Sous-Produits de Poisson"
+      ],
+      "explanation_fr": "Déclaration générique de type UE regroupant poissons et sous-produits de poisson non précisés. L'espèce utilisée n'est pas indiquée, ce qui importe en cas d'allergie au poisson ou de préoccupation sur la pêche durable.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Vegetable Protein Extracts",
+      "category": "protein",
+      "safety_rating": "caution",
+      "explanation": "Concentrated plant-derived protein of unspecified origin (commonly soy, wheat gluten, or pea protein). Can be used to inflate protein content without naming the actual source.",
+      "common_aliases": [
+        "Extraits de Protéines Végétales",
+        "Protéines Végétales"
+      ],
+      "explanation_fr": "Protéines d'origine végétale concentrées, d'origine non précisée (généralement soja, gluten de blé ou protéine de pois). Peut servir à augmenter artificiellement le taux de protéines affiché sans en révéler la source réelle.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Vegetable By-Products",
+      "category": "filler",
+      "safety_rating": "caution",
+      "explanation": "A vague EU-style declaration for unspecified plant-derived by-products, often used as low-cost fillers. Provides little nutritional transparency.",
+      "common_aliases": [
+        "Sous-Produits d'Origine Végétale",
+        "Produits et Sous-Produits Végétaux"
+      ],
+      "explanation_fr": "Déclaration vague de type UE pour des sous-produits végétaux non précisés, souvent utilisés comme charges bon marché. Offre peu de transparence nutritionnelle.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Cereals",
+      "category": "grain",
+      "safety_rating": "caution",
+      "explanation": "An unspecified blend of grains. Common and generally fine nutritionally, but the lack of naming makes it harder to identify a specific grain sensitivity.",
+      "common_aliases": [
+        "Céréales"
+      ],
+      "explanation_fr": "Mélange de céréales non précisées. Habituellement correct sur le plan nutritionnel, mais l'absence de précision complique l'identification d'une sensibilité à une céréale en particulier.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Oils and Fats",
+      "category": "fat_oil",
+      "safety_rating": "safe",
+      "explanation": "An unspecified blend of animal or vegetable oils and fats, providing energy and essential fatty acids. Quality depends on the (undisclosed) source.",
+      "common_aliases": [
+        "Huiles et Graisses",
+        "Graisses"
+      ],
+      "explanation_fr": "Mélange d'huiles et de graisses d'origine animale ou végétale non précisées, apportant énergie et acides gras essentiels. La qualité dépend d'une source non divulguée.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Minerals",
+      "category": "mineral",
+      "safety_rating": "safe",
+      "explanation": "A standard blend of mineral supplements added to meet a pet's nutritional requirements.",
+      "common_aliases": [
+        "Substances Minérales",
+        "Minéraux"
+      ],
+      "explanation_fr": "Mélange standard de suppléments minéraux ajoutés pour répondre aux besoins nutritionnels de l'animal.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Yeasts",
+      "category": "supplement",
+      "safety_rating": "safe",
+      "explanation": "An unspecified yeast source, generally used as a natural source of B vitamins and to enhance palatability.",
+      "common_aliases": [
+        "Levures"
+      ],
+      "explanation_fr": "Source de levure non précisée, généralement utilisée comme apport naturel en vitamines B et pour améliorer l'appétence.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
     }
   ]
 }

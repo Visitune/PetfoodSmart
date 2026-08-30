@@ -100,7 +100,9 @@ function IngredientItem({ ingredient, locale, flagLabel }: IngredientItemProps) 
         <p className="mt-1 text-sm leading-relaxed text-neutral-400">
           {locale === "zh" && ingredient.knownIngredient?.explanation_zh
             ? ingredient.knownIngredient.explanation_zh
-            : ingredient.explanation}
+            : locale === "fr" && ingredient.knownIngredient?.explanation_fr
+              ? ingredient.knownIngredient.explanation_fr
+              : ingredient.explanation}
         </p>
       </div>
     </motion.li>

@@ -132,7 +132,7 @@ function buildOgImage(data: ShareImageData) {
           }}
         >
           <span style={{ display: "flex", fontSize: 22, color: "#737373", letterSpacing: "0.05em" }}>
-            {`${petEmoji} ToxicPaw`}
+            {`${petEmoji} PetFoodSmart`}
           </span>
         </div>
 
@@ -267,7 +267,7 @@ function buildSquareImage(data: ShareImageData) {
           }}
         >
           <span style={{ display: "flex", fontSize: 28, color: "#737373", letterSpacing: "0.05em" }}>
-            {`${petEmoji} ToxicPaw`}
+            {`${petEmoji} PetFoodSmart`}
           </span>
         </div>
 
@@ -401,7 +401,7 @@ function buildSquareImage(data: ShareImageData) {
           letterSpacing: "0.06em",
         }}
       >
-        {"toxicpaw.com \u00b7 AI-Powered Pet Food Safety"}
+        {"petfoodsmart.com \u00b7 AI-Powered Pet Food Safety"}
       </div>
     </div>
   );

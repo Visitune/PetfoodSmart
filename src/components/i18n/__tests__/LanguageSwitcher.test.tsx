@@ -1,15 +1,16 @@
 /**
- * Tests for LanguageSwitcher component (F019 - i18n + Chinese localization)
+ * Tests for LanguageSwitcher component (F019 - i18n + EU localization)
  *
- * Covers: rendering, toggle behavior, accessibility, locale persistence.
+ * Covers: rendering, selection behavior, accessibility, all supported locales.
  */
 
 import React from "react";
-import { render, screen, act } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { I18nProvider } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 
-function renderSwitcher(initialLocale: "en" | "zh" = "en") {
+function renderSwitcher(initialLocale: Locale = "en") {
   return render(
     <I18nProvider initialLocale={initialLocale}>
       <LanguageSwitcher />
@@ -18,63 +19,49 @@ function renderSwitcher(initialLocale: "en" | "zh" = "en") {
 }
 
 describe("LanguageSwitcher", () => {
-  it("renders a button", () => {
+  it("renders a select element", () => {
     renderSwitcher();
-    expect(screen.getByTestId("language-switcher")).toBeInTheDocument();
+    const select = screen.getByTestId("language-switcher");
+    expect(select).toBeInTheDocument();
+    expect(select.tagName).toBe("SELECT");
   });
 
-  it("shows '中文' when locale is English", () => {
+  it("lists all five supported languages as options", () => {
+    renderSwitcher();
+    const select = screen.getByTestId("language-switcher") as HTMLSelectElement;
+    const values = Array.from(select.options).map((o) => o.value);
+    expect(values).toEqual(["en", "zh", "fr", "es", "nl"]);
+  });
+
+  it.each([
+    ["en", "EN"],
+    ["zh", "中文"],
+    ["fr", "FR"],
+    ["es", "ES"],
+    ["nl", "NL"],
+  ] as const)("reflects %s as the selected value", (locale, label) => {
+    renderSwitcher(locale);
+    const select = screen.getByTestId("language-switcher") as HTMLSelectElement;
+    expect(select.value).toBe(locale);
+    expect(
+      select.options[select.selectedIndex],
+    ).toHaveTextContent(label);
+  });
+
+  it("switches locale when a new option is selected", () => {
     renderSwitcher("en");
-    expect(screen.getByTestId("language-switcher")).toHaveTextContent("中文");
+    const select = screen.getByTestId("language-switcher") as HTMLSelectElement;
+
+    fireEvent.change(select, { target: { value: "fr" } });
+
+    expect(select.value).toBe("fr");
   });
 
-  it("shows 'EN' when locale is Chinese", () => {
-    renderSwitcher("zh");
-    expect(screen.getByTestId("language-switcher")).toHaveTextContent("EN");
-  });
-
-  it("toggles from English to Chinese on click", () => {
-    renderSwitcher("en");
-    const btn = screen.getByTestId("language-switcher");
-    expect(btn).toHaveTextContent("中文");
-
-    act(() => {
-      btn.click();
-    });
-    expect(btn).toHaveTextContent("EN");
-  });
-
-  it("toggles from Chinese to English on click", () => {
-    renderSwitcher("zh");
-    const btn = screen.getByTestId("language-switcher");
-    expect(btn).toHaveTextContent("EN");
-
-    act(() => {
-      btn.click();
-    });
-    expect(btn).toHaveTextContent("中文");
-  });
-
-  it("has accessible aria-label for English locale", () => {
-    renderSwitcher("en");
+  it("has an accessible label", () => {
+    renderSwitcher();
     expect(screen.getByTestId("language-switcher")).toHaveAttribute(
       "aria-label",
-      "Switch to Chinese",
+      "Select language",
     );
-  });
-
-  it("has accessible aria-label for Chinese locale", () => {
-    renderSwitcher("zh");
-    expect(screen.getByTestId("language-switcher")).toHaveAttribute(
-      "aria-label",
-      "Switch to English",
-    );
-  });
-
-  it("is a button element with type=button", () => {
-    renderSwitcher();
-    const btn = screen.getByTestId("language-switcher");
-    expect(btn.tagName).toBe("BUTTON");
-    expect(btn).toHaveAttribute("type", "button");
   });
 });

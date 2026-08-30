@@ -1,10 +1,10 @@
-# ToxicPaw Ingredient Knowledge Base
+# PetFoodSmart Ingredient Knowledge Base
 
 A curated database of 500+ pet food ingredients with safety ratings, categories, and bilingual (English/Chinese) support.
 
 ## Usage
 
-The knowledge base is a single JSON file (`ingredients.json`) that can be used independently of the ToxicPaw app.
+The knowledge base is a single JSON file (`ingredients.json`) that can be used independently of the PetFoodSmart app.
 
 ```javascript
 import ingredients from './ingredients.json';
@@ -54,4 +54,4 @@ Safety ratings are based on:
 
 ## License
 
-This knowledge base is released under the MIT License as part of the ToxicPaw project.
+This knowledge base is released under the MIT License as part of the PetFoodSmart project.

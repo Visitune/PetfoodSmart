@@ -5,6 +5,7 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { RankingClient } from "../RankingClient";
+import { I18nProvider } from "@/lib/i18n";
 import type { AnalyzedBrand } from "@/lib/brands/types";
 import type { AnalysisResult, Grade } from "@/lib/analyzer/types";
 
@@ -85,6 +86,7 @@ function makeBrand(
         concernPercentage: 0,
       },
       verdict: "Good food",
+      insufficientData: false,
     } as AnalysisResult,
   };
 }
@@ -109,9 +111,11 @@ describe("RankingClient", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders the Chinese subtitle", () => {
+  it("renders the subtitle", () => {
     render(<RankingClient brands={mockBrands} />);
-    expect(screen.getByText("宠物粮安全排行榜")).toBeInTheDocument();
+    expect(
+      screen.getByText("Discover the safest brands for your pet")
+    ).toBeInTheDocument();
   });
 
   it("renders the back link", () => {
@@ -153,9 +157,18 @@ describe("RankingClient", () => {
     expect(screen.getByText("BrandB Indoor Cat")).toBeInTheDocument();
   });
 
-  it("displays Chinese names on each card", () => {
-    render(<RankingClient brands={mockBrands} />);
+  it("displays Chinese names on each card only in Chinese locale", () => {
+    render(
+      <I18nProvider initialLocale="zh">
+        <RankingClient brands={mockBrands} />
+      </I18nProvider>,
+    );
     expect(screen.getByText("BrandA中文 Premium Dog中文")).toBeInTheDocument();
+  });
+
+  it("hides Chinese names on each card in other locales", () => {
+    render(<RankingClient brands={mockBrands} />);
+    expect(screen.queryByText("BrandA中文 Premium Dog中文")).not.toBeInTheDocument();
   });
 
   it("displays score on each card", () => {

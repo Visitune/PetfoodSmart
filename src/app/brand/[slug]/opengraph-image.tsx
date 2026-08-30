@@ -3,7 +3,7 @@ import { getAnalyzedBrandBySlug, getAllBrandSlugs } from "@/lib/brands";
 import { GRADE_HEX, OG_WIDTH, OG_HEIGHT } from "@/lib/og/constants";
 import type { Grade } from "@/lib/analyzer/types";
 
-export const alt = "ToxicPaw Brand Safety Grade";
+export const alt = "PetFoodSmart Brand Safety Grade";
 export const size = { width: OG_WIDTH, height: OG_HEIGHT };
 export const contentType = "image/png";
 
@@ -107,7 +107,7 @@ export default async function OgImage({ params }: { params: Promise<{ slug: stri
             }}
           >
             <span style={{ display: "flex", fontSize: 22, color: "#737373", letterSpacing: "0.05em" }}>
-              {`${petEmoji} ToxicPaw`}
+              {`${petEmoji} PetFoodSmart`}
             </span>
           </div>
 

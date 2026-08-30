@@ -29,6 +29,7 @@ function makeEntry(
         concernPercentage: 20,
       },
       verdict: "Good quality food.",
+      insufficientData: false,
     } as AnalysisResult,
     ...overrides,
   };
@@ -160,6 +161,7 @@ describe("HistoryList", () => {
           concernPercentage: 0,
         },
         verdict: "Excellent.",
+        insufficientData: false,
       } as AnalysisResult,
     });
 

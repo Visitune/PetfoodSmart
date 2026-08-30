@@ -8,7 +8,7 @@ import { AnimatedGradeBadge } from "@/components/grade";
 import { IngredientList } from "@/components/analysis/IngredientList";
 import { SummaryBar } from "@/components/analysis/SummaryBar";
 import { ShareButton } from "@/components/sharing";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLocale } from "@/lib/i18n";
 import { Disclaimer } from "@/components/shared/Disclaimer";
 
 interface BrandResultClientProps {
@@ -28,6 +28,7 @@ export function BrandResultClient({ brand }: BrandResultClientProps) {
   const { analysis } = brand;
   const displayName = `${brand.brand} ${brand.product}`;
   const displayNameCn = `${brand.brandCn} ${brand.productCn}`;
+  const locale = useLocale();
   const { t: tc } = useTranslation("common");
   const { t: tb } = useTranslation("brand");
   const { t: tg } = useTranslation("grade");
@@ -65,7 +66,9 @@ export function BrandResultClient({ brand }: BrandResultClientProps) {
           data-testid="brand-header"
         >
           <h1 className="text-xl font-bold text-neutral-100">{displayName}</h1>
-          <p className="mt-1 text-sm text-neutral-400">{displayNameCn}</p>
+          {locale === "zh" && (
+            <p className="mt-1 text-sm text-neutral-400">{displayNameCn}</p>
+          )}
           <p className="mt-1 text-xs text-neutral-600">
             {brand.petType === "cat" ? tb("catFood") : tb("dogFood")}
           </p>

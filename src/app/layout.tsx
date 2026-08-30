@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       ? `https://${process.env.VERCEL_URL}`
       : "http://localhost:3000"
   ),
-  title: "ToxicPaw - Pet Food Ingredient Scanner",
+  title: "PetFoodSmart - Pet Food Ingredient Scanner",
   description:
     "Scan pet food labels instantly. AI-powered ingredient analysis gives your pet's food a safety grade from A to F.",
   manifest: "/manifest.json",
@@ -32,22 +32,22 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "ToxicPaw",
+    title: "PetFoodSmart",
   },
   keywords: ["pet food safety", "ingredient scanner", "pet food grade", "dog food", "cat food", "宠物粮安全", "配料分析", "猫粮", "狗粮"],
-  creator: "ToxicPaw",
-  authors: [{ name: "ToxicPaw" }],
+  creator: "PetFoodSmart",
+  authors: [{ name: "PetFoodSmart" }],
   openGraph: {
-    title: "ToxicPaw - Pet Food Ingredient Scanner",
+    title: "PetFoodSmart - Pet Food Ingredient Scanner",
     description:
       "Scan pet food labels instantly. AI-powered ingredient analysis gives your pet's food a safety grade from A to F.",
-    siteName: "ToxicPaw",
+    siteName: "PetFoodSmart",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ToxicPaw - Pet Food Ingredient Scanner",
+    title: "PetFoodSmart - Pet Food Ingredient Scanner",
     description:
       "Scan pet food labels instantly. AI-powered ingredient analysis gives your pet's food a safety grade from A to F.",
   },
@@ -55,6 +55,9 @@ export const metadata: Metadata = {
     languages: {
       'en': '/',
       'zh-CN': '/',
+      'fr': '/',
+      'es': '/',
+      'nl': '/',
     },
   },
 };
@@ -81,13 +84,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              "name": "ToxicPaw",
+              "name": "PetFoodSmart",
               "description": "AI-powered pet food ingredient scanner. Scan a label, get an instant safety grade.",
-              "url": "https://toxicpaw.com",
+              "url": "https://petfoodsmart.com",
               "applicationCategory": "HealthApplication",
               "operatingSystem": "Web",
               "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-              "inLanguage": ["en", "zh-CN"],
+              "inLanguage": ["en", "zh-CN", "fr", "es", "nl"],
             }),
           }}
         />

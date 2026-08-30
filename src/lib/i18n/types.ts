@@ -1,4 +1,4 @@
-export type Locale = "en" | "zh";
+export type Locale = "en" | "zh" | "fr" | "es" | "nl";
 
 export type Messages = Record<string, Record<string, string>>;
 

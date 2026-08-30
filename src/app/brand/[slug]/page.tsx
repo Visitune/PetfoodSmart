@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
   const brand = getAnalyzedBrandBySlug(slug);
 
   if (!brand) {
-    return { title: "Brand Not Found | ToxicPaw" };
+    return { title: "Brand Not Found | PetFoodSmart" };
   }
 
-  const title = `${brand.brand} ${brand.product} — Grade ${brand.analysis.grade} | ToxicPaw`;
+  const title = `${brand.brand} ${brand.product} — Grade ${brand.analysis.grade} | PetFoodSmart`;
   const description = `${brand.brand} ${brand.product} (${brand.brandCn} ${brand.productCn}) scored ${brand.analysis.score}/100 (Grade ${brand.analysis.grade}). ${brand.analysis.verdict}`;
 
   return {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     openGraph: {
       title,
       description,
-      siteName: "ToxicPaw",
+      siteName: "PetFoodSmart",
       type: "article",
     },
     twitter: {
@@ -43,6 +43,9 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
       languages: {
         'en': `/brand/${slug}`,
         'zh-CN': `/brand/${slug}`,
+        'fr': `/brand/${slug}`,
+        'es': `/brand/${slug}`,
+        'nl': `/brand/${slug}`,
       },
     },
   };
@@ -67,7 +70,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
         "ratingValue": brand.analysis.score,
         "bestRating": 100,
       },
-      "author": { "@type": "Organization", "name": "ToxicPaw" },
+      "author": { "@type": "Organization", "name": "PetFoodSmart" },
     },
   };
 

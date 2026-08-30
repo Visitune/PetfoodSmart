@@ -53,6 +53,13 @@ export function AnalysisView({ result, onScanAnother, onSaveToHistory, onPersona
   const [foodName, setFoodName] = useState("");
   const [showSaveInput, setShowSaveInput] = useState(false);
   const { t } = useTranslation("analysis");
+  const { t: tg } = useTranslation("grade");
+
+  const verdictKey =
+    result.summary.totalIngredients === 0 ? "verdictNone" : `verdict${result.grade}`;
+  const localizedVerdict = tg(verdictKey, {
+    harmfulCount: String(result.summary.harmfulCount),
+  });
 
   useEffect(() => {
     let cancelled = false;
@@ -93,16 +100,36 @@ export function AnalysisView({ result, onScanAnother, onSaveToHistory, onPersona
 
   return (
     <div className="mx-auto flex w-full max-w-md flex-col gap-6 px-4 py-10">
-      {/* Grade Badge */}
-      <AnimatedGradeBadge grade={result.grade} score={result.score} />
+      {result.insufficientData ? (
+        /* Too few ingredients were recognized for the grade to be meaningful */
+        <div
+          className="flex flex-col items-center gap-3 rounded-2xl border border-amber-700/50 bg-amber-900/20 px-4 py-6 text-center"
+          data-testid="insufficient-data"
+        >
+          <p className="text-lg font-bold text-amber-200">
+            {tg("insufficientDataLabel")}
+          </p>
+          <p className="text-sm leading-relaxed text-amber-100/80">
+            {tg("verdictInsufficientData", {
+              unknownCount: String(result.summary.unknownCount),
+              totalIngredients: String(result.summary.totalIngredients),
+            })}
+          </p>
+        </div>
+      ) : (
+        <>
+          {/* Grade Badge */}
+          <AnimatedGradeBadge grade={result.grade} score={result.score} />
 
-      {/* Verdict */}
-      <p
-        className="text-center text-base leading-relaxed text-neutral-300"
-        data-testid="verdict"
-      >
-        {result.verdict}
-      </p>
+          {/* Verdict */}
+          <p
+            className="text-center text-base leading-relaxed text-neutral-300"
+            data-testid="verdict"
+          >
+            {localizedVerdict}
+          </p>
+        </>
+      )}
 
       {/* Legal Disclaimer */}
       <div className="text-center">

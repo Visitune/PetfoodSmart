@@ -55,6 +55,7 @@ function makeResult(overrides: Partial<AnalysisResult> = {}): AnalysisResult {
     ingredients: [makeIngredient()],
     summary: makeSummary(),
     verdict: "Good quality food.",
+    insufficientData: false,
     ...overrides,
   };
 }
@@ -204,7 +205,7 @@ describe("ShareButton", () => {
 
     expect(mockShare).toHaveBeenCalledWith(
       expect.objectContaining({
-        title: "ToxicPaw Pet Food Score",
+        title: "PetFoodSmart Pet Food Score",
         text: expect.stringContaining("Royal Canin"),
         files: expect.any(Array),
       }),

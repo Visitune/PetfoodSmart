@@ -165,6 +165,7 @@ function makeResult(
     ],
     summary: makeSummary(),
     verdict: "Good quality food with mostly safe ingredients.",
+    insufficientData: false,
     ...overrides,
   };
 }

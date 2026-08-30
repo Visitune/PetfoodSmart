@@ -18,7 +18,7 @@ beforeAll(async () => {
 describe("Ranking OG Image", () => {
   describe("metadata exports", () => {
     it("exports correct alt text", () => {
-      expect(ogModule.alt).toBe("Pet Food Safety Rankings | ToxicPaw");
+      expect(ogModule.alt).toBe("Pet Food Safety Rankings | PetFoodSmart");
     });
 
     it("exports standard OG dimensions", () => {

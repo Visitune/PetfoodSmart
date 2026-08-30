@@ -29,6 +29,7 @@ function makeResult(overrides: Partial<AnalysisResult> = {}): AnalysisResult {
       concernPercentage: 20,
     },
     verdict: "Good quality food overall.",
+    insufficientData: false,
     ...overrides,
   };
 }

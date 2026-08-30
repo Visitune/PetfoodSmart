@@ -103,6 +103,7 @@ function makeResult(overrides: Partial<AnalysisResult> = {}): AnalysisResult {
     ],
     summary: makeSummary({ safeCount: 2, harmfulCount: 1 }),
     verdict: "Good quality food with mostly safe ingredients.",
+    insufficientData: false,
     ...overrides,
   };
 }
@@ -184,11 +185,26 @@ describe("IngredientList", () => {
 });
 
 describe("AnalysisView", () => {
-  it("renders the verdict text", () => {
-    render(<AnalysisView result={makeResult()} onScanAnother={jest.fn()} />);
+  it("renders the localized verdict text for the grade (ignores the raw result.verdict field)", () => {
+    render(<AnalysisView result={makeResult({ grade: "B" })} onScanAnother={jest.fn()} />);
     expect(screen.getByTestId("verdict")).toHaveTextContent(
-      "Good quality food with mostly safe ingredients."
+      "Our analysis considers this food to have good ingredient quality."
     );
+  });
+
+  it("shows an insufficient-data message instead of the grade when too many ingredients are unrecognized", () => {
+    render(
+      <AnalysisView
+        result={makeResult({
+          insufficientData: true,
+          summary: makeSummary({ totalIngredients: 4, unknownCount: 3, safeCount: 1 }),
+        })}
+        onScanAnother={jest.fn()}
+      />
+    );
+    expect(screen.getByTestId("insufficient-data")).toBeInTheDocument();
+    expect(screen.queryByTestId("verdict")).not.toBeInTheDocument();
+    expect(screen.queryByRole("img", { name: /Grade/i })).not.toBeInTheDocument();
   });
 
   it("renders Scan Another button", () => {

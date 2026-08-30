@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getAllAnalyzedBrands } from "@/lib/brands";
 import { GRADE_HEX, OG_WIDTH, OG_HEIGHT } from "@/lib/og/constants";
 
-export const alt = "ToxicPaw - Pet Food Ingredient Scanner";
+export const alt = "PetFoodSmart - Pet Food Ingredient Scanner";
 export const size = { width: OG_WIDTH, height: OG_HEIGHT };
 export const contentType = "image/png";
 
@@ -73,7 +73,7 @@ export default async function OgImage() {
               letterSpacing: "-0.02em",
             }}
           >
-            ToxicPaw
+            PetFoodSmart
           </div>
           <div
             style={{

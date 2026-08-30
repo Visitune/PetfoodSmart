@@ -240,7 +240,7 @@ describe("useSetLocale", () => {
       screen.getByText("Switch").click();
     });
 
-    expect(setItemSpy).toHaveBeenCalledWith("toxicpaw-locale", "zh");
+    expect(setItemSpy).toHaveBeenCalledWith("petfoodsmart-locale", "zh");
     setItemSpy.mockRestore();
   });
 });

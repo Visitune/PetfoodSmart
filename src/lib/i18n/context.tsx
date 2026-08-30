@@ -12,14 +12,20 @@ import {
 import type { Locale, Messages, TranslateFunction } from "./types";
 import enMessages from "../../../messages/en.json";
 import zhMessages from "../../../messages/zh.json";
+import frMessages from "../../../messages/fr.json";
+import esMessages from "../../../messages/es.json";
+import nlMessages from "../../../messages/nl.json";
 
 const ALL_MESSAGES: Record<Locale, Messages> = {
   en: enMessages as Messages,
   zh: zhMessages as Messages,
+  fr: frMessages as Messages,
+  es: esMessages as Messages,
+  nl: nlMessages as Messages,
 };
 
-const LOCALES: readonly Locale[] = ["en", "zh"] as const;
-const STORAGE_KEY = "toxicpaw-locale";
+const LOCALES: readonly Locale[] = ["en", "zh", "fr", "es", "nl"] as const;
+const STORAGE_KEY = "petfoodsmart-locale";
 
 interface I18nContextValue {
   locale: Locale;
@@ -37,7 +43,12 @@ function detectLocale(): Locale {
   } catch {
     // localStorage may be unavailable
   }
-  return navigator.language.startsWith("zh") ? "zh" : "en";
+  const lang = navigator.language.toLowerCase();
+  if (lang.startsWith("zh")) return "zh";
+  if (lang.startsWith("fr")) return "fr";
+  if (lang.startsWith("es")) return "es";
+  if (lang.startsWith("nl")) return "nl";
+  return "en";
 }
 
 interface I18nProviderProps {

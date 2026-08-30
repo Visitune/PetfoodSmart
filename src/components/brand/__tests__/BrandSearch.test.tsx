@@ -60,16 +60,12 @@ describe("BrandSearch", () => {
     expect(screen.getByTestId("brand-search-input")).toBeInTheDocument();
   });
 
-  it("renders placeholder text with bilingual hint", () => {
+  it("renders placeholder text", () => {
     render(<BrandSearch />);
     const input = screen.getByTestId("brand-search-input");
     expect(input).toHaveAttribute(
       "placeholder",
       expect.stringContaining("Search a brand")
-    );
-    expect(input).toHaveAttribute(
-      "placeholder",
-      expect.stringContaining("搜索品牌")
     );
   });
 

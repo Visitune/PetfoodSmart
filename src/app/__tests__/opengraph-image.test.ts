@@ -18,7 +18,7 @@ beforeAll(async () => {
 describe("Homepage OG Image", () => {
   describe("metadata exports", () => {
     it("exports correct alt text", () => {
-      expect(ogModule.alt).toBe("ToxicPaw - Pet Food Ingredient Scanner");
+      expect(ogModule.alt).toBe("PetFoodSmart - Pet Food Ingredient Scanner");
     });
 
     it("exports standard OG dimensions", () => {

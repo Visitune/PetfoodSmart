@@ -33,6 +33,7 @@ function makeEntry(
       },
       verdict:
         grade === "A" ? "Excellent food!" : "Could be better.",
+      insufficientData: false,
     } as AnalysisResult,
     ...overrides,
   };

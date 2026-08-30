@@ -70,8 +70,8 @@ describe("LandingPage (F017 - Demo-first)", () => {
   // ---- Hero / Branding ----
   it("renders the app name", () => {
     render(<LandingPage {...defaultProps} />);
-    expect(screen.getByText("Paw")).toBeInTheDocument();
-    expect(screen.getByText("Toxic")).toBeInTheDocument();
+    expect(screen.getByText("Smart")).toBeInTheDocument();
+    expect(screen.getByText("PetFood")).toBeInTheDocument();
   });
 
   it("renders a concise tagline", () => {
@@ -235,10 +235,10 @@ describe("F034 - Hero visual overhaul", () => {
     jest.clearAllMocks();
   });
 
-  it("title Paw has animated gradient class", () => {
+  it("title Smart has animated gradient class", () => {
     render(<LandingPage {...defaultProps} />);
-    const paw = screen.getByText("Paw");
-    expect(paw).toHaveClass("hero-gradient-text");
+    const smart = screen.getByText("Smart");
+    expect(smart).toHaveClass("hero-gradient-text");
   });
 
   it("search bar has glow animation when idle", () => {

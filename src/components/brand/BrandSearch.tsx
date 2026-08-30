@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { searchBrands, getAllBrands, getBrandGrade, getPetEmoji } from "@/lib/brands";
 import type { Grade } from "@/lib/analyzer/types";
 import { GRADE_COLORS } from "@/lib/grade";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLocale } from "@/lib/i18n";
 
 interface BrandSearchProps {
   onScanOwn?: () => void;
@@ -21,6 +21,7 @@ const dropdownVariants = {
 export function BrandSearch({ onScanOwn }: BrandSearchProps) {
   const [query, setQuery] = useState("");
   const { t } = useTranslation("brand");
+  const locale = useLocale();
 
   const allBrands = useMemo(() => getAllBrands(), []);
 
@@ -97,7 +98,8 @@ export function BrandSearch({ onScanOwn }: BrandSearchProps) {
                             {brand.brand} — {brand.product}
                           </p>
                           <p className="truncate text-xs text-neutral-500">
-                            {brand.brandCn} {brand.productCn} · {getPetEmoji(brand.petType)}
+                            {locale === "zh" ? `${brand.brandCn} ${brand.productCn} · ` : ""}
+                            {getPetEmoji(brand.petType)}
                           </p>
                         </div>
                       </Link>

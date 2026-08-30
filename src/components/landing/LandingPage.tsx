@@ -17,7 +17,7 @@ import { getAllAnalyzedBrands, searchBrands, getBrandGrade, getPetEmoji } from "
 import type { AnalyzedBrand } from "@/lib/brands/types";
 import type { Grade } from "@/lib/analyzer/types";
 import { GRADE_COLORS, GRADE_TEXT_COLORS } from "@/lib/grade";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLocale } from "@/lib/i18n";
 import { CountUp, ScrollReveal } from "@/components/motion";
 import { Disclaimer } from "@/components/shared/Disclaimer";
 
@@ -64,6 +64,7 @@ function MiniGradeBadge({ grade }: { grade: Grade }) {
 }
 
 function BrandListItem({ brand }: { brand: AnalyzedBrand }) {
+  const locale = useLocale();
   return (
     <Link
       href={`/brand/${brand.slug}`}
@@ -75,7 +76,8 @@ function BrandListItem({ brand }: { brand: AnalyzedBrand }) {
           {brand.brand} — {brand.product}
         </p>
         <p className="truncate text-xs text-neutral-500">
-          {brand.brandCn} {brand.productCn} · {getPetEmoji(brand.petType)}
+          {locale === "zh" ? `${brand.brandCn} ${brand.productCn} · ` : ""}
+          {getPetEmoji(brand.petType)}
         </p>
       </div>
       <span className={`text-sm font-bold ${GRADE_TEXT_COLORS[brand.analysis.grade]}`}>
@@ -98,6 +100,7 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
   const { t: tc } = useTranslation("common");
   const { t: tl } = useTranslation("legal");
   const { t: tm } = useTranslation("methodology");
+  const locale = useLocale();
   const [trustRef, trustInView] = useInView(0.3);
   const [supportsIO, setSupportsIO] = useState(false);
   useEffect(() => {
@@ -149,7 +152,7 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
       {/* Compact Hero */}
       <section className="pt-12 pb-6 text-center">
         <h1 className="text-4xl font-black tracking-tight">
-          Toxic<span className="hero-gradient-text">Paw</span>
+          PetFood<span className="hero-gradient-text">Smart</span>
         </h1>
         <p className="mt-2 text-sm text-neutral-400">
           {t("tagline")}
@@ -220,7 +223,8 @@ export function LandingPage({ onStartScan, onViewHistory }: LandingPageProps) {
                               {brand.brand} — {brand.product}
                             </p>
                             <p className="truncate text-xs text-neutral-500">
-                              {brand.brandCn} {brand.productCn} · {getPetEmoji(brand.petType)}
+                              {locale === "zh" ? `${brand.brandCn} ${brand.productCn} · ` : ""}
+                              {getPetEmoji(brand.petType)}
                             </p>
                           </div>
                         </Link>
