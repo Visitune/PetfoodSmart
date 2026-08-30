@@ -6,7 +6,16 @@
  * (the UI's current language + English) rather than always loading every
  * supported language, since each additional pack is a real download/memory
  * cost that has caused OCR to fail outright on some mobile devices.
- * The worker is created on-demand and reused for performance.
+ *
+ * The worker script and core WASM builds are served from our own /public
+ * folder (see workerPath/corePath below) instead of Tesseract.js's default
+ * jsdelivr CDN. By default, every scan depends on that third-party CDN being
+ * reachable from the user's phone/network — if it's blocked or unreachable
+ * (ad blocker, carrier content filter, flaky mobile connection), the worker
+ * fails before it ever reports a single progress event, surfacing as an
+ * opaque `undefined` rejection. Self-hosting removes that dependency.
+ * Language traineddata (eng/fra/spa/nld/chi_sim) is self-hosted too, for the
+ * same reason.
  */
 
 import type { OcrResult } from './types';
@@ -17,6 +26,11 @@ const MIN_CONFIDENCE = 60;
 
 /** Fallback Tesseract.js language string when the caller doesn't specify one */
 const DEFAULT_OCR_LANGUAGES = 'eng';
+
+/** Self-hosted worker script, core WASM, and language data (see public/tesseract) */
+const WORKER_PATH = '/tesseract/worker.min.js';
+const CORE_PATH = '/tesseract/core';
+const LANG_PATH = '/tesseract/lang-data';
 
 /**
  * Extract text from an image using Tesseract.js OCR.
@@ -42,6 +56,9 @@ export async function recognizeText(
   let result;
   try {
     result = await Tesseract.recognize(imageDataUrl, languages, {
+      workerPath: WORKER_PATH,
+      corePath: CORE_PATH,
+      langPath: LANG_PATH,
       logger: (m) => {
         lastStatus = `${m.status} (${Math.round(m.progress * 100)}%)`;
       },
