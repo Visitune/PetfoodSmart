@@ -3,6 +3,8 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { extractIngredients } from "@/lib/ocr";
 import { analyzeIngredients } from "@/lib/analyzer";
+import { productToParsedIngredients } from "@/lib/barcode";
+import type { BarcodeProduct } from "@/lib/barcode";
 import { saveProfile, loadProfile } from "@/lib/profile";
 import {
   loadHistory,
@@ -45,6 +47,7 @@ export type AppState =
 export function useAppState() {
   const [state, setState] = useState<AppState>("idle");
   const [analysisResult, setAnalysisResult] = useState<AnalysisResult | null>(null);
+  const [lastFoodName, setLastFoodName] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState("");
   const [petProfile, setPetProfile] = useState<PetProfile | null>(null);
   const [historyEntries, setHistoryEntries] = useState<ScanHistoryEntry[]>([]);
@@ -70,6 +73,7 @@ export function useAppState() {
   const handleStartScan = useCallback(() => {
     setState("scanning");
     setAnalysisResult(null);
+    setLastFoodName(null);
     setErrorMessage("");
     setSavedToHistory(false);
   }, []);
@@ -103,12 +107,28 @@ export function useAppState() {
   const handleReset = useCallback(() => {
     setState("idle");
     setAnalysisResult(null);
+    setLastFoodName(null);
     setErrorMessage("");
     setSavedToHistory(false);
     setCompareMode(false);
     setComparisonPair(null);
     setSelectedHistoryEntry(null);
   }, []);
+
+  /**
+   * Shared analysis entry point: parsed ingredients (from OCR or barcode)
+   * go through the exact same analyze → ceremony pipeline.
+   */
+  const handleIngredientsReady = useCallback((ingredients: ParsedIngredient[], foodName?: string) => {
+    lastParsedIngredients.current = ingredients;
+    setLastFoodName(foodName ?? null);
+    const result = analyzeIngredients(
+      ingredients,
+      petProfile ?? undefined
+    );
+    setAnalysisResult(result);
+    setState("ceremony");
+  }, [petProfile]);
 
   const handleImageConfirmed = useCallback(async (imageDataUrl: string) => {
     setState("analyzing");
@@ -121,16 +141,15 @@ export function useAppState() {
       return;
     }
 
-    // Store parsed ingredients for potential re-analysis with profile
-    lastParsedIngredients.current = extraction.ingredients;
+    handleIngredientsReady(extraction.ingredients);
+  }, [petProfile, locale, handleIngredientsReady]);
 
-    const result = analyzeIngredients(
-      extraction.ingredients,
-      petProfile ?? undefined
-    );
-    setAnalysisResult(result);
-    setState("ceremony");
-  }, [petProfile, locale]);
+  /** Barcode product resolved (Open Pet Food Facts) → same pipeline */
+  const handleBarcodeConfirmed = useCallback((product: BarcodeProduct) => {
+    const ingredients = productToParsedIngredients(product);
+    const foodName = [product.brand, product.productName].filter(Boolean).join(" — ") || undefined;
+    handleIngredientsReady(ingredients, foodName);
+  }, [handleIngredientsReady]);
 
   const handleCeremonyComplete = useCallback(() => {
     setState("results");
@@ -186,6 +205,7 @@ export function useAppState() {
   return {
     state,
     analysisResult,
+    lastFoodName,
     errorMessage,
     petProfile,
     historyEntries,
@@ -199,6 +219,7 @@ export function useAppState() {
     handlePersonalize,
     handleReset,
     handleImageConfirmed,
+    handleBarcodeConfirmed,
     handleCeremonyComplete,
     handleSaveToHistory,
     handleOpenHistory,

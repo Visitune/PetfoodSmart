@@ -20,6 +20,7 @@ export default function Home() {
   const {
     state,
     analysisResult,
+    lastFoodName,
     errorMessage,
     petProfile,
     historyEntries,
@@ -33,6 +34,7 @@ export default function Home() {
     handlePersonalize,
     handleReset,
     handleImageConfirmed,
+    handleBarcodeConfirmed,
     handleCeremonyComplete,
     handleSaveToHistory,
     handleOpenHistory,
@@ -116,6 +118,7 @@ export default function Home() {
             onSaveToHistory={handleSaveToHistory}
             onPersonalize={handlePersonalize}
             saved={savedToHistory}
+            initialFoodName={lastFoodName}
           />
         </motion.main>
       );
@@ -295,7 +298,7 @@ export default function Home() {
             <h2 className="mb-6 text-xl font-bold text-neutral-100">
               {ts("title")}
             </h2>
-            <Scanner onImageConfirmed={handleImageConfirmed} />
+            <Scanner onImageConfirmed={handleImageConfirmed} onProductResolved={handleBarcodeConfirmed} />
           </div>
         </motion.main>
       );

@@ -5,18 +5,24 @@ import { useTranslation } from "@/lib/i18n";
 import { CameraCapture } from "./CameraCapture";
 import { ImageUpload } from "./ImageUpload";
 import { ImagePreview } from "./ImagePreview";
+import { BarcodePanel } from "@/components/barcode/BarcodePanel";
+import type { BarcodeProduct } from "@/lib/barcode";
 
 type ScannerState = "capture" | "preview";
+type ScannerMode = "label" | "barcode";
 
 interface ScannerProps {
   onImageConfirmed: (imageDataUrl: string) => void;
+  onProductResolved: (product: BarcodeProduct) => void;
 }
 
-export function Scanner({ onImageConfirmed }: ScannerProps) {
+export function Scanner({ onImageConfirmed, onProductResolved }: ScannerProps) {
   const [state, setState] = useState<ScannerState>("capture");
+  const [mode, setMode] = useState<ScannerMode>("label");
   const [imageData, setImageData] = useState<string | null>(null);
   const [cameraError, setCameraError] = useState<string | null>(null);
   const { t } = useTranslation("common");
+  const { t: ts } = useTranslation("scanner");
 
   const hasCamera = typeof navigator !== "undefined" && !!navigator.mediaDevices;
 
@@ -53,6 +59,30 @@ export function Scanner({ onImageConfirmed }: ScannerProps) {
 
   return (
     <div className="flex flex-col gap-6">
+      <div role="tablist" aria-label={ts("modeLabel")} className="grid grid-cols-2 gap-1 rounded-xl bg-neutral-800 p-1">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mode === "label"}
+          onClick={() => setMode("label")}
+          className={`rounded-lg px-4 py-2 text-sm font-medium ${mode === "label" ? "bg-neutral-700 text-white" : "text-neutral-400"}`}
+        >
+          {ts("tabLabel")}
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mode === "barcode"}
+          onClick={() => setMode("barcode")}
+          className={`rounded-lg px-4 py-2 text-sm font-medium ${mode === "barcode" ? "bg-neutral-700 text-white" : "text-neutral-400"}`}
+        >
+          {ts("tabBarcode")}
+        </button>
+      </div>
+      {mode === "barcode" ? (
+        <BarcodePanel onProductResolved={onProductResolved} />
+      ) : (
+      <>
       {hasCamera && !cameraError && (
         <CameraCapture onCapture={handleImage} onError={handleCameraError} />
       )}
@@ -69,6 +99,8 @@ export function Scanner({ onImageConfirmed }: ScannerProps) {
         )}
         <ImageUpload onImageSelected={handleImage} />
       </div>
+      </>
+      )}
     </div>
   );
 }

@@ -23,6 +23,8 @@ interface AnalysisViewProps {
   onSaveToHistory?: (foodName: string) => void;
   onPersonalize?: () => void;
   saved?: boolean;
+  /** Prefilled save name (e.g. from a barcode lookup) */
+  initialFoodName?: string | null;
 }
 
 /** Build the request payload for /api/explain */
@@ -47,10 +49,10 @@ function buildExplainPayload(result: AnalysisResult): ExplainRequest {
   };
 }
 
-export function AnalysisView({ result, onScanAnother, onSaveToHistory, onPersonalize, saved = false }: AnalysisViewProps) {
+export function AnalysisView({ result, onScanAnother, onSaveToHistory, onPersonalize, saved = false, initialFoodName }: AnalysisViewProps) {
   const [aiExplanation, setAiExplanation] = useState<string>("");
   const [aiLoading, setAiLoading] = useState(true);
-  const [foodName, setFoodName] = useState("");
+  const [foodName, setFoodName] = useState(initialFoodName ?? "");
   const [showSaveInput, setShowSaveInput] = useState(false);
   const { t } = useTranslation("analysis");
   const { t: tg } = useTranslation("grade");

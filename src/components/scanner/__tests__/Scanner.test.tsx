@@ -137,7 +137,7 @@ describe("ImagePreview", () => {
 // --- Scanner (Orchestrator) Tests ---
 describe("Scanner", () => {
   it("renders camera and upload options by default", () => {
-    render(<Scanner onImageConfirmed={jest.fn()} />);
+    render(<Scanner onImageConfirmed={jest.fn()} onProductResolved={jest.fn()} />);
     expect(screen.getByText(/upload/i)).toBeInTheDocument();
   });
 
@@ -148,12 +148,12 @@ describe("Scanner", () => {
       writable: true,
       configurable: true,
     });
-    render(<Scanner onImageConfirmed={jest.fn()} />);
+    render(<Scanner onImageConfirmed={jest.fn()} onProductResolved={jest.fn()} />);
     expect(screen.getByText(/upload/i)).toBeInTheDocument();
   });
 
   it("shows preview after image is uploaded", async () => {
-    render(<Scanner onImageConfirmed={jest.fn()} />);
+    render(<Scanner onImageConfirmed={jest.fn()} onProductResolved={jest.fn()} />);
     const input = screen.getByTestId("file-input") as HTMLInputElement;
     const file = new File(["pixels"], "label.png", { type: "image/png" });
     fireEvent.change(input, { target: { files: [file] } });
@@ -163,7 +163,7 @@ describe("Scanner", () => {
   });
 
   it("returns to capture mode on retake", async () => {
-    render(<Scanner onImageConfirmed={jest.fn()} />);
+    render(<Scanner onImageConfirmed={jest.fn()} onProductResolved={jest.fn()} />);
     const input = screen.getByTestId("file-input") as HTMLInputElement;
     const file = new File(["pixels"], "label.png", { type: "image/png" });
     fireEvent.change(input, { target: { files: [file] } });
