@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-03-19",
+  "version": "1.1.0",
+  "last_updated": "2026-09-13",
   "ingredients": [
     {
       "name": "Chicken",
@@ -1723,7 +1723,11 @@
         "E320"
       ],
       "explanation_zh": "人工合成抗氧化剂（丁基羟基茴香醚）。部分研究对其安全性提出关注。FDA批准在宠物食品中按规定量使用。",
-      "sources": ["FDA CVM", "AAFCO", "IARC"]
+      "sources": ["FDA CVM", "AAFCO", "IARC"],
+      "eu_status": "restreint",
+      "eu_ref": "Règl. (CE) n° 1831/2003 — Registre UE des additifs (antioxydant E320, teneurs maximales)",
+      "eu_note": "Antioxydant autorisé en alimentation animale UE avec teneurs maximales.",
+      "eu_review": "a_valider"
     },
     {
       "name": "BHT",
@@ -1737,7 +1741,11 @@
         "E321"
       ],
       "explanation_zh": "人工合成防腐剂（二丁基羟基甲苯）。安全性受到质疑。",
-      "sources": ["FDA CVM", "AAFCO", "IARC"]
+      "sources": ["FDA CVM", "AAFCO", "IARC"],
+      "eu_status": "restreint",
+      "eu_ref": "Règl. (CE) n° 1831/2003 — Registre UE des additifs (antioxydant E321, teneurs maximales)",
+      "eu_note": "Antioxydant autorisé en alimentation animale UE avec teneurs maximales.",
+      "eu_review": "a_valider"
     },
     {
       "name": "Ethoxyquin",
@@ -1750,7 +1758,11 @@
         "E324"
       ],
       "explanation_zh": "合成防腐剂，最初用作农药。部分研究对长期暴露的安全性提出关注。一些国家已对人类食品中的使用进行限制；FDA已限制其在宠物食品中的使用量。",
-      "sources": ["FDA CVM", "AAFCO", "IARC"]
+      "sources": ["FDA CVM", "AAFCO", "IARC"],
+      "eu_status": "non_autorise_ue",
+      "eu_ref": "UE — autorisation suspendue en 2017 (éthoxyquine E324)",
+      "eu_note": "Autorisation non renouvelée/suspendue dans l'UE depuis 2017 — référence exacte du règlement à confirmer par l'expert.",
+      "eu_review": "a_valider"
     },
     {
       "name": "Sodium Nitrite",
@@ -1791,7 +1803,11 @@
         "E319"
       ],
       "explanation_zh": "人工合成防腐剂。安全性存在严重顾虑，不推荐用于宠物食品。",
-      "sources": ["FDA CVM", "AAFCO", "IARC"]
+      "sources": ["FDA CVM", "AAFCO", "IARC"],
+      "eu_status": "a_evaluer",
+      "eu_ref": "Règl. (CE) n° 1831/2003 — Registre UE des additifs (à vérifier)",
+      "eu_note": "Additif alimentaire humain (E319) — statut en alimentation animale UE à confirmer au Registre.",
+      "eu_review": "a_valider"
     },
     {
       "name": "Potassium Sorbate",
@@ -1834,7 +1850,11 @@
         "E129"
       ],
       "explanation_zh": "人工色素，部分研究将其与多动和行为问题相关联。FDA批准用于食品。宠物食品中无营养必要性。",
-      "sources": ["FDA CVM", "CSPI"]
+      "sources": ["FDA CVM", "CSPI"],
+      "eu_status": "a_evaluer",
+      "eu_ref": "Règl. (CE) n° 1831/2003 — Registre UE des additifs (à vérifier)",
+      "eu_note": "Colorant (E129) — autorisation UE en alimentation animale à confirmer au Registre.",
+      "eu_review": "a_valider"
     },
     {
       "name": "Yellow 5",
@@ -1850,7 +1870,11 @@
         "E102"
       ],
       "explanation_zh": "人工色素（柠檬黄），可能引发过敏反应。纯粹为视觉效果添加。",
-      "sources": ["FDA CVM", "CSPI"]
+      "sources": ["FDA CVM", "CSPI"],
+      "eu_status": "a_evaluer",
+      "eu_ref": "Règl. (CE) n° 1831/2003 — Registre UE des additifs (à vérifier)",
+      "eu_note": "Colorant (E102) — autorisation UE en alimentation animale à confirmer au Registre.",
+      "eu_review": "a_valider"
     },
     {
       "name": "Yellow 6",
@@ -1926,7 +1950,11 @@
         "E150"
       ],
       "explanation_zh": "加工着色剂。某些类型可能含有4-甲基咪唑，部分研究对此成分提出关注。FDA批准用于食品。",
-      "sources": ["FDA CVM", "AAFCO"]
+      "sources": ["FDA CVM", "AAFCO"],
+      "eu_status": "a_evaluer",
+      "eu_ref": "Règl. (CE) n° 1831/2003 — Registre UE des additifs (à vérifier)",
+      "eu_note": "Colorant caramel (E150) — conditions d'emploi UE en alimentation animale à confirmer.",
+      "eu_review": "a_valider"
     },
     {
       "name": "Iron Oxide",

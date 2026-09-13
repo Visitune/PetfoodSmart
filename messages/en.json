@@ -88,7 +88,11 @@
     "ceremonyAriaLabel": "Analyzing your pet food",
     "ceremonyScan": "Scanning ingredient label…",
     "ceremonyExtract": "Extracting ingredients…",
-    "ceremonyCategorize": "Categorizing safety…"
+    "ceremonyCategorize": "Categorizing safety…",
+    "euAuthorised": "EU authorised",
+    "euRestricted": "EU restricted",
+    "euBanned": "Not allowed in EU",
+    "euToReview": "EU status to review"
   },
   "grade": {
     "A": "Excellent",

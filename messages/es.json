@@ -88,7 +88,11 @@
     "ceremonyAriaLabel": "Analizando la comida de tu mascota",
     "ceremonyScan": "Escaneando etiqueta de ingredientes…",
     "ceremonyExtract": "Extrayendo ingredientes…",
-    "ceremonyCategorize": "Categorizando la seguridad…"
+    "ceremonyCategorize": "Categorizando la seguridad…",
+    "euAuthorised": "Autorizado UE",
+    "euRestricted": "Restringido UE",
+    "euBanned": "No autorizado en la UE",
+    "euToReview": "Estado UE por revisar"
   },
   "grade": {
     "A": "Excelente",

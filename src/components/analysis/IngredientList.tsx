@@ -11,6 +11,7 @@
 
 import { motion, type Variants } from "framer-motion";
 import type { AnalyzedIngredient, IngredientFlag } from "@/lib/analyzer/types";
+import type { EuStatus } from "@/lib/knowledge/types";
 import { useTranslation } from "@/lib/i18n";
 import { lookupIngredient } from "@/lib/knowledge";
 
@@ -67,7 +68,15 @@ interface IngredientItemProps {
   flagLabel: string;
 }
 
+const EU_BADGE_LABEL_KEYS: Record<EuStatus, string> = {
+  autorise: "euAuthorised",
+  restreint: "euRestricted",
+  non_autorise_ue: "euBanned",
+  a_evaluer: "euToReview",
+};
+
 function IngredientItem({ ingredient, locale, flagLabel }: IngredientItemProps) {
+  const { t } = useTranslation("analysis");
   const dotStyle = FLAG_DOT_STYLES[ingredient.flag];
   const badgeStyle = FLAG_BADGE_STYLES[ingredient.flag];
 
@@ -93,6 +102,15 @@ function IngredientItem({ ingredient, locale, flagLabel }: IngredientItemProps) 
           <span className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${badgeStyle}`}>
             {flagLabel}
           </span>
+          {ingredient.knownIngredient?.eu_status && (
+            <span
+              className="rounded-full border border-sky-500/30 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-sky-300"
+              title={ingredient.knownIngredient.eu_ref ?? ""}
+              data-testid={`eu-badge-${ingredient.knownIngredient.eu_status}`}
+            >
+              {t(EU_BADGE_LABEL_KEYS[ingredient.knownIngredient.eu_status])}
+            </span>
+          )}
           <span className="ml-auto text-xs tabular-nums text-neutral-600">
             #{ingredient.position + 1}
           </span>

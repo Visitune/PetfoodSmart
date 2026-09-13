@@ -88,7 +88,11 @@
     "ceremonyAriaLabel": "Voer van je huisdier analyseren",
     "ceremonyScan": "Ingrediëntenetiket scannen…",
     "ceremonyExtract": "Ingrediënten extraheren…",
-    "ceremonyCategorize": "Veiligheid categoriseren…"
+    "ceremonyCategorize": "Veiligheid categoriseren…",
+    "euAuthorised": "EU-toegestaan",
+    "euRestricted": "EU-beperkt",
+    "euBanned": "Niet toegestaan in de EU",
+    "euToReview": "EU-status te beoordelen"
   },
   "grade": {
     "A": "Uitstekend",

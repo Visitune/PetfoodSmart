@@ -13,11 +13,29 @@ import brandsData from "../../../../data/brands.json";
 
 describe("Ingredient Knowledge Base", () => {
   describe("getKnowledgeBaseInfo", () => {
-    it("returns correct metadata", () => {
+    it("returns valid version metadata (semver + ISO date, never pinned)", () => {
       const info = getKnowledgeBaseInfo();
-      expect(info.version).toBe("1.0.0");
-      expect(info.lastUpdated).toBe("2026-03-19");
+      expect(info.version).toMatch(/^\d+\.\d+\.\d+$/);
+      expect(info.lastUpdated).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       expect(info.totalIngredients).toBeGreaterThanOrEqual(500);
+    });
+  });
+
+  describe("EU regulatory status (point 1: ancrage UE)", () => {
+    it.each([
+      ["BHA", "restreint"],
+      ["BHT", "restreint"],
+      ["Ethoxyquin", "non_autorise_ue"],
+      ["TBHQ", "a_evaluer"],
+      ["Red 40", "a_evaluer"],
+      ["Yellow 5", "a_evaluer"],
+      ["Caramel Color", "a_evaluer"],
+    ])("%s carries eu_status=%s with an EU reference", (name, status) => {
+      const result = lookupIngredient(name);
+      expect(result).not.toBeNull();
+      expect(result!.ingredient.eu_status).toBe(status);
+      expect(result!.ingredient.eu_ref).toMatch(/1831\/2003|UE/i);
+      expect(result!.ingredient.eu_review).toBe("a_valider");
     });
   });
 

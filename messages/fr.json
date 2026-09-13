@@ -88,7 +88,11 @@
     "ceremonyAriaLabel": "Analyse de l'aliment de votre animal",
     "ceremonyScan": "Scan de l'étiquette d'ingrédients…",
     "ceremonyExtract": "Extraction des ingrédients…",
-    "ceremonyCategorize": "Catégorisation de la sécurité…"
+    "ceremonyCategorize": "Catégorisation de la sécurité…",
+    "euAuthorised": "Autorisé UE",
+    "euRestricted": "Restreint UE",
+    "euBanned": "Non autorisé UE",
+    "euToReview": "Statut UE à vérifier"
   },
   "grade": {
     "A": "Excellent",

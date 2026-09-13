@@ -88,7 +88,11 @@
     "ceremonyAriaLabel": "正在分析宠物粮",
     "ceremonyScan": "扫描配料表…",
     "ceremonyExtract": "提取成分中…",
-    "ceremonyCategorize": "分类安全性…"
+    "ceremonyCategorize": "分类安全性…",
+    "euAuthorised": "欧盟许可",
+    "euRestricted": "欧盟受限",
+    "euBanned": "欧盟禁用",
+    "euToReview": "欧盟状态待确认"
   },
   "grade": {
     "A": "优秀",
