@@ -86,6 +86,14 @@ export function cleanParenthetical(text: string): string {
 
 /**
  * Parse raw OCR text into a structured ingredient list.
+ *
+ * EU/French labels make heavy use of parenthetical details:
+ * - "(dont poulet 4%)" — sub-ingredients that ARE in the food
+ * - "(riz 14%)" — percentage specifics
+ * Both are extracted as their own entries (appended after the main list,
+ * so they carry less position weight in scoring) instead of being dropped.
+ * Pure noise parens ("(conservé avec ...)", "(source de ...)") are still
+ * removed by cleanParenthetical.
  */
 export function parseIngredients(rawText: string): ParsedIngredient[] {
   if (!rawText || !rawText.trim()) {
@@ -116,26 +124,53 @@ export function parseIngredients(rawText: string): ParsedIngredient[] {
     .map((p) => p.split(DECIMAL_COMMA_PLACEHOLDER).join(','));
 
   const ingredients: ParsedIngredient[] = [];
+  // Sub-ingredients extracted from parens are appended after the main list
+  const extractedSub: string[] = [];
 
-  for (let i = 0; i < parts.length; i++) {
-    let part = cleanParenthetical(parts[i]);
-    const normalized = normalizeIngredient(part);
-
-    // Skip empty or too-short entries (likely OCR noise)
-    if (normalized.length < 2) {
-      continue;
-    }
-
-    // Skip entries that look like non-ingredient text
-    if (/^\d+$/.test(normalized)) {
-      continue;
-    }
-
+  const pushIngredient = (original: string, normalized: string) => {
+    if (normalized.length < 2) return; // skip OCR noise
+    if (/^\d+$/.test(normalized)) return; // skip pure numbers
     ingredients.push({
-      original: parts[i].trim(),
+      original,
       normalized,
       position: ingredients.length,
     });
+  };
+
+  const pushSubIngredient = (rawInner: string) => {
+    // Remove percentage values ("4%", "(14%)") then normalize
+    const withoutPct = rawInner.replace(/\(?\s*\d+[.,]?\d*\s*%\s*\)?/g, '').trim();
+    const normalized = normalizeIngredient(withoutPct);
+    if (normalized.length < 2) return;
+    if (/^\d+$/.test(normalized)) return;
+    extractedSub.push(withoutPct.trim());
+  };
+
+  for (let i = 0; i < parts.length; i++) {
+    let part = parts[i];
+
+    // 1. EU "(dont X)" = X is really in the food → extract X as sub-ingredient
+    part = part.replace(/\(\s*dont\s+([^)]*)\)/gi, (_m, inner: string) => {
+      pushSubIngredient(inner);
+      return '';
+    });
+
+    // 2. Remove noise parens (preserved with / source de / avec ...)
+    part = cleanParenthetical(part);
+
+    // 3. Any remaining parens ("(riz 14%)", "(saveur)") → extract content
+    part = part.replace(/\(\s*([^)]*)\)/g, (_m, inner: string) => {
+      pushSubIngredient(inner);
+      return '';
+    });
+
+    const normalized = normalizeIngredient(part);
+    pushIngredient(parts[i].trim(), normalized);
+  }
+
+  // Append extracted sub-ingredients after the main list
+  for (const sub of extractedSub) {
+    pushIngredient(sub, normalizeIngredient(sub));
   }
 
   return ingredients;

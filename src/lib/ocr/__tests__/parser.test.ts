@@ -200,4 +200,22 @@ describe('parseIngredients', () => {
     expect(result[0].original).toBe('Chicken Meal');
     expect(result[0].normalized).toBe('chicken meal');
   });
+
+  it('extracts EU "(dont X%)" sub-ingredients as extra entries', () => {
+    const result = parseIngredients('Composition : viandes (dont poulet 4%), riz');
+    expect(result.map((r) => r.normalized)).toEqual(['viandes', 'riz', 'poulet']);
+    // sub-ingredients are appended after the main list
+    expect(result[2].position).toBe(2);
+    expect(result[2].original).toBe('poulet');
+  });
+
+  it('extracts percentage specifics "(riz 14%)" as extra entries', () => {
+    const result = parseIngredients('Composition : céréales (riz 14%), sucre');
+    expect(result.map((r) => r.normalized)).toEqual(['céréales', 'sucre', 'riz']);
+  });
+
+  it('drops empty parens left after percentage removal', () => {
+    const result = parseIngredients('Composition : poulet (26%), riz');
+    expect(result.map((r) => r.normalized)).toEqual(['poulet', 'riz']);
+  });
 });

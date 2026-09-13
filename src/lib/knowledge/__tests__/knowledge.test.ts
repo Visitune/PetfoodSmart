@@ -103,6 +103,24 @@ describe("Ingredient Knowledge Base", () => {
       expect(result!.ingredient.name).toBe("Cereals");
     });
 
+    it("handles French plurals mid-string (carottes séchées → Dried Carrot)", () => {
+      const result = lookupIngredient("carottes séchées");
+      expect(result).not.toBeNull();
+      expect(result!.ingredient.name).toBe("Dried Carrot");
+    });
+
+    it("handles French -aux plurals (animaux → animal)", () => {
+      const result = lookupIngredient("sous-produits animaux");
+      expect(result).not.toBeNull();
+      expect(result!.ingredient.name).toBe("Animal By-Products");
+    });
+
+    it("keeps non-plural French -s words intact (riz, pois, cous)", () => {
+      expect(lookupIngredient("riz")?.ingredient.name).toBe("White Rice");
+      expect(lookupIngredient("petits pois")?.ingredient.name).toBe("Pea");
+      expect(lookupIngredient("cous de poulet")?.ingredient.name).toBe("Chicken Necks");
+    });
+
     it("handles whitespace and punctuation", () => {
       const result = lookupIngredient("  Chicken  ");
       expect(result).not.toBeNull();

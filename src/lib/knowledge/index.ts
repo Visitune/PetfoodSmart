@@ -52,15 +52,34 @@ function normalize(input: string): string {
 }
 
 /**
+ * Singularize a single word for fuzzy matching.
+ * Handles English (-s) and French plurals:
+ * - trailing -s stripped (légumes → légume, carottes → carotte)
+ * - French -aux → -al (animaux → animal, minéraux → minéral)
+ * Words whose final -s/-x is not a plural marker are kept:
+ * riz, maïs, pois, anchois, radis, cous, jus, os, frais, noix...
+ */
+function singularizeFr(word: string): string {
+  if (word.length <= 3) return word;
+  if (/aux$/.test(word)) return word.slice(0, -3) + "al";
+  if (/(ois|ais|is|as|os|us|iz|x)$/.test(word)) return word;
+  if (/s$/.test(word)) return word.slice(0, -1);
+  return word;
+}
+
+/**
  * Deep-normalize for fuzzy matching: accent-folded, strips hyphens,
- * collapses spaces, removes trailing 's' for plurals, removes OCR artifacts
+ * singularizes each word (EN + FR plurals), collapses spaces,
+ * removes OCR artifacts (apostrophes)
  */
 function deepNormalize(input: string): string {
   return fold(input)
-    .replace(/[-–—]/g, "") // Remove hyphens/dashes
+    .replace(/[-–—]/g, " ") // Hyphens/dashes become word separators
     .replace(/[''`]/g, "") // Remove apostrophes/backticks (OCR artifacts)
-    .replace(/\s+/g, "") // Remove all spaces
-    .replace(/s$/, ""); // Strip trailing 's' for plurals
+    .split(/\s+/)
+    .filter(Boolean)
+    .map(singularizeFr)
+    .join("");
 }
 
 for (const ingredient of knowledgeBase.ingredients) {
