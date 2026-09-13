@@ -42,7 +42,9 @@
       "explanation": "Made from chicken parts like necks, feet, and organs. Lower quality than named meat meals but still provides protein.",
       "common_aliases": [
         "Chicken By-Products",
-        "鸡副产品粉"
+        "鸡副产品粉",
+        "Farine de sous-produits de poulet",
+        "Sous-produits de poulet"
       ],
       "explanation_zh": "由鸡脖、鸡爪、内脏等部位制成。品质低于明确命名的肉类，但仍能提供蛋白质。",
       "sources": ["AAFCO"]
@@ -682,7 +684,8 @@
       "explanation": "Unspecified meat source - could come from any animal. Named meat meals are strongly preferred for traceability.",
       "common_aliases": [
         "Generic Meat Meal",
-        "肉粉"
+        "肉粉",
+        "Farine de viande"
       ],
       "explanation_zh": "来源不明确的副产品。品质无法保证，不推荐。",
       "sources": ["AAFCO"]
@@ -694,7 +697,9 @@
       "explanation": "Low-quality rendered product from unspecified animals. May include 4D meats (dead, dying, diseased, disabled). Avoid.",
       "common_aliases": [
         "MBM",
-        "肉骨粉"
+        "肉骨粉",
+        "Farine de viande et d'os",
+        "Farine d'os"
       ],
       "explanation_zh": "来源不明确的副产品。品质无法保证，不推荐。",
       "sources": ["AAFCO"]
@@ -706,7 +711,8 @@
       "explanation": "Generic, unspecified fat source. Named fats (chicken fat, salmon oil) are preferred for quality and traceability.",
       "common_aliases": [
         "Generic Animal Fat",
-        "动物脂肪"
+        "动物脂肪",
+        "Graisse animale"
       ],
       "explanation_zh": "未指明来源的动物脂肪。来源不明确是品质隐忧。",
       "sources": ["AAFCO"]
@@ -718,7 +724,9 @@
       "explanation": "Chemically hydrolyzed animal tissue from unspecified sources. Low quality flavor enhancer used in cheap foods.",
       "common_aliases": [
         "Poultry Digest",
-        "动物消化物"
+        "动物消化物",
+        "Digestat animal",
+        "Hydrolysat animal"
       ],
       "explanation_zh": "来源不明确的副产品。品质无法保证，不推荐。",
       "sources": ["AAFCO"]
@@ -730,7 +738,9 @@
       "explanation": "Made from poultry parts not typically consumed by humans. Quality varies significantly between manufacturers.",
       "common_aliases": [
         "Poultry By-Products",
-        "禽副产品粉"
+        "禽副产品粉",
+        "Farine de sous-produits de volaille",
+        "Sous-produits de volaille"
       ],
       "explanation_zh": "副产品成分。品质低于明确命名的原料，但仍含一定营养。",
       "sources": ["AAFCO"]
@@ -742,7 +752,8 @@
       "explanation": "Dried blood from slaughterhouses. High in protein but poor amino acid balance. Can indicate lower quality food.",
       "common_aliases": [
         "Spray-Dried Blood Meal",
-        "血粉"
+        "血粉",
+        "Farine de sang"
       ],
       "explanation_zh": "副产品成分。品质低于明确命名的原料，但仍含一定营养。",
       "sources": ["AAFCO"]
@@ -754,7 +765,8 @@
       "explanation": "Hydrolyzed poultry feathers. Very poorly digestible protein source. Sign of a low-quality food.",
       "common_aliases": [
         "Hydrolyzed Feather Meal",
-        "羽毛粉"
+        "羽毛粉",
+        "Farine de plumes"
       ],
       "explanation_zh": "副产品成分。品质低于明确命名的原料，但仍含一定营养。",
       "sources": ["AAFCO"]
@@ -893,7 +905,9 @@
       "explanation": "Protein extract from corn processing. Used as a cheap protein booster rather than quality nutrition. Can inflate protein percentages.",
       "common_aliases": [
         "Corn Gluten",
-        "玉米蛋白粉"
+        "玉米蛋白粉",
+        "Gluten de maïs",
+        "Farine de gluten de maïs"
       ],
       "explanation_zh": "玉米加工的蛋白质提取物。用作廉价蛋白质填充剂，非高品质蛋白来源。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -922,7 +936,8 @@
       "explanation": "Plant protein used to boost protein content cheaply. Common allergen. Not a substitute for quality animal protein.",
       "common_aliases": [
         "Vital Wheat Gluten",
-        "小麦蛋白"
+        "小麦蛋白",
+        "Gluten de blé"
       ],
       "explanation_zh": "小麦蛋白提取物。植物蛋白，常用于低质宠物食品增加蛋白质含量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -936,7 +951,10 @@
         "Wheat Mill Run",
         "Wheat Shorts",
         "Wheat Bran",
-        "小麦次粉"
+        "小麦次粉",
+        "Issues de blé",
+        "Remoulage de blé",
+        "Son de blé"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO"]
@@ -953,7 +971,8 @@
         "Soy Meal",
         "Soybean Meal",
         "大豆",
-        "豆粕"
+        "豆粕",
+        "Soja"
       ],
       "explanation_zh": "蛋白质填充成分。非高品质蛋白来源，常用于降低成本。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -965,7 +984,8 @@
       "explanation": "Processed soy used to boost protein content. Common allergen; not ideal as a primary protein source.",
       "common_aliases": [
         "Soy Protein Isolate",
-        "大豆蛋白浓缩物"
+        "大豆蛋白浓缩物",
+        "Concentré de protéines de soja"
       ],
       "explanation_zh": "蛋白质填充成分。非高品质蛋白来源，常用于降低成本。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -977,7 +997,9 @@
       "explanation": "Small fragments of rice kernels left over from milling. Lower nutritional value than whole rice. Cheap filler.",
       "common_aliases": [
         "Rice Fragments",
-        "碎米"
+        "碎米",
+        "Riz de brasserie",
+        "Brisures de riz"
       ],
       "explanation_zh": "碎米粒，碾米的副产品。营养价值低于全粒米。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1015,7 +1037,8 @@
       "common_aliases": [
         "Powdered Cellulose",
         "Cellulose Powder",
-        "纤维素"
+        "纤维素",
+        "Cellulose"
       ],
       "explanation_zh": "木质纤维或植物纤维。仅做填充用途，无营养价值。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1030,7 +1053,8 @@
         "Dried Sweet Potato",
         "红薯",
         "甘薯",
-        "地瓜"
+        "地瓜",
+        "Patate douce"
       ],
       "explanation_zh": "优质无谷碳水化合物来源，富含β-胡萝卜素、纤维和维生素。",
       "sources": ["AAFCO"]
@@ -1045,7 +1069,9 @@
         "Dried Potato",
         "Potato Starch",
         "土豆",
-        "马铃薯"
+        "马铃薯",
+        "Pomme de terre",
+        "Pommes de terre"
       ],
       "explanation_zh": "碳水化合物来源，无谷配方中常用。血糖指数较高。",
       "sources": ["AAFCO"]
@@ -1060,7 +1086,9 @@
         "Whole Peas",
         "Green Peas",
         "Yellow Peas",
-        "豌豆"
+        "豌豆",
+        "Pois",
+        "Petit pois"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -1073,7 +1101,9 @@
       "common_aliases": [
         "Pea Protein Concentrate",
         "Pea Protein Isolate",
-        "豌豆蛋白"
+        "豌豆蛋白",
+        "Protéines de pois",
+        "Concentré de protéines de pois"
       ],
       "explanation_zh": "蛋白质填充成分。非高品质蛋白来源，常用于降低成本。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1085,7 +1115,9 @@
       "explanation": "Starchy extract from peas used as a binding agent and carbohydrate filler.",
       "common_aliases": [
         "Pea Flour",
-        "豌豆淀粉"
+        "豌豆淀粉",
+        "Amidon de pois",
+        "Fécule de pois"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1098,7 +1130,9 @@
       "common_aliases": [
         "Chickpeas",
         "Garbanzo Beans",
-        "鹰嘴豆"
+        "鹰嘴豆",
+        "Pois chiche",
+        "Pois chiches"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -1112,7 +1146,9 @@
         "Lentils",
         "Red Lentils",
         "Green Lentils",
-        "扁豆"
+        "扁豆",
+        "Lentille",
+        "Lentilles"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -1125,7 +1161,9 @@
       "common_aliases": [
         "Carrots",
         "Dried Carrots",
-        "胡萝卜"
+        "胡萝卜",
+        "Carotte",
+        "Carottes"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -1137,7 +1175,8 @@
       "explanation": "Nutrient-dense leafy green rich in iron, vitamins, and antioxidants.",
       "common_aliases": [
         "Dried Spinach",
-        "菠菜"
+        "菠菜",
+        "Épinards"
       ],
       "explanation_zh": "富含铁、维生素和抗氧化剂的绿叶蔬菜。少量使用有益。",
       "sources": ["AAFCO"]
@@ -1149,7 +1188,8 @@
       "explanation": "Rich in vitamins C and K, fiber, and cancer-fighting compounds.",
       "common_aliases": [
         "Dried Broccoli",
-        "西兰花"
+        "西兰花",
+        "Brocoli"
       ],
       "explanation_zh": "富含维生素C、K和纤维的十字花科蔬菜。适量有益。",
       "sources": ["AAFCO"]
@@ -1161,7 +1201,8 @@
       "explanation": "Superfood vegetable packed with vitamins, minerals, and antioxidants.",
       "common_aliases": [
         "Dried Kale",
-        "羽衣甘蓝"
+        "羽衣甘蓝",
+        "Chou kale"
       ],
       "explanation_zh": "营养密度极高的绿叶蔬菜，富含维生素A、C、K和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -1174,7 +1215,9 @@
       "common_aliases": [
         "Pumpkin Puree",
         "Dried Pumpkin",
-        "南瓜"
+        "南瓜",
+        "Potiron",
+        "Citrouille"
       ],
       "explanation_zh": "优质纤维和β-胡萝卜素来源。有助于消化健康。",
       "sources": ["AAFCO"]
@@ -1186,7 +1229,9 @@
       "explanation": "Nutritious squash rich in vitamins A and C, fiber, and potassium.",
       "common_aliases": [
         "Squash",
-        "南瓜"
+        "南瓜",
+        "Butternut",
+        "Courge butternut"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -1227,7 +1272,8 @@
       "explanation": "Herb with antioxidant properties, supports fresh breath and urinary health.",
       "common_aliases": [
         "Dried Parsley",
-        "欧芹"
+        "欧芹",
+        "Persil"
       ],
       "explanation_zh": "富含抗氧化剂的蔬菜成分。提供维生素和纤维。",
       "sources": ["AAFCO"]
@@ -1241,7 +1287,9 @@
         "Dried Kelp",
         "Kelp Meal",
         "Seaweed",
-        "海带"
+        "海带",
+        "Varech",
+        "Goémon"
       ],
       "explanation_zh": "碘和微量矿物质的天然来源。支持甲状腺功能。",
       "sources": ["AAFCO"]
@@ -1297,7 +1345,8 @@
         "Apples",
         "Dried Apple",
         "Apple Pomace",
-        "苹果"
+        "苹果",
+        "Pomme"
       ],
       "explanation_zh": "提供纤维、维生素C和抗氧化剂。加工时去籽安全。",
       "sources": ["AAFCO"]
@@ -1310,7 +1359,9 @@
       "common_aliases": [
         "Blueberries",
         "Dried Blueberries",
-        "蓝莓"
+        "蓝莓",
+        "Myrtille",
+        "Myrtilles"
       ],
       "explanation_zh": "强效抗氧化剂来源，支持认知和免疫健康。优质功能性成分。",
       "sources": ["AAFCO"]
@@ -1323,7 +1374,8 @@
       "common_aliases": [
         "Cranberries",
         "Dried Cranberries",
-        "蔓越莓"
+        "蔓越莓",
+        "Canneberge"
       ],
       "explanation_zh": "抗氧化成分，支持泌尿道健康。宠物食品中的有益添加。",
       "sources": ["AAFCO"]
@@ -1336,7 +1388,8 @@
       "common_aliases": [
         "Bananas",
         "Dried Banana",
-        "香蕉"
+        "香蕉",
+        "Banane"
       ],
       "explanation_zh": "天然钾和纤维来源。适量有益，但糖分含量高。",
       "sources": ["AAFCO"]
@@ -1349,7 +1402,9 @@
       "common_aliases": [
         "Dried Coconut",
         "Coconut Flour",
-        "椰子"
+        "椰子",
+        "Noix de coco",
+        "Coco"
       ],
       "explanation_zh": "含中链脂肪酸，支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -2594,7 +2649,9 @@
         "Raisins",
         "Grape Seed Extract",
         "葡萄",
-        "葡萄干"
+        "葡萄干",
+        "Raisin",
+        "Raisins secs"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -2622,7 +2679,8 @@
       "common_aliases": [
         "Avocado Meal",
         "Avocado Oil",
-        "牛油果"
+        "牛油果",
+        "Avocat"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2831,7 +2889,8 @@
       "explanation": "Supports urinary tract health and provides antioxidants.",
       "common_aliases": [
         "Cranberry Powder",
-        "蔓越莓干"
+        "蔓越莓干",
+        "Canneberge séchée"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -2844,7 +2903,8 @@
       "common_aliases": [
         "Pomegranate Extract",
         "Pomegranate Seed",
-        "石榴"
+        "石榴",
+        "Grenade"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -2856,7 +2916,8 @@
       "explanation": "Contains papain enzyme aiding digestion. Rich in vitamins A, C, and E.",
       "common_aliases": [
         "Dried Papaya",
-        "木瓜"
+        "木瓜",
+        "Papaye"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -2868,7 +2929,8 @@
       "explanation": "Nutrient-rich tropical fruit with vitamins A, C, and fiber.",
       "common_aliases": [
         "Dried Mango",
-        "芒果"
+        "芒果",
+        "Mangue"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -2880,7 +2942,8 @@
       "explanation": "Gentle fruit providing fiber and vitamin C. Easy on digestion.",
       "common_aliases": [
         "Dried Pear",
-        "梨"
+        "梨",
+        "Poire"
       ],
       "explanation_zh": "天然维生素C来源。提供抗氧化剂和纤维。",
       "sources": ["AAFCO"]
@@ -2891,7 +2954,8 @@
       "safety_rating": "safe",
       "explanation": "Hydrating fruit rich in lycopene and vitamins. Low calorie treat ingredient.",
       "common_aliases": [
-        "西瓜"
+        "西瓜",
+        "Pastèque"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -2904,7 +2968,9 @@
       "common_aliases": [
         "Raspberries",
         "Dried Raspberries",
-        "覆盆子"
+        "覆盆子",
+        "Framboise",
+        "Framboises"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -2916,7 +2982,9 @@
       "explanation": "Rich in antioxidants, fiber, and vitamins C and K.",
       "common_aliases": [
         "Blackberries",
-        "黑莓"
+        "黑莓",
+        "Mûre",
+        "Mûres"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -2929,7 +2997,9 @@
       "common_aliases": [
         "Strawberries",
         "Dried Strawberries",
-        "草莓"
+        "草莓",
+        "Fraise",
+        "Fraises"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -2940,7 +3010,8 @@
       "safety_rating": "safe",
       "explanation": "Low-calorie vegetable with vitamins A, C, and K. Supports hydration.",
       "common_aliases": [
-        "芹菜"
+        "芹菜",
+        "Céleri"
       ],
       "explanation_zh": "蔬菜成分，提供纤维、维生素和矿物质。",
       "sources": ["AAFCO"]
@@ -2952,7 +3023,8 @@
       "explanation": "Cruciferous vegetable with antioxidants and fiber. Can cause gas in large amounts.",
       "common_aliases": [
         "卷心菜",
-        "白菜"
+        "白菜",
+        "Chou"
       ],
       "explanation_zh": "富含抗氧化剂的蔬菜成分。提供维生素和纤维。",
       "sources": ["AAFCO"]
@@ -2963,7 +3035,8 @@
       "safety_rating": "safe",
       "explanation": "Nutritious cruciferous vegetable rich in vitamins C and K.",
       "common_aliases": [
-        "花椰菜"
+        "花椰菜",
+        "Chou-fleur"
       ],
       "explanation_zh": "蔬菜成分，提供纤维、维生素和矿物质。",
       "sources": ["AAFCO"]
@@ -2975,7 +3048,8 @@
       "explanation": "Nutrient-dense cruciferous vegetable with vitamins and antioxidants.",
       "common_aliases": [
         "Brussels Sprouts",
-        "抱子甘蓝"
+        "抱子甘蓝",
+        "Choux de Bruxelles"
       ],
       "explanation_zh": "富含抗氧化剂的蔬菜成分。提供维生素和纤维。",
       "sources": ["AAFCO"]
@@ -2986,7 +3060,8 @@
       "safety_rating": "safe",
       "explanation": "Low-calorie vegetable rich in vitamins A, C, E, and K, plus fiber.",
       "common_aliases": [
-        "芦笋"
+        "芦笋",
+        "Asperge"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -2999,7 +3074,9 @@
       "common_aliases": [
         "Beets",
         "Beetroot",
-        "甜菜"
+        "甜菜",
+        "Betterave",
+        "Betterave rouge"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -3011,7 +3088,8 @@
       "explanation": "Low-calorie root vegetable providing fiber and vitamin C.",
       "common_aliases": [
         "Turnips",
-        "萝卜"
+        "萝卜",
+        "Navet"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -3023,7 +3101,8 @@
       "explanation": "Herb supporting digestive health and fresh breath. Anti-bloating properties.",
       "common_aliases": [
         "Fennel Seed",
-        "茴香"
+        "茴香",
+        "Fenouil"
       ],
       "explanation_zh": "蔬菜成分，提供纤维、维生素和矿物质。",
       "sources": ["AAFCO"]
@@ -3330,7 +3409,9 @@
       "explanation": "Contains bromelain enzyme aiding protein digestion. Rich in vitamin C and manganese.",
       "common_aliases": [
         "Pineapple",
-        "菠萝"
+        "菠萝",
+        "Ananas séché",
+        "Ananas"
       ],
       "explanation_zh": "天然维生素C来源。提供抗氧化剂和纤维。",
       "sources": ["AAFCO"]
@@ -3695,7 +3776,10 @@
       "common_aliases": [
         "Tomato",
         "Tomatoes",
-        "番茄"
+        "番茄",
+        "Tomate séchée",
+        "Tomate",
+        "Tomates"
       ],
       "explanation_zh": "富含抗氧化剂的蔬菜成分。提供维生素和纤维。",
       "sources": ["AAFCO"]
@@ -3831,7 +3915,8 @@
         "Prune",
         "Plum",
         "西梅",
-        "李子"
+        "李子",
+        "Pruneau"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -3842,7 +3927,8 @@
       "safety_rating": "caution",
       "explanation": "Seeds and pits can cause intestinal blockage. Flesh is safe in small amounts.",
       "common_aliases": [
-        "柿子"
+        "柿子",
+        "Kaki"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3854,7 +3940,8 @@
       "explanation": "Natural fruit providing fiber, potassium, and calcium.",
       "common_aliases": [
         "Dried Fig",
-        "无花果"
+        "无花果",
+        "Figue"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -3945,7 +4032,8 @@
       "explanation": "Concentrated plant protein used to boost protein percentages. Can indicate lower meat content.",
       "common_aliases": [
         "Potato Protein Isolate",
-        "土豆蛋白"
+        "土豆蛋白",
+        "Protéines de pomme de terre"
       ],
       "explanation_zh": "蛋白质填充成分。非高品质蛋白来源，常用于降低成本。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3956,7 +4044,9 @@
       "safety_rating": "caution",
       "explanation": "Starch used as a binder and carbohydrate source. Low nutritional value compared to whole potato.",
       "common_aliases": [
-        "马铃薯淀粉"
+        "马铃薯淀粉",
+        "Fécule de pomme de terre",
+        "Amidon de pomme de terre"
       ],
       "explanation_zh": "淀粉粘合剂和增稠剂。提供碳水化合物但营养价值有限。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3968,7 +4058,9 @@
       "explanation": "Refined carbohydrate filler with minimal nutritional value. Used as a binder.",
       "common_aliases": [
         "Modified Corn Starch",
-        "玉米淀粉"
+        "玉米淀粉",
+        "Amidon de maïs",
+        "Fécule de maïs"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3980,7 +4072,8 @@
       "explanation": "Concentrated plant protein extracted from rice. Can inflate protein content cheaply.",
       "common_aliases": [
         "Rice Protein",
-        "大米蛋白"
+        "大米蛋白",
+        "Concentré de protéines de riz"
       ],
       "explanation_zh": "蛋白质填充成分。非高品质蛋白来源，常用于降低成本。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4404,7 +4497,8 @@
       "safety_rating": "safe",
       "explanation": "Nutrient-dense aquatic plant rich in vitamins and antioxidants.",
       "common_aliases": [
-        "西洋菜"
+        "西洋菜",
+        "Cresson"
       ],
       "explanation_zh": "富含抗氧化剂的蔬菜成分。提供维生素和纤维。",
       "sources": ["AAFCO"]
@@ -4659,7 +4753,8 @@
       "explanation": "Byproduct of corn processing. Cheap fiber source with limited nutritional value.",
       "common_aliases": [
         "Corn Bran",
-        "玉米纤维"
+        "玉米纤维",
+        "Fibre de maïs"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4672,7 +4767,9 @@
       "common_aliases": [
         "Soy Hulls",
         "Soy Fiber",
-        "大豆壳"
+        "大豆壳",
+        "Coques de soja",
+        "Pellicules de soja"
       ],
       "explanation_zh": "大豆壳。低成本纤维来源，营养价值有限。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4684,7 +4781,8 @@
       "explanation": "Ground peanut shells used as an economical filler. Provides minimal nutritional value.",
       "common_aliases": [
         "Peanut Shells",
-        "花生壳"
+        "花生壳",
+        "Coques de cacahuète"
       ],
       "explanation_zh": "花生壳磨粉。无营养价值的廉价纤维填充剂。",
       "sources": ["AAFCO"]
@@ -4696,7 +4794,9 @@
       "explanation": "Outer shell of oats used as cheap fiber. Less nutritious than whole oat fiber.",
       "common_aliases": [
         "Oat Bran",
-        "燕麦壳"
+        "燕麦壳",
+        "Balles d'avoine",
+        "Coques d'avoine"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4709,7 +4809,8 @@
       "common_aliases": [
         "Rice Husks",
         "Rice Hull Fiber",
-        "稻壳"
+        "稻壳",
+        "Balles de riz"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO"]
@@ -4722,7 +4823,8 @@
       "common_aliases": [
         "Modified Starch",
         "Food Starch",
-        "淀粉"
+        "淀粉",
+        "Amidon"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4736,7 +4838,9 @@
         "DDG",
         "DDGS",
         "Distillers Dried Grains with Solubles",
-        "酒糟"
+        "酒糟",
+        "Drêches",
+        "Drêches de distillerie"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4817,7 +4921,8 @@
       "safety_rating": "caution",
       "explanation": "Highly processed starch derivative with high glycemic index. Used as a cheap binder and filler.",
       "common_aliases": [
-        "麦芽糊精"
+        "麦芽糊精",
+        "Maltodextrine"
       ],
       "explanation_zh": "填充成分。营养价值有限，主要用于降低成本或增加体积。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4906,7 +5011,9 @@
       "explanation": "Generic fat from unspecified rendering. Quality and source are unknown. Named fats preferred.",
       "common_aliases": [
         "Animal Rendered Fat",
-        "动物渲染脂肪"
+        "动物渲染脂肪",
+        "Graisse fondue",
+        "Graisse animale fondue"
       ],
       "explanation_zh": "来源不明确的副产品。品质无法保证，不推荐。",
       "sources": ["AAFCO"]
@@ -5227,7 +5334,9 @@
       "explanation": "Dehydrated carrot preserving beta-carotene and fiber content.",
       "common_aliases": [
         "Carrot Powder",
-        "干胡萝卜"
+        "干胡萝卜",
+        "Carotte séchée",
+        "Carotte déshydratée"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -5239,7 +5348,9 @@
       "explanation": "Dehydrated pumpkin providing concentrated fiber and beta-carotene.",
       "common_aliases": [
         "Pumpkin Powder",
-        "干南瓜"
+        "干南瓜",
+        "Potiron séché",
+        "Potiron déshydraté"
       ],
       "explanation_zh": "良好的纤维和营养素来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -6194,7 +6305,8 @@
       "explanation": "European blueberry relative rich in anthocyanins supporting eye health.",
       "common_aliases": [
         "Bilberry Extract",
-        "越橘"
+        "越橘",
+        "Airelle"
       ],
       "explanation_zh": "天然水果成分，提供维生素、纤维和抗氧化剂。",
       "sources": ["AAFCO"]
@@ -6207,7 +6319,8 @@
       "common_aliases": [
         "Acai Berry",
         "Acai Extract",
-        "巴西莓"
+        "巴西莓",
+        "Açaï"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -6220,7 +6333,9 @@
       "common_aliases": [
         "Wolfberry",
         "Lycium barbarum",
-        "枸杞"
+        "枸杞",
+        "Baies de goji",
+        "Goji"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -6245,7 +6360,8 @@
       "explanation": "Tropical fruit rich in xanthones with potent antioxidant and anti-inflammatory effects.",
       "common_aliases": [
         "Mangosteen Extract",
-        "山竹"
+        "山竹",
+        "Mangoustan"
       ],
       "explanation_zh": "富含抗氧化剂的水果成分。支持免疫和细胞健康。",
       "sources": ["AAFCO"]
@@ -6719,7 +6835,8 @@
         "Animal By-Product Meal",
         "Animal Byproduct Meal",
         "动物副产品",
-        "动物副产物"
+        "动物副产物",
+        "Sous-produits animaux"
       ],
       "explanation_zh": "未指定来源的动物副产品。质量和来源不一致且无法追溯，属于低品质原料。",
       "sources": ["AAFCO"]
@@ -6861,6 +6978,30 @@
         "Levures"
       ],
       "explanation_fr": "Source de levure non précisée, généralement utilisée comme apport naturel en vitamines B et pour améliorer l'appétence.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Vegetables",
+      "category": "vegetable",
+      "safety_rating": "safe",
+      "explanation": "EU-style generic declaration for unspecified vegetables. Vegetables provide fiber, vitamins and phytonutrients.",
+      "common_aliases": [
+        "Légumes",
+        "Legumes",
+        "Mixed Vegetables"
+      ],
+      "explanation_fr": "Déclaration générique de type UE pour des légumes non précisés. Les légumes apportent fibres, vitamines et phytonutriments.",
+      "sources": ["FEDIAF Code of Good Labelling Practice"]
+    },
+    {
+      "name": "Fruits",
+      "category": "fruit",
+      "safety_rating": "safe",
+      "explanation": "EU-style generic declaration for unspecified fruits. Fruits provide vitamins, antioxidants and palatability.",
+      "common_aliases": [
+        "Fruits"
+      ],
+      "explanation_fr": "Déclaration générique de type UE pour des fruits non précisés. Les fruits apportent vitamines, antioxydants et appétence.",
       "sources": ["FEDIAF Code of Good Labelling Practice"]
     }
   ]
