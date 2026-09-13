@@ -1709,7 +1709,10 @@
         "Vitamin C",
         "L-Ascorbic Acid",
         "维生素C",
-        "抗坏血酸"
+        "抗坏血酸",
+        "Vitamine C",
+        "Acide ascorbique",
+        "Acide L-ascorbique"
       ],
       "explanation_zh": "维生素C（抗坏血酸）。抗氧化剂，支持免疫健康。",
       "sources": ["AAFCO"]
@@ -2129,7 +2132,9 @@
       "explanation": "Natural calcium supplement supporting bone and teeth health.",
       "common_aliases": [
         "Limestone",
-        "碳酸钙"
+        "碳酸钙",
+        "Carbonate de calcium",
+        "Calcaire"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -2142,7 +2147,9 @@
       "common_aliases": [
         "Dicalcium Phosphate",
         "Tricalcium Phosphate",
-        "磷酸钙"
+        "磷酸钙",
+        "Phosphate de calcium",
+        "Phosphate bicalcique"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -2156,7 +2163,8 @@
         "Sodium Chloride",
         "Sea Salt",
         "食盐",
-        "氯化钠"
+        "氯化钠",
+        "Sel"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -2167,7 +2175,8 @@
       "safety_rating": "safe",
       "explanation": "Potassium supplement supporting heart, muscle, and nerve function.",
       "common_aliases": [
-        "氯化钾"
+        "氯化钾",
+        "Chlorure de potassium"
       ],
       "explanation_zh": "钾补充剂。支持心脏功能和肌肉收缩。",
       "sources": ["AAFCO"]
@@ -2181,7 +2190,8 @@
         "Zinc Oxide",
         "Zinc Proteinate",
         "Zinc Chelate",
-        "硫酸锌"
+        "硫酸锌",
+        "Sulfate de zinc"
       ],
       "explanation_zh": "锌补充剂。支持免疫功能、皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -2194,7 +2204,9 @@
       "common_aliases": [
         "Zinc Amino Acid Complex",
         "Zinc Amino Acid Chelate",
-        "锌蛋白盐"
+        "锌蛋白盐",
+        "Protéinate de zinc",
+        "Chélate de zinc"
       ],
       "explanation_zh": "锌补充剂。支持免疫功能、皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -2207,7 +2219,8 @@
       "common_aliases": [
         "Ferrous Sulfate",
         "Iron Amino Acid Chelate",
-        "铁蛋白盐"
+        "铁蛋白盐",
+        "Protéinate de fer"
       ],
       "explanation_zh": "铁质补充剂。支持血红蛋白生成和氧气运输。",
       "sources": ["AAFCO"]
@@ -2219,7 +2232,8 @@
       "explanation": "Iron supplement supporting red blood cell production and oxygen transport.",
       "common_aliases": [
         "Iron Sulfate",
-        "硫酸亚铁"
+        "硫酸亚铁",
+        "Sulfate ferreux"
       ],
       "explanation_zh": "铁质补充剂。支持血红蛋白生成和氧气运输。",
       "sources": ["AAFCO"]
@@ -2232,7 +2246,8 @@
       "common_aliases": [
         "Copper Proteinate",
         "Copper Amino Acid Chelate",
-        "硫酸铜"
+        "硫酸铜",
+        "Sulfate de cuivre"
       ],
       "explanation_zh": "铁质补充剂。支持血红蛋白生成和氧气运输。",
       "sources": ["AAFCO"]
@@ -2244,7 +2259,8 @@
       "explanation": "Chelated copper with enhanced absorption. Supports multiple enzymatic processes.",
       "common_aliases": [
         "Copper Amino Acid Complex",
-        "铜蛋白盐"
+        "铜蛋白盐",
+        "Protéinate de cuivre"
       ],
       "explanation_zh": "铜补充剂。支持铁吸收和结缔组织形成。",
       "sources": ["AAFCO"]
@@ -2257,7 +2273,8 @@
       "common_aliases": [
         "Manganese Proteinate",
         "Manganese Oxide",
-        "硫酸锰"
+        "硫酸锰",
+        "Sulfate de manganèse"
       ],
       "explanation_zh": "锰补充剂。支持骨骼发育和代谢功能。",
       "sources": ["AAFCO"]
@@ -2269,7 +2286,8 @@
       "explanation": "Chelated manganese with superior bioavailability. Supports bone and cartilage health.",
       "common_aliases": [
         "Manganese Amino Acid Complex",
-        "锰蛋白盐"
+        "锰蛋白盐",
+        "Protéinate de manganèse"
       ],
       "explanation_zh": "锰补充剂。支持骨骼发育和代谢功能。",
       "sources": ["AAFCO"]
@@ -2283,7 +2301,8 @@
         "Sodium Selenite",
         "Selenium Yeast",
         "Selenomethionine",
-        "硒"
+        "硒",
+        "Sélénium"
       ],
       "explanation_zh": "硒补充剂。抗氧化矿物质，支持免疫和甲状腺功能。",
       "sources": ["AAFCO"]
@@ -2295,7 +2314,8 @@
       "explanation": "Inorganic selenium supplement. Less bioavailable than organic forms but still effective.",
       "common_aliases": [
         "Sodium Selenate",
-        "亚硒酸钠"
+        "亚硒酸钠",
+        "Sélénite de sodium"
       ],
       "explanation_zh": "硒补充剂。抗氧化矿物质，支持免疫和甲状腺功能。",
       "sources": ["AAFCO"]
@@ -2308,7 +2328,8 @@
       "common_aliases": [
         "Potassium Iodide",
         "Calcium Iodate",
-        "碘"
+        "碘",
+        "Iode"
       ],
       "explanation_zh": "碘补充剂。支持甲状腺功能正常运作。",
       "sources": ["AAFCO"]
@@ -2321,7 +2342,8 @@
       "common_aliases": [
         "Cobalt Carbonate",
         "Cobalt Sulfate",
-        "钴"
+        "钴",
+        "Cobalt"
       ],
       "explanation_zh": "钴补充剂。维生素B12合成所需微量矿物质。",
       "sources": ["AAFCO"]
@@ -2335,7 +2357,8 @@
         "Magnesium Oxide",
         "Magnesium Sulfate",
         "Magnesium Proteinate",
-        "镁"
+        "镁",
+        "Magnésium"
       ],
       "explanation_zh": "镁补充剂。支持肌肉和神经功能。",
       "sources": ["AAFCO"]
@@ -2348,7 +2371,8 @@
       "common_aliases": [
         "Monocalcium Phosphate",
         "Sodium Phosphate",
-        "磷"
+        "磷",
+        "Phosphore"
       ],
       "explanation_zh": "磷补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -2363,7 +2387,10 @@
         "Retinyl Acetate",
         "Retinyl Palmitate",
         "Beta-Carotene",
-        "维生素A"
+        "维生素A",
+        "Vitamine A",
+        "Acétate de rétinol",
+        "Bêta-carotène"
       ],
       "explanation_zh": "维生素A补充剂。支持视力、免疫和皮肤健康。",
       "sources": ["AAFCO"]
@@ -2378,7 +2405,8 @@
         "Thiamine Mononitrate",
         "Thiamine Hydrochloride",
         "维生素B1",
-        "硫胺素"
+        "硫胺素",
+        "Vitamine B1"
       ],
       "explanation_zh": "B族维生素补充剂。支持能量代谢和神经功能。",
       "sources": ["AAFCO"]
@@ -2392,7 +2420,9 @@
         "Riboflavin",
         "Riboflavin Supplement",
         "维生素B2",
-        "核黄素"
+        "核黄素",
+        "Vitamine B2",
+        "Riboflavine"
       ],
       "explanation_zh": "B族维生素补充剂。支持能量代谢和神经功能。",
       "sources": ["AAFCO"]
@@ -2408,7 +2438,10 @@
         "Niacinamide",
         "Nicotinic Acid",
         "维生素B3",
-        "烟酸"
+        "烟酸",
+        "Vitamine B3",
+        "Niacine",
+        "Nicotinamide"
       ],
       "explanation_zh": "B族维生素补充剂。支持能量代谢和神经功能。",
       "sources": ["AAFCO"]
@@ -2423,7 +2456,10 @@
         "D-Calcium Pantothenate",
         "Calcium Pantothenate",
         "维生素B5",
-        "泛酸"
+        "泛酸",
+        "Vitamine B5",
+        "Acide pantothénique",
+        "Pantothénate de calcium"
       ],
       "explanation_zh": "B族维生素补充剂。支持能量代谢和神经功能。",
       "sources": ["AAFCO"]
@@ -2437,7 +2473,8 @@
         "Pyridoxine",
         "Pyridoxine Hydrochloride",
         "维生素B6",
-        "吡哆醇"
+        "吡哆醇",
+        "Vitamine B6"
       ],
       "explanation_zh": "B族维生素补充剂。支持能量代谢和神经功能。",
       "sources": ["AAFCO"]
@@ -2451,7 +2488,9 @@
         "Biotin",
         "D-Biotin",
         "维生素B7",
-        "生物素"
+        "生物素",
+        "Vitamine B7",
+        "Biotine"
       ],
       "explanation_zh": "维生素补充剂。满足宠物日常营养需求。",
       "sources": ["AAFCO"]
@@ -2465,7 +2504,10 @@
         "Folic Acid",
         "Folate",
         "维生素B9",
-        "叶酸"
+        "叶酸",
+        "Vitamine B9",
+        "Acide folique",
+        "Folates"
       ],
       "explanation_zh": "维生素补充剂。满足宠物日常营养需求。",
       "sources": ["AAFCO"]
@@ -2480,7 +2522,10 @@
         "Cyanocobalamin",
         "Vitamin B12 Supplement",
         "维生素B12",
-        "钴胺素"
+        "钴胺素",
+        "Vitamine B12",
+        "Cobalamine",
+        "Cyanocobalamine"
       ],
       "explanation_zh": "B族维生素补充剂。支持能量代谢和神经功能。",
       "sources": ["AAFCO"]
@@ -2493,7 +2538,9 @@
       "common_aliases": [
         "L-Ascorbyl-2-Polyphosphate",
         "Ascorbyl Palmitate",
-        "维生素C"
+        "维生素C",
+        "Polyphosphate d'ascorbyle",
+        "Vitamine C stabilisée"
       ],
       "explanation_zh": "维生素C（抗坏血酸）。抗氧化剂，支持免疫健康。",
       "sources": ["AAFCO"]
@@ -2507,7 +2554,10 @@
         "Vitamin D",
         "Cholecalciferol",
         "Vitamin D3 Supplement",
-        "维生素D3"
+        "维生素D3",
+        "Vitamine D3",
+        "Vitamine D",
+        "Cholécalciférol"
       ],
       "explanation_zh": "维生素D补充剂。支持钙吸收和骨骼健康。",
       "sources": ["AAFCO"]
@@ -2522,7 +2572,10 @@
         "Vitamin E Supplement",
         "dl-Alpha Tocopheryl Acetate",
         "维生素E",
-        "生育酚"
+        "生育酚",
+        "Vitamine E",
+        "Tocophérol",
+        "Acétate de tocophérol"
       ],
       "explanation_zh": "维生素E补充剂。强效抗氧化剂，支持免疫和皮肤健康。",
       "sources": ["AAFCO"]
@@ -2537,7 +2590,10 @@
         "Vitamin K3",
         "Menadione",
         "Phytonadione",
-        "维生素K"
+        "维生素K",
+        "Vitamine K",
+        "Vitamine K1",
+        "Phylloquinone"
       ],
       "explanation_zh": "维生素K补充剂。支持血液凝固和骨骼健康。",
       "sources": ["AAFCO"]
@@ -2551,7 +2607,8 @@
         "Menadione",
         "Vitamin K3",
         "MSBC",
-        "甲萘醌"
+        "甲萘醌",
+        "Bisulfite de ménadione"
       ],
       "explanation_zh": "维生素K补充剂。支持血液凝固和骨骼健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2564,7 +2621,8 @@
       "common_aliases": [
         "Choline",
         "Choline Bitartrate",
-        "氯化胆碱"
+        "氯化胆碱",
+        "Chlorure de choline"
       ],
       "explanation_zh": "维生素补充剂。满足宠物日常营养需求。",
       "sources": ["AAFCO"]
@@ -3727,7 +3785,8 @@
       "explanation": "Calcium supplement also used as a drying agent and texturizer.",
       "common_aliases": [
         "Gypsum",
-        "硫酸钙"
+        "硫酸钙",
+        "Sulfate de calcium"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -3739,7 +3798,8 @@
       "explanation": "Source of calcium and phosphorus for bone health.",
       "common_aliases": [
         "TCP",
-        "磷酸三钙"
+        "磷酸三钙",
+        "Phosphate tricalcique"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -3763,7 +3823,8 @@
       "explanation": "Calcium and phosphorus supplement supporting bone structure.",
       "common_aliases": [
         "MCP",
-        "磷酸二氢钙"
+        "磷酸二氢钙",
+        "Phosphate monocalcique"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -4272,7 +4333,9 @@
       "common_aliases": [
         "Bone Meal",
         "Ground Chicken Bone",
-        "骨粉"
+        "骨粉",
+        "Os broyés",
+        "Os moulus"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -4385,7 +4448,8 @@
       "safety_rating": "safe",
       "explanation": "Buffered vitamin C supplement gentle on the stomach.",
       "common_aliases": [
-        "抗坏血酸钙"
+        "抗坏血酸钙",
+        "Ascorbate de calcium"
       ],
       "explanation_zh": "维生素C（抗坏血酸）。抗氧化剂，支持免疫健康。",
       "sources": ["AAFCO"]
@@ -4398,7 +4462,9 @@
       "common_aliases": [
         "Natural Vitamin E",
         "D-Alpha Tocopheryl Acetate",
-        "天然维生素E"
+        "天然维生素E",
+        "D-alpha-tocophérol",
+        "Vitamine E naturelle"
       ],
       "explanation_zh": "维生素E补充剂。强效抗氧化剂，支持免疫和皮肤健康。",
       "sources": ["AAFCO"]
@@ -5165,7 +5231,8 @@
       "safety_rating": "safe",
       "explanation": "Manganese supplement supporting enzyme function and bone health.",
       "common_aliases": [
-        "氧化锰"
+        "氧化锰",
+        "Oxyde de manganèse"
       ],
       "explanation_zh": "锰补充剂。支持骨骼发育和代谢功能。",
       "sources": ["AAFCO"]
@@ -5176,7 +5243,8 @@
       "safety_rating": "safe",
       "explanation": "Zinc supplement supporting immune function and skin health.",
       "common_aliases": [
-        "氧化锌"
+        "氧化锌",
+        "Oxyde de zinc"
       ],
       "explanation_zh": "锌补充剂。支持免疫功能、皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5187,7 +5255,8 @@
       "safety_rating": "safe",
       "explanation": "Iodine supplement essential for thyroid function.",
       "common_aliases": [
-        "碘化钾"
+        "碘化钾",
+        "Iodure de potassium"
       ],
       "explanation_zh": "碘补充剂。支持甲状腺功能正常运作。",
       "sources": ["AAFCO"]
@@ -5198,7 +5267,8 @@
       "safety_rating": "safe",
       "explanation": "Stable iodine supplement for thyroid health.",
       "common_aliases": [
-        "碘酸钙"
+        "碘酸钙",
+        "Iodate de calcium"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -5211,7 +5281,8 @@
       "common_aliases": [
         "Chromium Picolinate",
         "Chromium Proteinate",
-        "铬"
+        "铬",
+        "Chrome"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5223,7 +5294,8 @@
       "explanation": "Trace mineral supporting bone health and mineral metabolism.",
       "common_aliases": [
         "Sodium Borate",
-        "硼"
+        "硼",
+        "Bore"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5235,7 +5307,8 @@
       "explanation": "Ultra-trace mineral that may support insulin sensitivity and blood sugar regulation.",
       "common_aliases": [
         "Vanadium Chelate",
-        "钒"
+        "钒",
+        "Vanadium"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5247,7 +5320,8 @@
       "explanation": "Trace mineral supporting enzyme function and sulfur amino acid metabolism.",
       "common_aliases": [
         "Sodium Molybdate",
-        "钼"
+        "钼",
+        "Molybdène"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5259,7 +5333,8 @@
       "explanation": "Trace mineral supporting bone, skin, and connective tissue health.",
       "common_aliases": [
         "Sodium Metasilicate",
-        "硅"
+        "硅",
+        "Silicium"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5271,7 +5346,8 @@
       "explanation": "Trace mineral that may support bone density and skeletal health.",
       "common_aliases": [
         "Strontium Carbonate",
-        "锶"
+        "锶",
+        "Strontium"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5283,7 +5359,8 @@
       "explanation": "Ultra-trace mineral naturally present in some foods. Safe at trace levels.",
       "common_aliases": [
         "Stannous Chloride",
-        "锡"
+        "锡",
+        "Étain"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5295,7 +5372,8 @@
       "explanation": "Essential for amino acid and protein synthesis. Supports skin, coat, and joint health.",
       "common_aliases": [
         "Organic Sulfur",
-        "硫"
+        "硫",
+        "Soufre"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -5307,7 +5385,8 @@
       "explanation": "Essential electrolyte supporting fluid balance and digestive acid production.",
       "common_aliases": [
         "Choline Chloride",
-        "氯化物"
+        "氯化物",
+        "Chlorure"
       ],
       "explanation_zh": "矿物质补充剂。满足宠物必需矿物质需求。",
       "sources": ["AAFCO"]
@@ -6037,7 +6116,9 @@
         "Raw Bone",
         "Ground Bone",
         "Finely Ground Bone",
-        "可食用骨"
+        "可食用骨",
+        "Os charnus",
+        "Os comestibles"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -6625,7 +6706,8 @@
       "safety_rating": "safe",
       "explanation": "Highly bioavailable calcium supplement.",
       "common_aliases": [
-        "乳酸钙"
+        "乳酸钙",
+        "Lactate de calcium"
       ],
       "explanation_zh": "钙质补充剂。支持骨骼和牙齿健康。",
       "sources": ["AAFCO"]
@@ -6636,7 +6718,8 @@
       "safety_rating": "safe",
       "explanation": "Well-absorbed magnesium supplement supporting muscle and nerve function.",
       "common_aliases": [
-        "柠檬酸镁"
+        "柠檬酸镁",
+        "Citrate de magnésium"
       ],
       "explanation_zh": "镁补充剂。支持肌肉和神经功能。",
       "sources": ["AAFCO"]
@@ -6648,7 +6731,8 @@
       "explanation": "Chelated zinc bound to methionine for enhanced absorption.",
       "common_aliases": [
         "Zinc Methionine Complex",
-        "蛋氨酸锌"
+        "蛋氨酸锌",
+        "Méthionine de zinc"
       ],
       "explanation_zh": "锌补充剂。支持免疫功能、皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -6660,7 +6744,8 @@
       "explanation": "Iron supplement used in some pet food formulations.",
       "common_aliases": [
         "Iron Chloride",
-        "氯化铁"
+        "氯化铁",
+        "Chlorure ferrique"
       ],
       "explanation_zh": "铁质补充剂。支持血红蛋白生成和氧气运输。",
       "sources": ["AAFCO"]
@@ -6672,7 +6757,8 @@
       "explanation": "Chelated copper with amino acid for superior bioavailability.",
       "common_aliases": [
         "Copper Amino Acid Chelate",
-        "赖氨酸铜"
+        "赖氨酸铜",
+        "Lysinate de cuivre"
       ],
       "explanation_zh": "铜补充剂。支持铁吸收和结缔组织形成。",
       "sources": ["AAFCO"]
