@@ -171,6 +171,8 @@ describe("useAppState - Zero Friction Flow (F020)", () => {
         petType: "dog",
         breed: "Labrador",
         ageRange: "adult",
+        weightKg: 25,
+        healthConditions: [],
       });
     });
 
@@ -250,6 +252,8 @@ describe("useAppState - Zero Friction Flow (F020)", () => {
         petType: "dog",
         breed: "German Shepherd",
         ageRange: "senior",
+        weightKg: 30,
+        healthConditions: [],
       });
     });
     expect(result.current.state).toBe("results");

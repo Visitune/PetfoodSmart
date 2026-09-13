@@ -4,6 +4,7 @@
 
 import type { PetProfile, ProfileAdjustmentResult } from "../types";
 import type { AnalyzedIngredient } from "../../analyzer/types";
+import type { IngredientCategory } from "../../knowledge/types";
 
 // Will import from implementation once written
 import {
@@ -26,7 +27,7 @@ function makeIngredient(
     flag: rating === "harmful" ? "red" : rating === "caution" ? "yellow" : "green",
     knownIngredient: {
       name,
-      category: category as AnalyzedIngredient["knownIngredient"] extends { category: infer C } ? C : string,
+      category: category as IngredientCategory,
       safety_rating: rating as "safe" | "caution" | "harmful",
       explanation: `Test ${name}`,
       common_aliases: [],

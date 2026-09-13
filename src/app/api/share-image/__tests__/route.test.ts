@@ -39,13 +39,23 @@ function makeData(overrides: Partial<ShareImageData> = {}): ShareImageData {
   };
 }
 
+/** Minimal structural type for traversing the JSX tree in tests */
+interface LooseElement {
+  type?: unknown;
+  props?: {
+    style?: unknown;
+    children?: unknown;
+  };
+}
+
 /** Recursively extract all style objects from JSX tree, resolving function components */
-function collectStyles(element: React.ReactElement): Record<string, unknown>[] {
+function collectStyles(element: LooseElement): Record<string, unknown>[] {
   const styles: Record<string, unknown>[] = [];
 
   // If this is a function component, call it to get rendered output
   if (typeof element?.type === "function") {
-    const rendered = (element.type as (props: Record<string, unknown>) => React.ReactElement)(element.props);
+    const fn = element.type as (props: Record<string, unknown>) => LooseElement;
+    const rendered = fn((element.props ?? {}) as Record<string, unknown>);
     if (rendered && typeof rendered === "object" && "props" in rendered) {
       return collectStyles(rendered);
     }
@@ -61,7 +71,7 @@ function collectStyles(element: React.ReactElement): Record<string, unknown>[] {
       : [element.props.children];
     for (const child of children) {
       if (child && typeof child === "object" && "props" in child) {
-        styles.push(...collectStyles(child as React.ReactElement));
+        styles.push(...collectStyles(child as LooseElement));
       }
     }
   }

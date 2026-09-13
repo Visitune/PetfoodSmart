@@ -2,6 +2,8 @@
  * F024 - Ranking OG Image Tests
  */
 
+export {};
+
 jest.mock("next/og", () => ({
   ImageResponse: jest.fn().mockImplementation((element, options) => ({
     _element: element,

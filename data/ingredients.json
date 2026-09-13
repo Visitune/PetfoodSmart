@@ -26,7 +26,6 @@
       "explanation": "Concentrated protein source made from rendered chicken. Higher protein by weight than fresh chicken.",
       "common_aliases": [
         "Dried Chicken",
-        "Dehydrated Chicken",
         "鸡肉粉",
         "Farine de poulet",
         "Volaille déshydratée",
@@ -445,7 +444,6 @@
       "explanation": "Concentrated lamb protein. Good alternative for pets with chicken or beef allergies.",
       "common_aliases": [
         "Dried Lamb",
-        "Dehydrated Lamb",
         "羊肉粉",
         "Farine d'agneau"
       ],
@@ -542,8 +540,6 @@
       "safety_rating": "safe",
       "explanation": "Quality protein source rich in thiamine and other B vitamins.",
       "common_aliases": [
-        "Fresh Pork",
-        "Deboned Pork",
         "猪肉",
         "Porc"
       ],
@@ -793,7 +789,6 @@
       "explanation": "Easily digestible carbohydrate source. Less fiber than brown rice but gentle on sensitive stomachs.",
       "common_aliases": [
         "Rice",
-        "Brewers Rice",
         "Ground Rice",
         "白米",
         "大米",
@@ -1067,7 +1062,6 @@
       "common_aliases": [
         "Potatoes",
         "Dried Potato",
-        "Potato Starch",
         "土豆",
         "马铃薯",
         "Pomme de terre",
@@ -1214,7 +1208,6 @@
       "explanation": "Excellent source of soluble fiber, great for digestive health. Rich in beta-carotene.",
       "common_aliases": [
         "Pumpkin Puree",
-        "Dried Pumpkin",
         "南瓜",
         "Potiron",
         "Citrouille"
@@ -1229,7 +1222,7 @@
       "explanation": "Nutritious squash rich in vitamins A and C, fiber, and potassium.",
       "common_aliases": [
         "Squash",
-        "南瓜",
+        "奶油南瓜",
         "Butternut",
         "Courge butternut"
       ],
@@ -1284,8 +1277,6 @@
       "safety_rating": "safe",
       "explanation": "Sea vegetable rich in iodine, minerals, and trace nutrients. Supports thyroid function.",
       "common_aliases": [
-        "Dried Kelp",
-        "Kelp Meal",
         "Seaweed",
         "海带",
         "Varech",
@@ -1300,7 +1291,6 @@
       "safety_rating": "safe",
       "explanation": "Nutrient-rich plant providing chlorophyll, vitamins, and minerals. Supports overall health.",
       "common_aliases": [
-        "Alfalfa Meal",
         "Alfalfa Sprouts",
         "苜蓿"
       ],
@@ -1344,7 +1334,6 @@
       "common_aliases": [
         "Apples",
         "Dried Apple",
-        "Apple Pomace",
         "苹果",
         "Pomme"
       ],
@@ -1400,8 +1389,6 @@
       "safety_rating": "safe",
       "explanation": "Contains medium-chain triglycerides (MCTs) that support brain health and energy.",
       "common_aliases": [
-        "Dried Coconut",
-        "Coconut Flour",
         "椰子",
         "Noix de coco",
         "Coco"
@@ -1593,10 +1580,7 @@
       "safety_rating": "safe",
       "explanation": "Beneficial bacteria supporting gut health, digestion, and immune function.",
       "common_aliases": [
-        "Lactobacillus acidophilus",
         "Bifidobacterium",
-        "Enterococcus faecium",
-        "Bacillus coagulans",
         "Dried Lactobacillus",
         "Dried Enterococcus",
         "Dried Bacillus",
@@ -1618,7 +1602,6 @@
         "FOS",
         "Fructooligosaccharides",
         "Inulin",
-        "Chicory Root",
         "益生元",
         "Prébiotiques",
         "Fructo-oligosaccharides",
@@ -1675,7 +1658,6 @@
       "explanation": "Natural preservative with antioxidant properties. Safe alternative to chemical preservatives.",
       "common_aliases": [
         "Rosemary",
-        "Dried Rosemary",
         "迷迭香提取物",
         "Extrait de romarin",
         "Romarin"
@@ -1720,9 +1702,7 @@
       "safety_rating": "safe",
       "explanation": "Vitamin C - antioxidant supporting immune health. Also used as a natural preservative.",
       "common_aliases": [
-        "Vitamin C",
         "L-Ascorbic Acid",
-        "维生素C",
         "抗坏血酸",
         "Vitamine C",
         "Acide ascorbique",
@@ -2165,7 +2145,6 @@
       "explanation": "Calcium and phosphorus supplement for bone health. Common in balanced pet foods.",
       "common_aliases": [
         "Dicalcium Phosphate",
-        "Tricalcium Phosphate",
         "磷酸钙",
         "Phosphate de calcium",
         "Phosphate bicalcique"
@@ -2206,8 +2185,6 @@
       "safety_rating": "safe",
       "explanation": "Zinc supplement supporting immune function, skin health, and wound healing.",
       "common_aliases": [
-        "Zinc Oxide",
-        "Zinc Proteinate",
         "Zinc Chelate",
         "硫酸锌",
         "Sulfate de zinc"
@@ -2236,7 +2213,6 @@
       "safety_rating": "safe",
       "explanation": "Chelated iron supplement with good bioavailability. Supports oxygen transport in blood.",
       "common_aliases": [
-        "Ferrous Sulfate",
         "Iron Amino Acid Chelate",
         "铁蛋白盐",
         "Protéinate de fer"
@@ -2263,8 +2239,6 @@
       "safety_rating": "safe",
       "explanation": "Copper supplement supporting enzyme function, iron metabolism, and connective tissue.",
       "common_aliases": [
-        "Copper Proteinate",
-        "Copper Amino Acid Chelate",
         "硫酸铜",
         "Sulfate de cuivre"
       ],
@@ -2290,8 +2264,6 @@
       "safety_rating": "safe",
       "explanation": "Manganese supplement supporting bone formation and metabolic processes.",
       "common_aliases": [
-        "Manganese Proteinate",
-        "Manganese Oxide",
         "硫酸锰",
         "Sulfate de manganèse"
       ],
@@ -2317,7 +2289,6 @@
       "safety_rating": "safe",
       "explanation": "Essential trace mineral supporting thyroid function and antioxidant defense.",
       "common_aliases": [
-        "Sodium Selenite",
         "Selenium Yeast",
         "Selenomethionine",
         "硒",
@@ -2345,8 +2316,6 @@
       "safety_rating": "safe",
       "explanation": "Essential mineral for thyroid hormone production and metabolic regulation.",
       "common_aliases": [
-        "Potassium Iodide",
-        "Calcium Iodate",
         "碘",
         "Iode"
       ],
@@ -2388,7 +2357,6 @@
       "safety_rating": "safe",
       "explanation": "Essential mineral for bone health, energy metabolism, and cell function.",
       "common_aliases": [
-        "Monocalcium Phosphate",
         "Sodium Phosphate",
         "磷",
         "Phosphore"
@@ -2556,7 +2524,6 @@
       "explanation": "Antioxidant supporting immune health. Dogs produce their own but supplementation can be beneficial.",
       "common_aliases": [
         "L-Ascorbyl-2-Polyphosphate",
-        "Ascorbyl Palmitate",
         "维生素C",
         "Polyphosphate d'ascorbyle",
         "Vitamine C stabilisée"
@@ -2606,8 +2573,6 @@
       "explanation": "Essential for blood clotting and bone metabolism.",
       "common_aliases": [
         "Vitamin K1",
-        "Vitamin K3",
-        "Menadione",
         "Phytonadione",
         "维生素K",
         "Vitamine K",
@@ -2726,7 +2691,6 @@
       "common_aliases": [
         "Grape",
         "Raisins",
-        "Grape Seed Extract",
         "葡萄",
         "葡萄干",
         "Raisin",
@@ -2758,7 +2722,6 @@
       "explanation": "Contains persin, which according to some sources may be harmful to certain animals. The flesh is generally considered safer than skin/pit but still debated for pets.",
       "common_aliases": [
         "Avocado Meal",
-        "Avocado Oil",
         "牛油果",
         "Avocat"
       ],
@@ -2826,7 +2789,6 @@
       "explanation": "Small amounts may be beneficial (anti-inflammatory) but excessive amounts can be harmful due to coumarin content.",
       "common_aliases": [
         "Cassia Cinnamon",
-        "Ceylon Cinnamon",
         "肉桂",
         "Cannelle"
       ],
@@ -2867,7 +2829,6 @@
       "explanation": "Complete plant protein with ideal omega-3 to omega-6 ratio. Supports skin and coat.",
       "common_aliases": [
         "Hemp Seeds",
-        "Hemp Seed Oil",
         "Hemp Hearts",
         "大麻籽"
       ],
@@ -2978,7 +2939,6 @@
       "safety_rating": "safe",
       "explanation": "Supports urinary tract health and provides antioxidants.",
       "common_aliases": [
-        "Cranberry Powder",
         "蔓越莓干",
         "Canneberge séchée"
       ],
@@ -3349,7 +3309,6 @@
       "safety_rating": "safe",
       "explanation": "Sea vegetable providing natural iodine and trace minerals for thyroid health.",
       "common_aliases": [
-        "Kelp Meal",
         "Ascophyllum nodosum",
         "干海带",
         "Varech séché"
@@ -3451,7 +3410,6 @@
       "explanation": "Natural source of lutein supporting eye health and vision.",
       "common_aliases": [
         "Calendula",
-        "Lutein",
         "Tagetes erecta",
         "万寿菊提取物",
         "Souci",
@@ -3646,7 +3604,7 @@
       "common_aliases": [
         "Alaska Pollock",
         "Walleye Pollock",
-        "鳕鱼",
+        "阿拉斯加鳕鱼",
         "Lieu",
         "Colin",
         "Lieu d'Alaska"
@@ -3713,7 +3671,6 @@
       "explanation": "Exotic novel protein for extremely sensitive pets with multiple food allergies.",
       "common_aliases": [
         "Fresh Alligator",
-        "Crocodile",
         "鳄鱼肉",
         "Alligator"
       ],
@@ -3775,7 +3732,6 @@
       "explanation": "Natural flavoring from liver, commonly used to enhance food palatability.",
       "common_aliases": [
         "Chicken Liver Flavor",
-        "Liver Digest",
         "肝脏风味",
         "Arôme de foie"
       ],
@@ -4255,7 +4211,6 @@
       "safety_rating": "safe",
       "explanation": "Dairy protein derivative providing essential amino acids.",
       "common_aliases": [
-        "Casein",
         "酪蛋白酸钠",
         "Caséinate de sodium",
         "Caséine"
@@ -5251,8 +5206,6 @@
       "safety_rating": "safe",
       "explanation": "Medium-chain triglycerides providing quick energy and cognitive support.",
       "common_aliases": [
-        "Medium Chain Triglycerides",
-        "中链甘油三酯",
         "Huile TCM",
         "Triglycérides à chaîne moyenne"
       ],
@@ -5481,7 +5434,6 @@
       "safety_rating": "safe",
       "explanation": "Essential electrolyte supporting fluid balance and digestive acid production.",
       "common_aliases": [
-        "Choline Chloride",
         "氯化物",
         "Chlorure"
       ],
@@ -6214,7 +6166,6 @@
       "explanation": "Ground or whole raw bones providing natural calcium and phosphorus in raw diets.",
       "common_aliases": [
         "Raw Bone",
-        "Ground Bone",
         "Finely Ground Bone",
         "可食用骨",
         "Os charnus",
@@ -7103,7 +7054,6 @@
       "explanation": "Natural flavoring and breath freshener. Generally safe for pets and used to improve palatability and dental health.",
       "common_aliases": [
         "Spearmint",
-        "Dried Spearmint",
         "留兰香提取物",
         "薄荷提取物",
         "Extrait de menthe verte"

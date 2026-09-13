@@ -11,7 +11,6 @@ function makeIngredient(name: string, position: number): ParsedIngredient {
     original: name,
     normalized: name.toLowerCase(),
     position,
-    language: "en",
   };
 }
 
