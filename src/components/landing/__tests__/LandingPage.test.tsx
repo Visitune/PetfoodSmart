@@ -198,8 +198,10 @@ describe("LandingPage (F017 - Demo-first)", () => {
   // ---- Footer ----
   it("renders footer with disclaimer", () => {
     render(<LandingPage {...defaultProps} />);
+    // Footer renders <Disclaimer/> from the "legal" namespace (not the
+    // legacy landing.disclaimer string), so match its current wording.
     expect(
-      screen.getByText(/not a substitute for veterinary advice/i)
+      screen.getByText(/consult your veterinarian/i)
     ).toBeInTheDocument();
   });
 
