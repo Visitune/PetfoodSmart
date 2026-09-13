@@ -80,6 +80,29 @@ describe("Ingredient Knowledge Base", () => {
       expect(result!.matched_by).toBe("alias");
     });
 
+    it("matches French aliases with accents", () => {
+      // "Céréales" is a French alias of Cereals
+      const accented = lookupIngredient("Céréales");
+      expect(accented).not.toBeNull();
+      expect(accented!.ingredient.name).toBe("Cereals");
+    });
+
+    it("matches French aliases without accents (OCR often drops them)", () => {
+      const unaccented = lookupIngredient("cereales");
+      expect(unaccented).not.toBeNull();
+      expect(unaccented!.ingredient.name).toBe("Cereals");
+
+      const minerals = lookupIngredient("substances minerales");
+      expect(minerals).not.toBeNull();
+      expect(minerals!.ingredient.name).toBe("Minerals");
+    });
+
+    it("is accent-insensitive regardless of query casing", () => {
+      const result = lookupIngredient("CÉRÉALES");
+      expect(result).not.toBeNull();
+      expect(result!.ingredient.name).toBe("Cereals");
+    });
+
     it("handles whitespace and punctuation", () => {
       const result = lookupIngredient("  Chicken  ");
       expect(result).not.toBeNull();

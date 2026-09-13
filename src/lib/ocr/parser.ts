@@ -11,13 +11,16 @@
 
 import type { ParsedIngredient } from './types';
 
-/** Common ingredient list header patterns */
+/** Common ingredient list header patterns (EN + ZH + FR/EU) */
 const HEADER_PATTERNS: RegExp[] = [
   /ingredients?\s*[:：]/i,
+  /ingr[eé]dients?\s*[:：]/i,
   /成\s*分\s*[:：]/,
   /原\s*料\s*[:：]/,
   /配\s*料\s*[:：]/,
   /composition\s*[:：]/i,
+  /constituants\s+analytiques\s*[:：]/i,
+  /additifs?\s*[:：]/i,
 ];
 
 /** Characters that separate ingredients */
@@ -71,11 +74,12 @@ export function normalizeIngredient(raw: string): string {
  * Handle parenthetical sub-ingredients.
  * "chicken meal (source of glucosamine)" -> keep as-is
  * But strip pure parenthetical noise like "(preserved with mixed tocopherols)"
+ * or French/EU equivalents like "(dont poulet 4%)" or "(source de glucosamine)".
  */
 export function cleanParenthetical(text: string): string {
-  // Remove preservative notes in parens
+  // Remove preservative/source notes in parens (EN + FR)
   return text.replace(
-    /\(\s*(?:preserved|source of|a source of|contains|including)\s+[^)]*\)/gi,
+    /\(\s*(?:preserved|source(?: of| de)?|a source of|contains?|including|dont|contenant|y compris|avec|conserv[ée]s?(?: avec)?|minimum)\s+[^)]*\)/gi,
     ''
   ).trim();
 }

@@ -4,6 +4,7 @@ import {
   normalizeIngredient,
   stripHeader,
   containsChinese,
+  cleanParenthetical,
 } from '../parser';
 
 describe('containsChinese', () => {
@@ -41,6 +42,32 @@ describe('stripHeader', () => {
 
   it('handles full-width colon', () => {
     expect(stripHeader('Ingredients：chicken, rice')).toBe('chicken, rice');
+  });
+
+  it('strips French header "Ingrédients :"', () => {
+    expect(stripHeader('Ingrédients : poulet, riz, maïs')).toBe('poulet, riz, maïs');
+  });
+
+  it('strips French header "Composition :"', () => {
+    expect(stripHeader('Composition : poulet, riz')).toBe('poulet, riz');
+  });
+
+  it('strips French header "Additifs :"', () => {
+    expect(stripHeader('Additifs : vitamine A, taurine')).toBe('vitamine A, taurine');
+  });
+});
+
+describe('cleanParenthetical (FR/EU)', () => {
+  it('strips French "(dont ...)" sub-ingredient notes', () => {
+    expect(cleanParenthetical('viandes (dont poulet 4%)')).toBe('viandes');
+  });
+
+  it('strips French "(source de ...)" notes', () => {
+    expect(cleanParenthetical('farine de poulet (source de glucosamine)')).toBe('farine de poulet');
+  });
+
+  it('keeps non-noise parentheticals as-is', () => {
+    expect(cleanParenthetical('poulet (saveur)')).toBe('poulet (saveur)');
   });
 });
 

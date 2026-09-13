@@ -23,24 +23,40 @@ const aliasIndex = new Map<string, Ingredient>();
 const normalizedVariantIndex = new Map<string, Ingredient>();
 
 /**
- * Normalize an ingredient string for matching:
- * trim, lowercase, collapse whitespace, remove trailing punctuation
+ * Fold a string for accent-insensitive matching:
+ * trim, lowercase, strip diacritics (é → e, ç → c, œ → oe...),
+ * collapse whitespace, remove trailing punctuation.
+ *
+ * French/EU labels use accented characters (blé, levûre, céréales) that OCR
+ * may or may not preserve, so both the index keys and the queries go
+ * through this same folding.
  */
-function normalize(input: string): string {
+function fold(input: string): string {
   return input
     .trim()
     .toLowerCase()
+    .replace(/œ/g, "oe")
+    .replace(/æ/g, "ae")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+/**
+ * Normalize an ingredient string for matching:
+ * accent-folded, collapsed whitespace, no trailing punctuation
+ */
+function normalize(input: string): string {
+  return fold(input)
     .replace(/\s+/g, " ")
     .replace(/[.,;:]+$/, "");
 }
 
 /**
- * Deep-normalize for fuzzy matching: strips hyphens, collapses spaces,
- * removes trailing 's' for plurals, removes OCR artifacts
+ * Deep-normalize for fuzzy matching: accent-folded, strips hyphens,
+ * collapses spaces, removes trailing 's' for plurals, removes OCR artifacts
  */
 function deepNormalize(input: string): string {
-  return input
-    .toLowerCase()
+  return fold(input)
     .replace(/[-–—]/g, "") // Remove hyphens/dashes
     .replace(/[''`]/g, "") // Remove apostrophes/backticks (OCR artifacts)
     .replace(/\s+/g, "") // Remove all spaces
@@ -48,14 +64,14 @@ function deepNormalize(input: string): string {
 }
 
 for (const ingredient of knowledgeBase.ingredients) {
-  const nameLower = ingredient.name.toLowerCase();
-  exactNameIndex.set(nameLower, ingredient);
-  normalizedVariantIndex.set(deepNormalize(nameLower), ingredient);
+  const nameFolded = fold(ingredient.name);
+  exactNameIndex.set(nameFolded, ingredient);
+  normalizedVariantIndex.set(deepNormalize(nameFolded), ingredient);
 
   for (const alias of ingredient.common_aliases) {
-    const aliasLower = alias.toLowerCase();
-    aliasIndex.set(aliasLower, ingredient);
-    normalizedVariantIndex.set(deepNormalize(aliasLower), ingredient);
+    const aliasFolded = fold(alias);
+    aliasIndex.set(aliasFolded, ingredient);
+    normalizedVariantIndex.set(deepNormalize(aliasFolded), ingredient);
   }
 }
 
@@ -114,7 +130,7 @@ function fuzzyMatch(normalized: string): LookupResult | null {
   let bestScore = 0;
 
   for (const ingredient of knowledgeBase.ingredients) {
-    const name = ingredient.name.toLowerCase();
+    const name = fold(ingredient.name);
 
     // Check if the query contains the ingredient name
     if (normalized.includes(name) && name.length > 2) {
@@ -136,7 +152,7 @@ function fuzzyMatch(normalized: string): LookupResult | null {
 
     // Check aliases for substring match
     for (const alias of ingredient.common_aliases) {
-      const aliasLower = alias.toLowerCase();
+      const aliasLower = fold(alias);
       if (normalized.includes(aliasLower) && aliasLower.length > 2) {
         const score = aliasLower.length / normalized.length;
         if (score > bestScore) {
@@ -183,10 +199,10 @@ export function searchIngredients(query: string): Ingredient[] {
   if (normalized.length === 0) return [];
 
   return knowledgeBase.ingredients.filter((ingredient) => {
-    const name = ingredient.name.toLowerCase();
+    const name = fold(ingredient.name);
     if (name.includes(normalized)) return true;
     return ingredient.common_aliases.some((alias) =>
-      alias.toLowerCase().includes(normalized)
+      fold(alias).includes(normalized)
     );
   });
 }
