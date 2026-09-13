@@ -1,0 +1,30 @@
+{
+  "note": "Echantillon pilote FR — 25 references reelles OFF, petType leve manuellement, a relecture",
+  "shortlist": [
+    { "code": "3760185060905", "petType": "dog" },
+    { "code": "3596710523665", "petType": "dog" },
+    { "code": "3560071174743", "petType": "dog" },
+    { "code": "5407009640445", "petType": "dog" },
+    { "code": "3560070016105", "petType": "dog" },
+    { "code": "5425039486246", "petType": "dog" },
+    { "code": "3596710523559", "petType": "dog" },
+    { "code": "3561963601149", "petType": "dog" },
+    { "code": "3560070495337", "petType": "dog" },
+    { "code": "7613035379114", "petType": "dog" },
+    { "code": "4056489407225", "petType": "dog" },
+    { "code": "3596710523535", "petType": "dog" },
+    { "code": "3700260216148", "petType": "cat" },
+    { "code": "7613031571390", "petType": "cat" },
+    { "code": "7613033136351", "petType": "cat" },
+    { "code": "8445290950154", "petType": "cat" },
+    { "code": "3182550702423", "petType": "cat" },
+    { "code": "5998749129111", "petType": "cat" },
+    { "code": "3564706570351", "petType": "cat" },
+    { "code": "8595602527397", "petType": "cat" },
+    { "code": "7613287162151", "petType": "cat" },
+    { "code": "3250390844297", "petType": "cat" },
+    { "code": "4260358515731", "petType": "cat" },
+    { "code": "3701245500016", "petType": "cat" },
+    { "code": "8429037016280", "petType": "cat" }
+  ]
+}

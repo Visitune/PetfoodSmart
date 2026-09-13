@@ -1,0 +1,408 @@
+{
+  "harvested_at": "2026-09-13",
+  "source": "Open Pet Food Facts (search API, ODbL)",
+  "min_ingredients_len": 80,
+  "count": 40,
+  "candidates": [
+    {
+      "code": "3700260216148",
+      "brand": "Ultima",
+      "product_name": "Chats stérilisés adultes",
+      "petType": null,
+      "ingredients_len": 718,
+      "quantity": "1,5kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/370/026/021/6148/front_fr.19.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3700260216148"
+    },
+    {
+      "code": "7613031571390",
+      "brand": "Purina",
+      "product_name": "Croquettes Pour Chat Adulte Stérilisé Boeuf Bifensis",
+      "petType": null,
+      "ingredients_len": 264,
+      "quantity": "1.5kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/761/303/157/1390/front_fr.16.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/7613031571390"
+    },
+    {
+      "code": "7613033136351",
+      "brand": "Purina",
+      "product_name": "Purina One",
+      "petType": null,
+      "ingredients_len": 1184,
+      "quantity": "3kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/761/303/313/6351/front_fr.29.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/7613033136351"
+    },
+    {
+      "code": "8445290950154",
+      "brand": "Purina",
+      "product_name": "Friskies 5 promesses bœuf poulet",
+      "petType": null,
+      "ingredients_len": 949,
+      "quantity": "3 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/844/529/095/0154/front_fr.41.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/8445290950154"
+    },
+    {
+      "code": "3182550702423",
+      "brand": "Royal canin",
+      "product_name": "kitten 12mois",
+      "petType": null,
+      "ingredients_len": 692,
+      "quantity": "2kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/318/255/070/2423/front_fr.43.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3182550702423"
+    },
+    {
+      "code": "5998749129111",
+      "brand": "whiskas",
+      "product_name": "Whiskas sec stérilisé au saumon 1 an et +",
+      "petType": null,
+      "ingredients_len": 702,
+      "quantity": "1,75 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/599/874/912/9111/front_fr.7.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/5998749129111"
+    },
+    {
+      "code": "3065890071049",
+      "brand": "Waltham",
+      "product_name": "Whiskas au thon",
+      "petType": null,
+      "ingredients_len": 422,
+      "quantity": "2 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/306/589/007/1049/front_fr.25.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3065890071049"
+    },
+    {
+      "code": "4056489407225",
+      "brand": "Orlando",
+      "product_name": "Pure Taste",
+      "petType": null,
+      "ingredients_len": 324,
+      "quantity": "1400 g",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/405/648/940/7225/front_fr.25.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/4056489407225"
+    },
+    {
+      "code": "7613035379114",
+      "brand": "Purina",
+      "product_name": "Friandises Pour Chien Adulte Medium +10kg Hygiène Bucco Dentaire DENTALIFE",
+      "petType": null,
+      "ingredients_len": 172,
+      "quantity": "345g",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/761/303/537/9114/front_fr.12.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/7613035379114"
+    },
+    {
+      "code": "3760185060905",
+      "brand": "octave prestige",
+      "product_name": "croquette adulte light/stérilisé moyenne et grande race",
+      "petType": "dog",
+      "ingredients_len": 558,
+      "quantity": "15 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/376/018/506/0905/front_fr.3.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3760185060905"
+    },
+    {
+      "code": "3596710523665",
+      "brand": "Auchan",
+      "product_name": "Croquettes riches en dinde fraiche",
+      "petType": "dog",
+      "ingredients_len": 385,
+      "quantity": "1.2 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/359/671/052/3665/front_fr.29.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3596710523665"
+    },
+    {
+      "code": "3560071174743",
+      "brand": "Carrefour",
+      "product_name": "Original Instinct Chicken",
+      "petType": "dog",
+      "ingredients_len": 499,
+      "quantity": "10 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/356/007/117/4743/front_fr.7.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3560071174743"
+    },
+    {
+      "code": "3596710523535",
+      "brand": "Auchan",
+      "product_name": "Croquette chien petit riche en poulet frais",
+      "petType": "dog",
+      "ingredients_len": 391,
+      "quantity": "1.5 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/359/671/052/3535/front_fr.30.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3596710523535"
+    },
+    {
+      "code": "5407009640445",
+      "brand": "Edgard cooper",
+      "product_name": "Canard et Poulet frais",
+      "petType": null,
+      "ingredients_len": 879,
+      "quantity": null,
+      "image_url": "https://images.openpetfoodfacts.org/images/products/540/700/964/0445/front_fr.22.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/5407009640445"
+    },
+    {
+      "code": "7613033566417",
+      "brand": "PRO PLAN",
+      "product_name": "ProPlan",
+      "petType": null,
+      "ingredients_len": 211,
+      "quantity": "1.5kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/761/303/356/6417/front_fr.16.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/7613033566417"
+    },
+    {
+      "code": "3560070016105",
+      "brand": "Carrefour",
+      "product_name": "Companino Vitalive Medium",
+      "petType": "dog",
+      "ingredients_len": 561,
+      "quantity": "10 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/356/007/001/6105/front_fr.20.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3560070016105"
+    },
+    {
+      "code": "5425039486246",
+      "brand": "edgard cooper",
+      "product_name": "Savoureux dinde & poulet élevés en liberté",
+      "petType": "dog",
+      "ingredients_len": 862,
+      "quantity": "0.7 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/542/503/948/6246/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/5425039486246"
+    },
+    {
+      "code": "3596710523528",
+      "brand": "Auchan",
+      "product_name": "Chien petit croquette riche en boeuf frais",
+      "petType": "dog",
+      "ingredients_len": 383,
+      "quantity": "1.5 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/359/671/052/3528/front_fr.26.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3596710523528"
+    },
+    {
+      "code": "3596710523559",
+      "brand": "Auchan",
+      "product_name": "Chien medium maxi croquettes riches en poulet frais",
+      "petType": "dog",
+      "ingredients_len": 372,
+      "quantity": "2 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/359/671/052/3559/front_fr.27.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3596710523559"
+    },
+    {
+      "code": "3561963601149",
+      "brand": "VIRBAC",
+      "product_name": "VIRBAC HPM Digestive Support",
+      "petType": "dog",
+      "ingredients_len": 748,
+      "quantity": "12kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/356/196/360/1149/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3561963601149"
+    },
+    {
+      "code": "3560070495337",
+      "brand": "Carrefour",
+      "product_name": "companino vitalive Sticks",
+      "petType": "dog",
+      "ingredients_len": 408,
+      "quantity": "6 x 5 g = 30 g",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/356/007/049/5337/front_fr.36.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3560070495337"
+    },
+    {
+      "code": "3564706570351",
+      "brand": "leclerc",
+      "product_name": "plenima",
+      "petType": "cat",
+      "ingredients_len": 413,
+      "quantity": "600",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/356/470/657/0351/front_fr.3.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3564706570351"
+    },
+    {
+      "code": "5701170311228",
+      "brand": "Specific",
+      "product_name": "Specific Senior",
+      "petType": "cat",
+      "ingredients_len": 218,
+      "quantity": "7,5 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/570/117/031/1228/front_fr.14.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/5701170311228"
+    },
+    {
+      "code": "8595602527397",
+      "brand": "carnilove",
+      "product_name": "Fresh Chicken & Rabbit Gourmand",
+      "petType": "cat",
+      "ingredients_len": 1450,
+      "quantity": "2 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/859/560/252/7397/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/8595602527397"
+    },
+    {
+      "code": "3700260205883",
+      "brand": "Ultima",
+      "product_name": "Ultima adulte Stérilisé",
+      "petType": "cat",
+      "ingredients_len": 103,
+      "quantity": "7,5 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/370/026/020/5883/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3700260205883"
+    },
+    {
+      "code": "7613287162151",
+      "brand": "Purina one",
+      "product_name": "Croquettes pour chats Dual nature avec cranberry et saumon spécial chats stérilisés",
+      "petType": "cat",
+      "ingredients_len": 541,
+      "quantity": "1,4kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/761/328/716/2151/front_fr.18.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/7613287162151"
+    },
+    {
+      "code": "3250390844297",
+      "brand": "Canaillou",
+      "product_name": "Croquettes adulte",
+      "petType": "cat",
+      "ingredients_len": 774,
+      "quantity": "4 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/325/039/084/4297/front_fr.6.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3250390844297"
+    },
+    {
+      "code": "4260358515731",
+      "brand": "Purizon",
+      "product_name": "Croquettes Adulte poulet sanglier",
+      "petType": "cat",
+      "ingredients_len": 863,
+      "quantity": "400g",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/426/035/851/5731/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/4260358515731"
+    },
+    {
+      "code": "3701245500016",
+      "brand": "Wolfood",
+      "product_name": "Adult Sterilized Cat | Grain Free",
+      "petType": "cat",
+      "ingredients_len": 1369,
+      "quantity": "10 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/370/124/550/0016/front_fr.17.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3701245500016"
+    },
+    {
+      "code": "4897097263182",
+      "brand": "nood",
+      "product_name": "Croquette pour chat",
+      "petType": "cat",
+      "ingredients_len": 662,
+      "quantity": "1,4kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/489/709/726/3182/front_fr.3.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/4897097263182"
+    },
+    {
+      "code": "8429037016280",
+      "brand": "Ownat",
+      "product_name": "Croquettes naturelle pour chats",
+      "petType": "cat",
+      "ingredients_len": 1355,
+      "quantity": "4kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/842/903/701/6280/front_fr.10.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/8429037016280"
+    },
+    {
+      "code": "8714265975813",
+      "brand": "dano nio",
+      "product_name": "dano honest bio pet food",
+      "petType": "cat",
+      "ingredients_len": 835,
+      "quantity": "800g",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/871/426/597/5813/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/8714265975813"
+    },
+    {
+      "code": "5407009640476",
+      "brand": "Edgard  Cooper",
+      "product_name": "Dinde et Poulet frais",
+      "petType": "cat",
+      "ingredients_len": 847,
+      "quantity": "2 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/540/700/964/0476/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/5407009640476"
+    },
+    {
+      "code": "8595602512300",
+      "brand": "carnilove",
+      "product_name": "Lamb & Wild Boar",
+      "petType": "cat",
+      "ingredients_len": 1229,
+      "quantity": "6 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/859/560/251/2300/front_fr.18.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/8595602512300"
+    },
+    {
+      "code": "3256220739115",
+      "brand": "U",
+      "product_name": "Croquettes Pour Chat Stérilisé Premium U,",
+      "petType": "cat",
+      "ingredients_len": 342,
+      "quantity": null,
+      "image_url": "https://images.openpetfoodfacts.org/images/products/325/622/073/9115/front_fr.16.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3256220739115"
+    },
+    {
+      "code": "3760080534365",
+      "brand": "Nutrivet",
+      "product_name": "Bio organic pet food pour chat stérilisé",
+      "petType": "cat",
+      "ingredients_len": 262,
+      "quantity": "6 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/376/008/053/4365/front_fr.6.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3760080534365"
+    },
+    {
+      "code": "67580002",
+      "brand": "Wolfood",
+      "product_name": "Adult Sterilized Cat | Grain Free",
+      "petType": "cat",
+      "ingredients_len": 768,
+      "quantity": "3 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/000/006/758/0002/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/67580002"
+    },
+    {
+      "code": "3344951102701",
+      "brand": "Tonivet",
+      "product_name": "IRC Hypoallergénique - Chat stérilisé",
+      "petType": "cat",
+      "ingredients_len": 507,
+      "quantity": "1,5 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/334/495/110/2701/front_fr.4.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3344951102701"
+    },
+    {
+      "code": "3344951102756",
+      "brand": "Tonivet",
+      "product_name": "IRC Hypoallergénique -  Chat stérilisé",
+      "petType": "cat",
+      "ingredients_len": 506,
+      "quantity": "5 kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/334/495/110/2756/front_fr.25.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3344951102756"
+    },
+    {
+      "code": "3616660558194",
+      "brand": "Empreintes",
+      "product_name": "Croquettes pour Chat adulte stérilisé au poulet",
+      "petType": "cat",
+      "ingredients_len": 1233,
+      "quantity": "3kg",
+      "image_url": "https://images.openpetfoodfacts.org/images/products/361/666/055/8194/front_fr.3.400.jpg",
+      "off_url": "https://world.openpetfoodfacts.org/product/3616660558194"
+    }
+  ]
+}
