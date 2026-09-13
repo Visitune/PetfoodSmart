@@ -6,7 +6,20 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/761/328/716/2151/front_fr.18.400.jpg",
     "ingredients_text_fr": "Saumon ( (14%) *) dont tete, rete, care reie mais, Mais, Gluten de blé, Graisse de porc, Pulpe de betterave déshydratée, Glycerol, Substances ma cranberry séché (0,344%, équivalent à 4% de jus de cranberry frais obtenu à partir de 5% de cranber Additifs: Additifs nutritionnels: Ul/kg: Vit A: 37000; Vit D3: 1200; Vit E: 670; mg/kg: Vit C: 14 Tanne 191: Sulfate de cuivre(II)pentahydraté: (Cu: 12); Sulfate manganeux monohydrate (M 3 Constituants analytiques: Protéine: 37,0%, Teneur en matières grasses: 13,0% Cendres brates 2 Omega 6:2.0%.",
     "lang": "fr",
+    "nutriments": {
+      "nova-group": 4,
+      "nova-group_100g": 4,
+      "nova-group_1kg": 4,
+      "nova-group_serving": 4,
+      "nova-group_unit": "",
+      "nova-group_value": 4
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "1kg",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "Croquettes pour chats Dual nature avec cranberry et saumon spécial chats stérilisés",
+    "product_quantity": 1400,
+    "product_quantity_unit": "g",
     "quantity": "1,4kg"
   }
 }

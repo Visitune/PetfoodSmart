@@ -6,7 +6,20 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/359/671/052/3665/front_fr.29.400.jpg",
     "ingredients_text_fr": "Volaille (dont dinde fraîche* 14%), amidon de pomme de terre, pois (15%)*, graisses animales, protéines animales hydrolysées, pulpe de betterave déshydratée (3%), levure de bière, chicorée déshydratée (1%), minéraux, huile de poisson, pommes déshydratées , carottes déshydratées (0.35%), brocoli déshydraté (0.15%), chlorure de potassium, canneberges déshydratées. * ingrédient naturel",
     "lang": "fr",
+    "nutriments": {
+      "nova-group": 0.4,
+      "nova-group_100g": 0.4,
+      "nova-group_1kg": 0.4,
+      "nova-group_serving": 0.4,
+      "nova-group_unit": "",
+      "nova-group_value": 0.4
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "1kg",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "Croquettes riches en dinde fraiche",
+    "product_quantity": 1200,
+    "product_quantity_unit": "g",
     "quantity": "1.2 kg"
   }
 }

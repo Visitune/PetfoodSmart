@@ -6,7 +6,22 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/356/007/049/5337/front_fr.36.400.jpg",
     "ingredients_text_fr": "_Composition_: viandes et sous-produits animaux (95%, dont bœuf 6%), sous-produits d'origine végétale, substances minérales, huiles et graisses.\r\n_Constituants analytiques_ : Protéine brute : 33.5%, Matières grasses brutes : 20%, Cellulose brute : 2%, Cendres brutes : 10.8%, Humidité : 31%. \r\n_Additifs:_ conservateurs, antioxygènes. _Additifs nutritionnels (/kg_) : vitamine D3 : 200 UI, vitamine E: 100UI.",
     "lang": "fr",
+    "nutriments": {
+      "added-sugars": 0,
+      "added-sugars_100g": 0,
+      "added-sugars_1kg": 0,
+      "added-sugars_modifier": "~",
+      "added-sugars_unit": "g",
+      "added-sugars_value": 0,
+      "fruits-vegetables-legumes-estimate-from-ingredients_1kg": 0,
+      "fruits-vegetables-nuts-estimate-from-ingredients_1kg": 0
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "1kg",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "companino vitalive Sticks",
+    "product_quantity": 30,
+    "product_quantity_unit": "g",
     "quantity": "6 x 5 g = 30 g"
   }
 }

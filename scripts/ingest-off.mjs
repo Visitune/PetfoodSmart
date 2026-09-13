@@ -7,7 +7,7 @@
  */
 import { writeFileSync, mkdirSync, readFileSync, existsSync } from "node:fs";
 
-const FIELDS = "code,product_name,brands,ingredients_text_fr,image_url,quantity,lang";
+const FIELDS = "code,product_name,brands,ingredients_text_fr,image_url,quantity,lang,nutriments";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -47,6 +47,13 @@ for (const { code, petType } of shortlist) {
     const raw = (p.ingredients_text_fr || "").trim();
     const { kept, dropped } = cleanIngredients(raw);
     const brand = (p.brands || "").split(",")[0].trim();
+    // Constituants analytiques /100g (base du futur contrôle d'adéquation FEDIAF)
+    const NUT_KEYS = ["proteins_100g", "fat_100g", "fiber_100g", "ash_100g", "moisture_100g", "energy-kcal_100g", "calcium_100g", "phosphorus_100g", "sodium_100g"];
+    const nutriments_100g = {};
+    for (const k of NUT_KEYS) {
+      const v = p.nutriments ? p.nutriments[k] : undefined;
+      nutriments_100g[k] = typeof v === "number" ? v : null;
+    }
     products.push({
       ean: code,
       brand,
@@ -55,6 +62,7 @@ for (const { code, petType } of shortlist) {
       ingredients_fr: kept,
       ingredients_raw: raw,
       dropped_fragments: dropped,
+      nutriments_100g,
       data_source: "off_import",
       verification: "a_valider",
       confidence: "a_valider",
@@ -72,7 +80,7 @@ for (const { code, petType } of shortlist) {
 }
 
 writeFileSync("data/products.json", JSON.stringify({
-  version: "1.0.0",
+  version: "1.1.0",
   last_updated: TODAY,
   scope: "Échantillon pilote FR — références réelles OFF (ODbL), statut a_valider, relecture manuelle requise",
   count: products.length,

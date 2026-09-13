@@ -34,6 +34,8 @@ export interface ProductRecord {
   ingredients_raw: string;
   /** Nombre de fragments écartés au nettoyage (indicateur qualité) */
   dropped_fragments: number;
+  /** Constituants analytiques /100g (OFF) — entrée du contrôle d'adéquation FEDIAF */
+  nutriments_100g?: Record<string, number | null>;
   /** Traçabilité — le champ auditeur */
   data_source: DataSource;
   verification: VerificationStatus;

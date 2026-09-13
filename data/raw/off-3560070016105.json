@@ -6,7 +6,28 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/356/007/001/6105/front_fr.20.400.jpg",
     "ingredients_text_fr": "Céréales, viandes et sous-produits animaux (dont bœuf déshydraté 4%), sous-produits d'origine végétale, huiles et graisses, extraits de protéines végétales, substances minérales.\n_Constituants analytiques :_ Protéine brute: 23%, Matières grasses brutes: 10%, Cendres brutes: 7,9%, Cellulose brute: 3%, Humidité: 10%.\n_Additifs :_ colorants, antioxygènes. _Additifs nutritionnels (/kg) :_Vitamine A: 10 000 UI, Vitamine D3: 1000 UI, Vitamine E: 100 mg, Iodure de potassium: 1,11 mg (Iode: 0,8 mg), Chélate de zinc et d'acides aminés hydraté: 458 mg (Zinc: 20 mg)",
     "lang": "fr",
+    "nutriments": {
+      "added-sugars": 0,
+      "added-sugars_100g": 0,
+      "added-sugars_1kg": 0,
+      "added-sugars_modifier": "~",
+      "added-sugars_unit": "g",
+      "added-sugars_value": 0,
+      "fruits-vegetables-legumes-estimate-from-ingredients_1kg": 0,
+      "fruits-vegetables-nuts-estimate-from-ingredients_1kg": 0,
+      "nova-group": 4,
+      "nova-group_100g": 4,
+      "nova-group_1kg": 4,
+      "nova-group_serving": 4,
+      "nova-group_unit": "",
+      "nova-group_value": 4
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "1kg",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "Companino Vitalive Medium",
+    "product_quantity": 10000,
+    "product_quantity_unit": "g",
     "quantity": "10 kg"
   }
 }

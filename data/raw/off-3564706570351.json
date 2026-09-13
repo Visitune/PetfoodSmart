@@ -6,6 +6,19 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/356/470/657/0351/front_fr.3.400.jpg",
     "ingredients_text_fr": "saumon 20%, pois, protéines animales déshydratées, protéines de saumon déshydratées 10%, amidon de pomme de terre, protéine de volaille hydrolysées, graisse de volaille, pulpe de betteraves déshydratées 3%, graine de lin, minéraux, protéines animales hydrolysées, fibre végétales, huile de poisson, chlorure de potassium, pommes déshydratées, carottes déshydratées, brocolis déshydratées, canneberge déshydratées.",
     "lang": "fr",
+    "no_nutrition_data": "on",
+    "nutriments": {
+      "added-sugars": 0,
+      "added-sugars_100g": 0,
+      "added-sugars_modifier": "~",
+      "added-sugars_unit": "g",
+      "added-sugars_value": 0,
+      "fruits-vegetables-legumes-estimate-from-ingredients_100g": 26.5,
+      "fruits-vegetables-nuts-estimate-from-ingredients_100g": 26.5
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "100g",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "plenima",
     "quantity": "600"
   }

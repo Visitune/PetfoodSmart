@@ -6,7 +6,22 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/844/529/095/0154/front_fr.41.400.jpg",
     "ingredients_text_fr": "Céréales, Viandes et sous-produits animaux (20%, dont boeuf 2% et poulet 2% dans les croquettes en forme de cube 1°), Extraits de protéines végétales, Sous-produits d'origine végétale, Huiles et graisses, Substances minérales, Levures, Légumes (0,6% de légumes séchés, équivalent à 4% de légumes réhydratés dans les croquettes rondes 2°) \n1° Contenu total dans le produit: 1,6% de bœuf et 1,6% de poulet.\n2° Contenu total dans le produit: 0,6% de légumes réhydratés.\nComposition type: 80% de croquettes en forme de cube; 20% de croquettes rondes.\nAdditifs : Additifs nutritionnels: Ul/kg: Vit A: 16500; Vit D₂: 1350; Vit E: 110; mg/kg: Sulfate de fer (II) monohydraté: (Fe: 62); lodate de calcium anhydre: (1: 2,0); Sulfate de cuivre (II) pentahydraté: (Cu: 11); Sulfate manganeux monohydraté: (Mn: 6,7); Sulfate de zinc monohydraté: (Zn: 88); Sélénite de sodium: (Se: 0,14); Taurine: 1150. (3) Colorants et antioxygènes. Sans colorants artificiels.",
     "lang": "fr",
+    "nutriments": {
+      "added-sugars": 0,
+      "added-sugars_100g": 0,
+      "added-sugars_1kg": 0,
+      "added-sugars_modifier": "~",
+      "added-sugars_unit": "g",
+      "added-sugars_value": 0,
+      "fruits-vegetables-legumes-estimate-from-ingredients_1kg": 0,
+      "fruits-vegetables-nuts-estimate-from-ingredients_1kg": 0
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "1kg",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "Friskies 5 promesses bœuf poulet",
+    "product_quantity": 3000,
+    "product_quantity_unit": "g",
     "quantity": "3 kg"
   }
 }

@@ -6,7 +6,24 @@
     "image_url": "https://images.openpetfoodfacts.org/images/products/761/303/313/6351/front_fr.29.400.jpg",
     "ingredients_text_fr": ". En utilisant des assimilation optimale des nutriments. Information importante: le paquet de croquettes en format 9,75 kg vous est proposé dans un design différent de votre produit habituel. Nous vous garantissons cependant qu'il s'agit bien des mêmes croquettes et que leur qualité reste inchangée. Caractéristiques des croquettes PURINA ONE pour chat: • Bifensis Dual Defence: formule double défense qui contribue à améliorer le bien-être du chat, à l'intérieur comme à l'extérieur. Action cliniquement prouvée, augmente la formation d'anticorps dans l'intestin et favorise la santé de la peau et du pelage grâce à des acides gras oméga 6 • réduisent la formation de tartre de 40 % : réduction de la plaque dentaire ⚫ assimilation optimale: grâce à des ingrédients de qualité faciles à digérer pour faciliter l'assimilation des substances vitales • recettes équilibrées : contiennent les nutriments essentiels tels que des vitamines, minéraux et oligo-éléments qui contribuent au bien-être des chats • sans colorants, exhausteurs de goûts ni conservateurs artificiels • développées par des experts: recette à la pointe de la recherche scientifique, recommandée par les vétérinaires",
     "lang": "fr",
+    "no_nutrition_data": "on",
+    "nutriments": {
+      "added-sugars": 0,
+      "added-sugars_100g": 0,
+      "added-sugars_1kg": 0,
+      "added-sugars_modifier": "~",
+      "added-sugars_serving": 0,
+      "added-sugars_unit": "g",
+      "added-sugars_value": 0,
+      "fruits-vegetables-legumes-estimate-from-ingredients_1kg": 0,
+      "fruits-vegetables-nuts-estimate-from-ingredients_1kg": 0
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "1kg",
+    "nutrition_data_prepared_per": "100g",
     "product_name": "Purina One",
+    "product_quantity": 3000,
+    "product_quantity_unit": "g",
     "quantity": "3kg"
   }
 }
