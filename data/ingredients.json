@@ -50,7 +50,9 @@
       "common_aliases": [
         "Preserved with Mixed Tocopherols",
         "鸡脂肪",
-        "鸡油"
+        "鸡油",
+        "Graisse de poulet",
+        "Graisse de volaille"
       ],
       "explanation_zh": "omega-6脂肪酸和亚油酸的天然来源。保存良好的鸡脂肪是优质成分。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -172,7 +174,8 @@
       "common_aliases": [
         "Wild Salmon Oil",
         "三文鱼油",
-        "鲑鱼油"
+        "鲑鱼油",
+        "Huile de saumon"
       ],
       "explanation_zh": "EPA和DHA omega-3脂肪酸的丰富来源。支持大脑、皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -235,7 +238,8 @@
       "safety_rating": "safe",
       "explanation": "Excellent source of omega-3 fatty acids for skin, coat, and cognitive health.",
       "common_aliases": [
-        "鲱鱼油"
+        "鲱鱼油",
+        "Huile de hareng"
       ],
       "explanation_zh": "omega-3脂肪酸的优质来源，有益于皮肤、毛发和认知健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -377,7 +381,9 @@
       "safety_rating": "safe",
       "explanation": "Rendered beef fat providing essential fatty acids and palatability.",
       "common_aliases": [
-        "牛脂"
+        "牛脂",
+        "Suif de bœuf",
+        "Graisse de bœuf"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -531,7 +537,9 @@
       "common_aliases": [
         "Pork Lard",
         "猪脂肪",
-        "猪油"
+        "猪油",
+        "Graisse de porc",
+        "Saindoux"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -609,7 +617,8 @@
       "explanation": "Source of omega-3 fatty acids (EPA/DHA). Supports skin, coat, brain, and joint health.",
       "common_aliases": [
         "Marine Fish Oil",
-        "鱼油"
+        "鱼油",
+        "Huile de poisson"
       ],
       "explanation_zh": "EPA和DHA omega-3脂肪酸来源。支持皮肤、毛发、关节和大脑健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -706,7 +715,9 @@
       "common_aliases": [
         "Whole Brown Rice",
         "Ground Brown Rice",
-        "糙米"
+        "糙米",
+        "Riz brun",
+        "Riz complet"
       ],
       "explanation_zh": "全谷物，提供复合碳水化合物、纤维和B族维生素。易于消化。",
       "sources": ["AAFCO"]
@@ -722,7 +733,9 @@
         "Ground Rice",
         "白米",
         "大米",
-        "米"
+        "米",
+        "Riz blanc",
+        "Riz"
       ],
       "explanation_zh": "精制谷物，消化率高但营养价值低于糙米。适合敏感肠胃。",
       "sources": ["AAFCO"]
@@ -738,7 +751,10 @@
         "Ground Oats",
         "Oat Groats",
         "燕麦",
-        "燕麦片"
+        "燕麦片",
+        "Flocons d'avoine",
+        "Avoine",
+        "Gruau d'avoine"
       ],
       "explanation_zh": "全谷物碳水化合物来源，富含可溶性纤维。适合多数宠物。",
       "sources": ["AAFCO"]
@@ -752,7 +768,8 @@
         "Whole Barley",
         "Pearled Barley",
         "Ground Barley",
-        "大麦"
+        "大麦",
+        "Orge"
       ],
       "explanation_zh": "全谷物，富含纤维和B族维生素。良好的碳水化合物来源。",
       "sources": ["AAFCO"]
@@ -764,7 +781,8 @@
       "explanation": "Complete protein pseudo-grain with all essential amino acids. Highly nutritious and gluten-free.",
       "common_aliases": [
         "Whole Quinoa",
-        "藜麦"
+        "藜麦",
+        "Quinoa"
       ],
       "explanation_zh": "完整蛋白质谷物，含所有必需氨基酸。高营养密度。",
       "sources": ["AAFCO"]
@@ -777,7 +795,9 @@
       "common_aliases": [
         "Whole Millet",
         "Pearl Millet",
-        "小米"
+        "小米",
+        "Millet",
+        "Mil"
       ],
       "explanation_zh": "小型无麸质谷物，消化率良好。提供B族维生素和矿物质。",
       "sources": ["AAFCO"]
@@ -791,7 +811,8 @@
         "Whole Sorghum",
         "Grain Sorghum",
         "Milo",
-        "高粱"
+        "高粱",
+        "Sorgho"
       ],
       "explanation_zh": "无麸质古老谷物，富含抗氧化剂。良好的碳水化合物替代品。",
       "sources": ["AAFCO"]
@@ -807,7 +828,8 @@
         "Ground Corn",
         "Corn Meal",
         "Maize",
-        "玉米"
+        "玉米",
+        "Maïs"
       ],
       "explanation_zh": "廉价填充成分。虽提供一定能量，但不是宠物食品的理想碳水来源。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -834,7 +856,9 @@
         "Whole Grain Wheat",
         "Ground Wheat",
         "Wheat Flour",
-        "小麦"
+        "小麦",
+        "Blé",
+        "Froment"
       ],
       "explanation_zh": "常见过敏原。提供碳水化合物但也是许多宠物的过敏源。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -912,7 +936,8 @@
       "safety_rating": "safe",
       "explanation": "Outer layer of rice grain, good source of fiber, healthy fats, and B vitamins.",
       "common_aliases": [
-        "米糠"
+        "米糠",
+        "Son de riz"
       ],
       "explanation_zh": "米糠外层，良好的纤维、健康脂肪和B族维生素来源。",
       "sources": ["AAFCO"]
@@ -924,7 +949,8 @@
       "explanation": "Finely ground rice, easily digestible carbohydrate source.",
       "common_aliases": [
         "Ground Rice Flour",
-        "米粉"
+        "米粉",
+        "Farine de riz"
       ],
       "explanation_zh": "精制米粉，容易消化但纤维含量低。",
       "sources": ["AAFCO"]
@@ -1188,7 +1214,9 @@
       "explanation": "Byproduct of tomato processing. Good source of soluble fiber and lycopene antioxidant.",
       "common_aliases": [
         "Dried Tomato Pomace",
-        "番茄渣"
+        "番茄渣",
+        "Marc de tomate",
+        "Pulpe de tomate"
       ],
       "explanation_zh": "番茄加工副产品，含纤维和番茄红素。并非劣质填充剂。",
       "sources": ["AAFCO"]
@@ -1201,7 +1229,9 @@
       "common_aliases": [
         "Dried Beet Pulp",
         "Dried Plain Beet Pulp",
-        "甜菜粕"
+        "甜菜粕",
+        "Pulpe de betterave",
+        "Pulpe de betterave déshydratée"
       ],
       "explanation_zh": "甜菜加工后的纤维。温和的可溶性纤维来源，支持消化健康。",
       "sources": ["AAFCO"]
@@ -1279,7 +1309,9 @@
       "explanation": "Rich in MCTs for quick energy. Supports skin and coat health.",
       "common_aliases": [
         "Virgin Coconut Oil",
-        "椰子油"
+        "椰子油",
+        "Huile de coco",
+        "Huile de noix de coco"
       ],
       "explanation_zh": "含中链脂肪酸（MCT），支持皮肤和毛发健康。可能有助于认知功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1293,7 +1325,9 @@
         "Ground Flaxseed",
         "Flax",
         "Linseed",
-        "亚麻籽"
+        "亚麻籽",
+        "Graines de lin",
+        "Lin"
       ],
       "explanation_zh": "omega-3脂肪酸（ALA）的植物来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1317,7 +1351,8 @@
       "explanation": "Source of omega-6 fatty acids and vitamin E. Supports skin and coat health.",
       "common_aliases": [
         "Sunflower Seed Oil",
-        "葵花籽油"
+        "葵花籽油",
+        "Huile de tournesol"
       ],
       "explanation_zh": "omega-6脂肪酸的来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1329,7 +1364,8 @@
       "explanation": "Good balance of omega-3 and omega-6 fatty acids. Low in saturated fat.",
       "common_aliases": [
         "Rapeseed Oil",
-        "菜籽油"
+        "菜籽油",
+        "Huile de colza"
       ],
       "explanation_zh": "均衡的omega-3和omega-6脂肪酸来源。品质因来源而异。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1341,7 +1377,8 @@
       "explanation": "Rich in monounsaturated fatty acids and polyphenols. Supports heart health.",
       "common_aliases": [
         "Extra Virgin Olive Oil",
-        "橄榄油"
+        "橄榄油",
+        "Huile d'olive"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1355,7 +1392,9 @@
         "Tapioca Starch",
         "Cassava",
         "木薯",
-        "木薯淀粉"
+        "木薯淀粉",
+        "Tapioca",
+        "Manioc"
       ],
       "explanation_zh": "碳水化合物来源，提供能量和部分营养素。",
       "sources": ["AAFCO"]
@@ -1477,7 +1516,8 @@
       "common_aliases": [
         "Chicory Root Extract",
         "Dried Chicory Root",
-        "菊苣根"
+        "菊苣根",
+        "Racine de chicorée"
       ],
       "explanation_zh": "益生元纤维来源。促进有益肠道菌群生长。",
       "sources": ["AAFCO"]
@@ -1514,7 +1554,9 @@
       "common_aliases": [
         "Rosemary",
         "Dried Rosemary",
-        "迷迭香提取物"
+        "迷迭香提取物",
+        "Extrait de romarin",
+        "Romarin"
       ],
       "explanation_zh": "具有抗氧化功能的天然防腐剂。安全的化学防腐剂替代品。",
       "sources": ["AAFCO"]
@@ -1528,7 +1570,11 @@
         "Tocopherols",
         "Natural Tocopherols",
         "Vitamin E Preservative",
-        "混合生育酚"
+        "混合生育酚",
+        "Tocophérols",
+        "Tocophérols mélangés",
+        "Extraits riches en tocophérols",
+        "E306"
       ],
       "explanation_zh": "天然维生素E混合物，用作防腐剂。安全有效的抗氧化保鲜剂。",
       "sources": ["AAFCO"]
@@ -1539,7 +1585,9 @@
       "safety_rating": "safe",
       "explanation": "Natural preservative derived from citrus fruits. Generally safe in small amounts.",
       "common_aliases": [
-        "柠檬酸"
+        "柠檬酸",
+        "Acide citrique",
+        "E330"
       ],
       "explanation_zh": "天然酸味剂和防腐剂。一般公认安全，但过量可能刺激肠胃。",
       "sources": ["AAFCO"]
@@ -1565,7 +1613,9 @@
       "explanation": "Butylated hydroxyanisole - synthetic preservative classified by some bodies as a possible concern. FDA-approved for use in pet food at regulated levels. Restricted in some countries for human food.",
       "common_aliases": [
         "Butylated Hydroxyanisole",
-        "丁基羟基茴香醚"
+        "丁基羟基茴香醚",
+        "Hydroxyanisole butylé",
+        "E320"
       ],
       "explanation_zh": "人工合成抗氧化剂（丁基羟基茴香醚）。部分研究对其安全性提出关注。FDA批准在宠物食品中按规定量使用。",
       "sources": ["FDA CVM", "AAFCO", "IARC"]
@@ -1577,7 +1627,9 @@
       "explanation": "Butylated hydroxytoluene - synthetic preservative. Some studies have raised concerns about long-term exposure. FDA-approved for use in pet food at regulated levels.",
       "common_aliases": [
         "Butylated Hydroxytoluene",
-        "二丁基羟基甲苯"
+        "二丁基羟基甲苯",
+        "Hydroxytoluène butylé",
+        "E321"
       ],
       "explanation_zh": "人工合成防腐剂（二丁基羟基甲苯）。安全性受到质疑。",
       "sources": ["FDA CVM", "AAFCO", "IARC"]
@@ -1588,7 +1640,9 @@
       "safety_rating": "harmful",
       "explanation": "Synthetic antioxidant originally developed as a pesticide. Some studies have raised concerns about long-term exposure. Restricted in some countries for human food; FDA has limited its use in pet food.",
       "common_aliases": [
-        "乙氧基喹"
+        "乙氧基喹",
+        "Éthoxyquine",
+        "E324"
       ],
       "explanation_zh": "合成防腐剂，最初用作农药。部分研究对长期暴露的安全性提出关注。一些国家已对人类食品中的使用进行限制；FDA已限制其在宠物食品中的使用量。",
       "sources": ["FDA CVM", "AAFCO", "IARC"]
@@ -1600,7 +1654,9 @@
       "explanation": "Chemical preservative that may form compounds some studies flag as potentially concerning. FDA-approved for use in pet food at regulated levels. Used for color and preservation.",
       "common_aliases": [
         "Sodium Nitrate",
-        "亚硝酸钠"
+        "亚硝酸钠",
+        "Nitrite de sodium",
+        "E250"
       ],
       "explanation_zh": "防腐剂和发色剂。部分研究对其安全性提出关注。FDA批准在宠物食品中按规定量使用。",
       "sources": ["FDA CVM", "AAFCO", "IARC"]
@@ -1612,7 +1668,9 @@
       "explanation": "Chemical moisturizer. According to veterinary sources, may be harmful to cats (associated with Heinz body anemia). FDA has prohibited its use in cat food. Generally not recommended for pet food.",
       "common_aliases": [
         "PG",
-        "丙二醇"
+        "丙二醇",
+        "Propylène glycol",
+        "E1520"
       ],
       "explanation_zh": "合成甜味剂和保湿剂。对猫有毒，已被禁止用于猫粮。对犬也存在争议。",
       "sources": ["FDA CVM", "AAFCO", "IARC"]
@@ -1624,7 +1682,8 @@
       "explanation": "Tertiary butylhydroquinone - synthetic preservative. Some animal studies have raised concerns; FDA-approved for use in pet food at regulated levels.",
       "common_aliases": [
         "Tertiary Butylhydroquinone",
-        "特丁基对苯二酚"
+        "特丁基对苯二酚",
+        "E319"
       ],
       "explanation_zh": "人工合成防腐剂。安全性存在严重顾虑，不推荐用于宠物食品。",
       "sources": ["FDA CVM", "AAFCO", "IARC"]
@@ -1635,7 +1694,9 @@
       "safety_rating": "safe",
       "explanation": "Common preservative that inhibits mold and yeast growth. Generally recognized as safe.",
       "common_aliases": [
-        "山梨酸钾"
+        "山梨酸钾",
+        "Sorbate de potassium",
+        "E202"
       ],
       "explanation_zh": "常用食品防腐剂，一般认为安全。低浓度下风险较低。",
       "sources": ["AAFCO"]
@@ -1647,7 +1708,8 @@
       "explanation": "Sulfite preservative that can cause allergic reactions in sensitive pets. Some pets tolerate it fine.",
       "common_aliases": [
         "Sodium Metabisulfite",
-        "亚硫酸氢钠"
+        "亚硫酸氢钠",
+        "Bisulfite de sodium"
       ],
       "explanation_zh": "化学防腐剂，可能导致过敏反应。大量食用可能有害。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -1661,7 +1723,10 @@
         "Allura Red",
         "FD&C Red No. 40",
         "Red Dye 40",
-        "红色40号"
+        "红色40号",
+        "Rouge 40",
+        "Rouge allura",
+        "E129"
       ],
       "explanation_zh": "人工色素，部分研究将其与多动和行为问题相关联。FDA批准用于食品。宠物食品中无营养必要性。",
       "sources": ["FDA CVM", "CSPI"]
@@ -1675,7 +1740,9 @@
         "Tartrazine",
         "FD&C Yellow No. 5",
         "Yellow Dye 5",
-        "黄色5号"
+        "黄色5号",
+        "Jaune 5",
+        "E102"
       ],
       "explanation_zh": "人工色素（柠檬黄），可能引发过敏反应。纯粹为视觉效果添加。",
       "sources": ["FDA CVM", "CSPI"]
@@ -1689,7 +1756,10 @@
         "Sunset Yellow",
         "FD&C Yellow No. 6",
         "Yellow Dye 6",
-        "黄色6号"
+        "黄色6号",
+        "Jaune 6",
+        "Jaune orangé S",
+        "E110"
       ],
       "explanation_zh": "人工色素（日落黄），部分研究将其与过敏和行为问题相关联。FDA批准用于食品。无营养用途。",
       "sources": ["FDA CVM", "CSPI"]
@@ -1703,7 +1773,10 @@
         "Indigo Carmine",
         "FD&C Blue No. 2",
         "Blue Dye 2",
-        "蓝色2号"
+        "蓝色2号",
+        "Bleu 2",
+        "Carmin d'indigo",
+        "E132"
       ],
       "explanation_zh": "人工色素（靛蓝），对宠物无营养益处。部分动物研究对其安全性提出关注。FDA批准用于食品。",
       "sources": ["FDA CVM", "CSPI"]
@@ -1716,7 +1789,9 @@
       "common_aliases": [
         "Erythrosine",
         "FD&C Red No. 3",
-        "红色3号"
+        "红色3号",
+        "Rouge 3",
+        "E127"
       ],
       "explanation_zh": "人工色素。对宠物无营养价值，纯为外观添加。不推荐。",
       "sources": ["FDA CVM", "CSPI"]
@@ -1740,7 +1815,10 @@
       "explanation": "Artificial coloring with no nutritional value. Some forms may contain 4-MEI, which some studies have flagged as potentially concerning. FDA-approved for use in food.",
       "common_aliases": [
         "Caramel Coloring",
-        "焦糖色"
+        "焦糖色",
+        "Caramel",
+        "Colorant caramel",
+        "E150"
       ],
       "explanation_zh": "加工着色剂。某些类型可能含有4-甲基咪唑，部分研究对此成分提出关注。FDA批准用于食品。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -1753,7 +1831,9 @@
       "common_aliases": [
         "Red Iron Oxide",
         "Yellow Iron Oxide",
-        "氧化铁"
+        "氧化铁",
+        "Oxyde de fer",
+        "E172"
       ],
       "explanation_zh": "矿物着色剂。虽然毒性低，但在宠物食品中不必要。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -1785,7 +1865,9 @@
         "High Fructose Corn Syrup",
         "HFCS",
         "Corn Syrup Solids",
-        "玉米糖浆"
+        "玉米糖浆",
+        "Sirop de maïs",
+        "Sirop de glucose-fructose"
       ],
       "explanation_zh": "高度加工的甜味剂。导致肥胖和糖尿病。宠物食品中不应出现。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -1798,7 +1880,8 @@
       "common_aliases": [
         "Cane Molasses",
         "Blackstrap Molasses",
-        "糖蜜"
+        "糖蜜",
+        "Mélasse"
       ],
       "explanation_zh": "含糖量高的甜味剂。少量可接受但非必需成分。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -1821,7 +1904,8 @@
       "explanation": "Widely recognized by veterinary authorities as very harmful to dogs. According to veterinary sources, even small amounts may cause hypoglycemia and liver failure. Should be avoided in pet food.",
       "common_aliases": [
         "Birch Sugar",
-        "木糖醇"
+        "木糖醇",
+        "Xylitol"
       ],
       "explanation_zh": "兽医界广泛认为对犬有害的糖醇。据兽医来源，即使少量也可能导致低血糖和肝脏问题。应避免用于宠物食品。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -1845,7 +1929,9 @@
       "safety_rating": "safe",
       "explanation": "Natural thickener from guar beans. Generally safe and provides some soluble fiber.",
       "common_aliases": [
-        "瓜尔豆胶"
+        "瓜尔豆胶",
+        "Gomme de guar",
+        "E412"
       ],
       "explanation_zh": "瓜尔豆天然增稠剂。一般安全，提供一定可溶性纤维。",
       "sources": ["AAFCO"]
@@ -1856,7 +1942,9 @@
       "safety_rating": "safe",
       "explanation": "Natural thickener produced by bacterial fermentation. Safe in small amounts used in pet food.",
       "common_aliases": [
-        "黄原胶"
+        "黄原胶",
+        "Gomme xanthane",
+        "E415"
       ],
       "explanation_zh": "发酵产生的增稠剂。少量使用一般安全。",
       "sources": ["AAFCO"]
@@ -1868,7 +1956,9 @@
       "explanation": "Seaweed-derived thickener. Some studies have associated it with gastrointestinal inflammation, though this remains debated among researchers. FDA-approved for use in food.",
       "common_aliases": [
         "Irish Moss",
-        "卡拉胶"
+        "卡拉胶",
+        "Carraghénanes",
+        "E407"
       ],
       "explanation_zh": "海藻提取增稠剂。部分研究将其与肠道炎症相关联，但在研究者中仍有争议。FDA批准用于食品。",
       "sources": ["FDA CVM", "Veterinary nutrition literature"]
@@ -1892,7 +1982,10 @@
       "explanation": "Natural thickener from carob tree seeds. Safe and well-tolerated.",
       "common_aliases": [
         "Carob Bean Gum",
-        "刺槐豆胶"
+        "刺槐豆胶",
+        "Gomme de caroube",
+        "Farine de graines de caroube",
+        "E410"
       ],
       "explanation_zh": "角豆树天然增稠剂。安全且耐受性良好。",
       "sources": ["AAFCO"]
@@ -1903,7 +1996,8 @@
       "safety_rating": "safe",
       "explanation": "Natural gelling agent from cassia seeds. Used as a thickener in wet pet foods.",
       "common_aliases": [
-        "决明胶"
+        "决明胶",
+        "Gomme de casse"
       ],
       "explanation_zh": "决明子天然增稠剂。一般安全，用于湿粮质地调节。",
       "sources": ["AAFCO"]
@@ -2387,7 +2481,9 @@
       "common_aliases": [
         "Natural Flavoring",
         "Natural Flavors",
-        "天然香料"
+        "天然香料",
+        "Arômes naturels",
+        "Arôme naturel"
       ],
       "explanation_zh": "天然调味剂。来源于天然原料，一般安全。",
       "sources": ["AAFCO"]
@@ -2400,7 +2496,9 @@
       "common_aliases": [
         "Artificial Flavoring",
         "Artificial Flavors",
-        "人工香料"
+        "人工香料",
+        "Arômes artificiels",
+        "Arôme artificiel"
       ],
       "explanation_zh": "调味成分。用于提升食品适口性。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -2558,7 +2656,8 @@
       "explanation": "Rich plant source of omega-3 (ALA) fatty acids supporting skin and coat health.",
       "common_aliases": [
         "Linseed Oil",
-        "亚麻籽油"
+        "亚麻籽油",
+        "Huile de lin"
       ],
       "explanation_zh": "植物性omega-3来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3039,7 +3138,9 @@
       "common_aliases": [
         "Psyllium Husk",
         "Psyllium Seed",
-        "车前子壳"
+        "车前子壳",
+        "Psyllium",
+        "Tégument de psyllium"
       ],
       "explanation_zh": "可溶性纤维来源。支持消化健康和肠道功能。",
       "sources": ["AAFCO"]
@@ -3180,7 +3281,8 @@
       "explanation": "Quality animal fat providing essential fatty acids and palatability.",
       "common_aliases": [
         "Rendered Duck Fat",
-        "鸭脂肪"
+        "鸭脂肪",
+        "Graisse de canard"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3192,7 +3294,8 @@
       "explanation": "Natural fat source from lamb, providing energy and essential fatty acids.",
       "common_aliases": [
         "Rendered Lamb Fat",
-        "羊脂肪"
+        "羊脂肪",
+        "Graisse d'agneau"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3203,7 +3306,8 @@
       "safety_rating": "safe",
       "explanation": "Quality poultry fat providing omega-6 fatty acids.",
       "common_aliases": [
-        "火鸡脂肪"
+        "火鸡脂肪",
+        "Graisse de dinde"
       ],
       "explanation_zh": "omega-6脂肪酸来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3396,7 +3500,8 @@
       "common_aliases": [
         "Chicken Liver Flavor",
         "Liver Digest",
-        "肝脏风味"
+        "肝脏风味",
+        "Arôme de foie"
       ],
       "explanation_zh": "天然调味剂。来源于天然原料，一般安全。",
       "sources": ["AAFCO"]
@@ -3409,7 +3514,8 @@
       "common_aliases": [
         "Natural Smoke Flavor",
         "Liquid Smoke",
-        "烟熏风味"
+        "烟熏风味",
+        "Arôme de fumée"
       ],
       "explanation_zh": "天然调味剂。来源于天然原料，一般安全。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -3421,7 +3527,8 @@
       "explanation": "Usually artificial flavoring. No nutritional value and may indicate low food quality.",
       "common_aliases": [
         "Bacon Flavoring",
-        "培根风味"
+        "培根风味",
+        "Arôme de bacon"
       ],
       "explanation_zh": "人工调味剂。非天然来源，安全性存在顾虑。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -3689,7 +3796,8 @@
       "explanation": "Ancient pseudo-grain rich in protein and fiber. Gluten-free and highly nutritious.",
       "common_aliases": [
         "Whole Amaranth",
-        "苋菜籽"
+        "苋菜籽",
+        "Amarante"
       ],
       "explanation_zh": "无麸质谷物，适合麸质敏感的宠物。良好的碳水化合物来源。",
       "sources": ["AAFCO"]
@@ -3701,7 +3809,9 @@
       "explanation": "Gluten-free pseudo-grain rich in rutin (flavonoid) and quality plant protein.",
       "common_aliases": [
         "Whole Buckwheat",
-        "荞麦"
+        "荞麦",
+        "Sarrasin",
+        "Blé noir"
       ],
       "explanation_zh": "无麸质谷物，适合麸质敏感的宠物。良好的碳水化合物来源。",
       "sources": ["AAFCO"]
@@ -3713,7 +3823,8 @@
       "explanation": "Ancient wheat variety, more digestible than modern wheat but still contains gluten.",
       "common_aliases": [
         "Whole Spelt",
-        "斯佩尔特小麦"
+        "斯佩尔特小麦",
+        "Épeautre"
       ],
       "explanation_zh": "碳水化合物来源，提供能量和部分营养素。",
       "sources": ["AAFCO"]
@@ -3725,7 +3836,8 @@
       "explanation": "Whole grain providing fiber and B vitamins. Contains gluten.",
       "common_aliases": [
         "Whole Rye",
-        "黑麦"
+        "黑麦",
+        "Seigle"
       ],
       "explanation_zh": "全谷物，提供复合碳水化合物、纤维和多种营养素。",
       "sources": ["AAFCO"]
@@ -3736,7 +3848,8 @@
       "safety_rating": "safe",
       "explanation": "Tiny ancient grain from Ethiopia, gluten-free and rich in protein and minerals.",
       "common_aliases": [
-        "画眉草"
+        "画眉草",
+        "Teff"
       ],
       "explanation_zh": "无麸质谷物，适合麸质敏感的宠物。良好的碳水化合物来源。",
       "sources": ["AAFCO"]
@@ -3795,7 +3908,8 @@
       "explanation": "Natural soluble and insoluble fiber from oats supporting digestive health.",
       "common_aliases": [
         "Oat Hull",
-        "燕麦纤维"
+        "燕麦纤维",
+        "Fibre d'avoine"
       ],
       "explanation_zh": "温和的纤维来源，支持消化健康。",
       "sources": ["AAFCO"]
@@ -3806,7 +3920,8 @@
       "safety_rating": "safe",
       "explanation": "Natural fiber from peas supporting digestive health and stool quality.",
       "common_aliases": [
-        "豌豆纤维"
+        "豌豆纤维",
+        "Fibre de pois"
       ],
       "explanation_zh": "膳食纤维来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -3819,7 +3934,8 @@
       "common_aliases": [
         "Apple Pectin",
         "Apple Pomace",
-        "苹果纤维"
+        "苹果纤维",
+        "Fibre de pomme"
       ],
       "explanation_zh": "膳食纤维来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -3924,7 +4040,8 @@
       "safety_rating": "safe",
       "explanation": "Natural preservation method using citrus-derived acid. Safe and effective.",
       "common_aliases": [
-        "柠檬酸防腐"
+        "柠檬酸防腐",
+        "Conservé à l'acide citrique"
       ],
       "explanation_zh": "天然防腐剂。安全的化学防腐剂替代品。",
       "sources": ["AAFCO"]
@@ -3935,7 +4052,9 @@
       "safety_rating": "safe",
       "explanation": "Mold inhibitor commonly used in pet food. Generally recognized as safe.",
       "common_aliases": [
-        "丙酸钙"
+        "丙酸钙",
+        "Propionate de calcium",
+        "E282"
       ],
       "explanation_zh": "防腐剂。用于延长食品保质期。",
       "sources": ["AAFCO"]
@@ -3946,7 +4065,9 @@
       "safety_rating": "caution",
       "explanation": "Synthetic preservative that can form benzene when combined with vitamin C. Generally safe alone in small amounts.",
       "common_aliases": [
-        "苯甲酸钠"
+        "苯甲酸钠",
+        "Benzoate de sodium",
+        "E211"
       ],
       "explanation_zh": "防腐剂。安全性存在一定争议，建议关注。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -3957,7 +4078,9 @@
       "safety_rating": "safe",
       "explanation": "Antioxidant preservative similar to vitamin C. Used to maintain freshness and color.",
       "common_aliases": [
-        "异抗坏血酸钠"
+        "异抗坏血酸钠",
+        "Érythorbate de sodium",
+        "E316"
       ],
       "explanation_zh": "防腐剂。用于延长食品保质期。",
       "sources": ["AAFCO"]
@@ -4070,7 +4193,9 @@
       "safety_rating": "safe",
       "explanation": "Fat-soluble form of vitamin C used as a natural preservative and antioxidant.",
       "common_aliases": [
-        "抗坏血酸棕榈酸酯"
+        "抗坏血酸棕榈酸酯",
+        "Palmitate d'ascorbyle",
+        "E304"
       ],
       "explanation_zh": "天然防腐剂。安全的化学防腐剂替代品。",
       "sources": ["AAFCO"]
@@ -4206,7 +4331,9 @@
       "common_aliases": [
         "Chicory",
         "Chicory Pulp",
-        "干菊苣"
+        "干菊苣",
+        "Chicorée séchée",
+        "Chicorée déshydratée"
       ],
       "explanation_zh": "益生元纤维来源。促进有益肠道菌群生长。",
       "sources": ["AAFCO"]
@@ -4232,7 +4359,8 @@
       "common_aliases": [
         "Raw Honey",
         "Manuka Honey",
-        "蜂蜜"
+        "蜂蜜",
+        "Miel"
       ],
       "explanation_zh": "甜味剂。宠物食品中不必要的添加，可能导致健康问题。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -4245,7 +4373,9 @@
       "common_aliases": [
         "Coconut Flakes",
         "Desiccated Coconut",
-        "干椰子"
+        "干椰子",
+        "Noix de coco séchée",
+        "Coco séché"
       ],
       "explanation_zh": "膳食纤维来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -4532,7 +4662,8 @@
         "Beef Broth",
         "Turkey Broth",
         "Fish Broth",
-        "肉汤"
+        "肉汤",
+        "Bouillon"
       ],
       "explanation_zh": "调味成分。用于提升食品适口性。",
       "sources": ["AAFCO"]
@@ -4544,7 +4675,8 @@
       "explanation": "Collagen-derived protein used as a gelling agent. Provides some joint-supporting amino acids.",
       "common_aliases": [
         "Pork Gelatin",
-        "明胶"
+        "明胶",
+        "Gélatine"
       ],
       "explanation_zh": "增稠剂。用于改善食品质地和口感。",
       "sources": ["AAFCO"]
@@ -4556,7 +4688,9 @@
       "explanation": "Seaweed-derived thickener and gelling agent. Safe and natural.",
       "common_aliases": [
         "Alginate",
-        "海藻酸钠"
+        "海藻酸钠",
+        "Alginate de sodium",
+        "E401"
       ],
       "explanation_zh": "天然增稠剂。一般安全，用于改善食品质地。",
       "sources": ["AAFCO"]
@@ -4568,7 +4702,9 @@
       "explanation": "Natural fruit-derived gelling agent and prebiotic fiber.",
       "common_aliases": [
         "Fruit Pectin",
-        "果胶"
+        "果胶",
+        "Pectine",
+        "E440"
       ],
       "explanation_zh": "天然增稠剂。一般安全，用于改善食品质地。",
       "sources": ["AAFCO"]
@@ -4591,7 +4727,8 @@
       "explanation": "Simple sugar (glucose) that spikes blood sugar. Used as a cheap energy source and flavor enhancer.",
       "common_aliases": [
         "Glucose",
-        "葡萄糖"
+        "葡萄糖",
+        "Dextrose"
       ],
       "explanation_zh": "葡萄糖形式的糖。用于提升适口性但增加不必要的糖分摄入。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -4679,7 +4816,9 @@
       "explanation": "Enzymatically digested liver used as a natural palatability enhancer.",
       "common_aliases": [
         "Chicken Liver Digest",
-        "肝脏消化物"
+        "肝脏消化物",
+        "Foie hydrolysé",
+        "Hydrolysat de foie"
       ],
       "explanation_zh": "天然调味剂。来源于天然原料，一般安全。",
       "sources": ["AAFCO"]
@@ -4691,7 +4830,8 @@
       "explanation": "Flavoring derived from chicken. Natural source makes this a reasonable palatability enhancer.",
       "common_aliases": [
         "Chicken Flavoring",
-        "天然鸡肉风味"
+        "天然鸡肉风味",
+        "Arôme naturel de poulet"
       ],
       "explanation_zh": "天然调味剂。来源于天然原料，一般安全。",
       "sources": ["AAFCO"]
@@ -4702,7 +4842,8 @@
       "safety_rating": "safe",
       "explanation": "High-quality omega-3 source from small fish. Low contaminant risk.",
       "common_aliases": [
-        "凤尾鱼油"
+        "凤尾鱼油",
+        "Huile d'anchois"
       ],
       "explanation_zh": "omega-3脂肪酸来源。支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4713,7 +4854,8 @@
       "safety_rating": "safe",
       "explanation": "Rich omega-3 source from small fish with low mercury risk.",
       "common_aliases": [
-        "沙丁鱼油"
+        "沙丁鱼油",
+        "Huile de sardine"
       ],
       "explanation_zh": "omega-3脂肪酸来源。支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4738,7 +4880,9 @@
       "explanation": "Medium-chain triglycerides providing quick energy and cognitive support.",
       "common_aliases": [
         "Medium Chain Triglycerides",
-        "中链甘油三酯"
+        "中链甘油三酯",
+        "Huile TCM",
+        "Triglycérides à chaîne moyenne"
       ],
       "explanation_zh": "含中链脂肪酸。支持能量代谢和皮肤健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4750,7 +4894,8 @@
       "explanation": "Plant oil rich in omega-3 ALA, vitamin E, and antioxidants.",
       "common_aliases": [
         "Gold of Pleasure Oil",
-        "亚麻荠油"
+        "亚麻荠油",
+        "Huile de cameline"
       ],
       "explanation_zh": "omega-3脂肪酸来源。支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4761,7 +4906,8 @@
       "safety_rating": "safe",
       "explanation": "Source of omega-6 fatty acids supporting skin and coat health.",
       "common_aliases": [
-        "红花油"
+        "红花油",
+        "Huile de carthame"
       ],
       "explanation_zh": "omega-6脂肪酸来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4773,7 +4919,8 @@
       "explanation": "Rich in antioxidants (sesamol, sesaminol) and healthy fats.",
       "common_aliases": [
         "Sesame Seed Oil",
-        "芝麻油"
+        "芝麻油",
+        "Huile de sésame"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4785,7 +4932,8 @@
       "explanation": "Richest plant source of GLA omega-6, excellent for skin and coat health.",
       "common_aliases": [
         "Borage Seed Oil",
-        "琉璃苣油"
+        "琉璃苣油",
+        "Huile de bourrache"
       ],
       "explanation_zh": "omega-6脂肪酸来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4796,7 +4944,8 @@
       "safety_rating": "safe",
       "explanation": "Rich in GLA omega-6, supporting skin health and reducing inflammation.",
       "common_aliases": [
-        "月见草油"
+        "月见草油",
+        "Huile d'onagre"
       ],
       "explanation_zh": "omega-6脂肪酸来源。支持皮肤和毛发健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4962,7 +5111,9 @@
       "common_aliases": [
         "Alfalfa Meal",
         "Sun-Cured Alfalfa",
-        "脱水苜蓿粉"
+        "脱水苜蓿粉",
+        "Luzerne déshydratée",
+        "Farine de luzerne"
       ],
       "explanation_zh": "膳食纤维来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -5634,7 +5785,8 @@
       "safety_rating": "safe",
       "explanation": "Concentrated coconut fat rich in MCTs for energy and brain health.",
       "common_aliases": [
-        "椰浆"
+        "椰浆",
+        "Crème de coco"
       ],
       "explanation_zh": "含中链脂肪酸。支持能量代谢和皮肤健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5646,7 +5798,9 @@
       "explanation": "Ideal omega-3 to omega-6 ratio. Supports skin, coat, and immune health.",
       "common_aliases": [
         "Hemp Oil",
-        "大麻籽油"
+        "大麻籽油",
+        "Huile de chanvre",
+        "Huile de chènevis"
       ],
       "explanation_zh": "omega-3脂肪酸来源。支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5657,7 +5811,8 @@
       "safety_rating": "safe",
       "explanation": "Plant oil rich in omega-3 ALA and polyphenols.",
       "common_aliases": [
-        "核桃油"
+        "核桃油",
+        "Huile de noix"
       ],
       "explanation_zh": "omega-3脂肪酸来源。支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5668,7 +5823,8 @@
       "safety_rating": "safe",
       "explanation": "Rich in monounsaturated fats and vitamin E. The oil form is safe for pets unlike whole avocado.",
       "common_aliases": [
-        "牛油果油"
+        "牛油果油",
+        "Huile d'avocat"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5679,7 +5835,9 @@
       "safety_rating": "safe",
       "explanation": "Rich in zinc and essential fatty acids. May support urinary health.",
       "common_aliases": [
-        "南瓜籽油"
+        "南瓜籽油",
+        "Huile de pépins de courge",
+        "Huile de graines de courge"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5692,7 +5850,9 @@
       "common_aliases": [
         "Nigella Sativa Oil",
         "Black Seed Oil",
-        "黑种草籽油"
+        "黑种草籽油",
+        "Huile de nigelle",
+        "Huile de cumin noir"
       ],
       "explanation_zh": "脂肪酸来源，提供必需脂肪酸和能量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5729,7 +5889,8 @@
       "safety_rating": "safe",
       "explanation": "High-fiber coconut byproduct, grain-free and rich in MCTs.",
       "common_aliases": [
-        "椰子粉"
+        "椰子粉",
+        "Farine de coco"
       ],
       "explanation_zh": "膳食纤维来源。支持消化健康。",
       "sources": ["AAFCO"]
@@ -5742,7 +5903,9 @@
       "common_aliases": [
         "Gum Arabic",
         "Acacia Gum",
-        "阿拉伯胶"
+        "阿拉伯胶",
+        "Fibre d'acacia",
+        "Gomme arabique"
       ],
       "explanation_zh": "益生元纤维来源。促进有益肠道菌群生长。",
       "sources": ["AAFCO"]
@@ -5754,7 +5917,8 @@
       "explanation": "Natural insoluble fiber from bamboo. Supports digestive regularity.",
       "common_aliases": [
         "Bamboo Powder",
-        "竹纤维"
+        "竹纤维",
+        "Fibre de bambou"
       ],
       "explanation_zh": "可溶性纤维来源。支持消化健康和肠道功能。",
       "sources": ["AAFCO"]
@@ -6265,7 +6429,9 @@
       "explanation": "Whole ground flax providing fiber, lignans, and omega-3 ALA in its most nutritious form.",
       "common_aliases": [
         "Milled Flaxseed",
-        "研磨亚麻籽"
+        "研磨亚麻籽",
+        "Graines de lin moulues",
+        "Lin moulu"
       ],
       "explanation_zh": "omega-3脂肪酸来源。支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6277,7 +6443,9 @@
       "explanation": "Natural antioxidant herb used for preservation and flavor.",
       "common_aliases": [
         "Rosemary Leaves",
-        "干迷迭香"
+        "干迷迭香",
+        "Romarin séché",
+        "Romarin déshydraté"
       ],
       "explanation_zh": "天然防腐剂。安全的化学防腐剂替代品。",
       "sources": ["AAFCO"]
@@ -6379,7 +6547,9 @@
         "Color Added",
         "FD&C Colors",
         "人工色素",
-        "合成色素"
+        "合成色素",
+        "Colorants artificiels",
+        "Colorants"
       ],
       "explanation_zh": "合成染料，仅用于外观，无营养价值。与某些动物的过敏反应和多动症有关。",
       "sources": ["FDA CVM", "CSPI"]
@@ -6421,7 +6591,8 @@
       "explanation": "Acidifier used as a preservative and urine acidifier in some pet foods. Generally safe in small amounts but can cause digestive irritation at higher concentrations.",
       "common_aliases": [
         "Sodium Hydrogen Sulfate",
-        "酸式硫酸钠"
+        "酸式硫酸钠",
+        "Bisulfate de sodium"
       ],
       "explanation_zh": "防腐剂和酸化剂。小剂量一般安全，但高浓度可能引起消化不适。",
       "sources": ["FDA CVM", "AAFCO"]
