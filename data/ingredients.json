@@ -1446,7 +1446,9 @@
       "explanation": "Rich in omega-3 fatty acids, fiber, and antioxidants.",
       "common_aliases": [
         "Chia Seeds",
-        "奇亚籽"
+        "奇亚籽",
+        "Graines de chia",
+        "Chia"
       ],
       "explanation_zh": "富含omega-3脂肪酸、纤维和抗氧化剂。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1514,7 +1516,8 @@
       "common_aliases": [
         "Glucosamine HCl",
         "Glucosamine",
-        "氨基葡萄糖盐酸盐"
+        "氨基葡萄糖盐酸盐",
+        "Chlorhydrate de glucosamine"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1526,7 +1529,9 @@
       "explanation": "Joint supplement that works with glucosamine to support cartilage and reduce inflammation.",
       "common_aliases": [
         "Chondroitin",
-        "硫酸软骨素"
+        "硫酸软骨素",
+        "Chondroïtine",
+        "Sulfate de chondroïtine"
       ],
       "explanation_zh": "常与氨基葡萄糖搭配使用的关节保健成分。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1538,7 +1543,8 @@
       "explanation": "Essential amino acid for cats, beneficial for dogs. Critical for heart and eye health.",
       "common_aliases": [
         "L-Taurine",
-        "牛磺酸"
+        "牛磺酸",
+        "Taurine"
       ],
       "explanation_zh": "对猫必需的氨基酸，支持心脏和眼睛健康。对犬也有益。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1550,7 +1556,8 @@
       "explanation": "Amino acid that helps convert fat to energy. Supports heart health and weight management.",
       "common_aliases": [
         "Carnitine",
-        "左旋肉碱"
+        "左旋肉碱",
+        "L-carnitine"
       ],
       "explanation_zh": "支持脂肪代谢和能量产生的氨基酸。有助于体重管理。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1562,7 +1569,8 @@
       "explanation": "Essential amino acid supporting urinary health and protein synthesis.",
       "common_aliases": [
         "Methionine",
-        "DL-蛋氨酸"
+        "DL-蛋氨酸",
+        "Méthionine"
       ],
       "explanation_zh": "氨基酸补充剂。支持蛋白质合成和身体机能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1595,7 +1603,8 @@
         "Lactobacillus",
         "Enterococcus",
         "Bacillus",
-        "益生菌"
+        "益生菌",
+        "Probiotiques"
       ],
       "explanation_zh": "有益肠道菌群，支持消化健康和免疫功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1610,7 +1619,10 @@
         "Fructooligosaccharides",
         "Inulin",
         "Chicory Root",
-        "益生元"
+        "益生元",
+        "Prébiotiques",
+        "Fructo-oligosaccharides",
+        "Inuline"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1649,7 +1661,9 @@
       "explanation": "Antioxidant-rich extract supporting dental health and immune function.",
       "common_aliases": [
         "Green Tea",
-        "绿茶提取物"
+        "绿茶提取物",
+        "Thé vert",
+        "Extrait de thé vert"
       ],
       "explanation_zh": "富含抗氧化剂的天然提取物。支持细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2029,7 +2043,10 @@
       "common_aliases": [
         "Vegetable Glycerin",
         "Glycerol",
-        "甘油"
+        "甘油",
+        "Glycérine",
+        "Glycérol",
+        "E422"
       ],
       "explanation_zh": "保湿剂，使半湿粮保持柔软。植物甘油一般安全。",
       "sources": ["AAFCO"]
@@ -2120,7 +2137,9 @@
       "explanation": "Used for dental tartar control in kibble. Generally safe in small amounts but is a chemical additive.",
       "common_aliases": [
         "STPP",
-        "三聚磷酸钠"
+        "三聚磷酸钠",
+        "Tripolyphosphate de sodium",
+        "E451"
       ],
       "explanation_zh": "用于控制牙结石的磷酸盐。大量食用可能引起消化问题。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -2678,7 +2697,8 @@
         "Garlic Powder",
         "Dried Garlic",
         "大蒜",
-        "蒜粉"
+        "蒜粉",
+        "Ail"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -2692,7 +2712,8 @@
         "Onion Powder",
         "Dried Onion",
         "洋葱",
-        "洋葱粉"
+        "洋葱粉",
+        "Oignon"
       ],
       "explanation_zh": "人工添加剂。安全性存在严重顾虑，不推荐。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -2724,7 +2745,8 @@
         "Cacao",
         "Theobromine",
         "巧克力",
-        "可可"
+        "可可",
+        "Chocolat"
       ],
       "explanation_zh": "人工添加剂。安全性存在严重顾虑，不推荐。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -2750,7 +2772,8 @@
       "explanation": "Widely recognized by veterinary authorities as harmful to dogs. According to veterinary sources, may cause weakness, vomiting, tremors, and hyperthermia. Should be avoided in pet food.",
       "common_aliases": [
         "Macadamia Nuts",
-        "夏威夷果"
+        "夏威夷果",
+        "Noix de macadamia"
       ],
       "explanation_zh": "人工添加剂。安全性存在严重顾虑，不推荐。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -2761,7 +2784,9 @@
       "safety_rating": "harmful",
       "explanation": "Contains myristicin, which according to veterinary sources may be harmful to pets. Some sources associate it with adverse neurological effects. Should be avoided in pet food.",
       "common_aliases": [
-        "肉豆蔻"
+        "肉豆蔻",
+        "Muscade",
+        "Noix de muscade"
       ],
       "explanation_zh": "人工添加剂。安全性存在严重顾虑，不推荐。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -2774,7 +2799,8 @@
       "common_aliases": [
         "Turmeric Root",
         "Curcumin",
-        "姜黄"
+        "姜黄",
+        "Curcuma"
       ],
       "explanation_zh": "含姜黄素的天然抗炎成分。支持关节和消化健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2787,7 +2813,8 @@
       "common_aliases": [
         "Ginger Root",
         "Dried Ginger",
-        "生姜"
+        "生姜",
+        "Gingembre"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2800,7 +2827,8 @@
       "common_aliases": [
         "Cassia Cinnamon",
         "Ceylon Cinnamon",
-        "肉桂"
+        "肉桂",
+        "Cannelle"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -2813,7 +2841,8 @@
       "common_aliases": [
         "Peppermint Leaf",
         "Peppermint Extract",
-        "薄荷"
+        "薄荷",
+        "Menthe poivrée"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -2852,7 +2881,8 @@
       "explanation": "Blue-green algae rich in protein, vitamins, and antioxidants. Supports immune function.",
       "common_aliases": [
         "Blue-Green Algae",
-        "螺旋藻"
+        "螺旋藻",
+        "Spiruline"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2863,7 +2893,8 @@
       "safety_rating": "safe",
       "explanation": "Green algae packed with nutrients and chlorophyll. May support detoxification.",
       "common_aliases": [
-        "小球藻"
+        "小球藻",
+        "Chlorelle"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -2921,7 +2952,8 @@
       "common_aliases": [
         "Dried Yogurt",
         "Yogurt Culture",
-        "酸奶"
+        "酸奶",
+        "Yaourt"
       ],
       "explanation_zh": "益生菌补充剂。支持消化健康和肠道菌群平衡。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3173,7 +3205,8 @@
       "common_aliases": [
         "Dandelion Greens",
         "Dandelion Root",
-        "蒲公英"
+        "蒲公英",
+        "Pissenlit"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3186,7 +3219,8 @@
       "common_aliases": [
         "Chamomile Extract",
         "Dried Chamomile",
-        "洋甘菊"
+        "洋甘菊",
+        "Camomille"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3199,7 +3233,8 @@
       "common_aliases": [
         "Silymarin",
         "Milk Thistle Extract",
-        "奶蓟"
+        "奶蓟",
+        "Chardon-marie"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3211,7 +3246,8 @@
       "explanation": "Concentrated form supporting urinary tract health through proanthocyanidins.",
       "common_aliases": [
         "Cranberry Powder",
-        "蔓越莓提取物"
+        "蔓越莓提取物",
+        "Extrait de canneberge"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3260,7 +3296,9 @@
       "common_aliases": [
         "Bentonite",
         "Calcium Montmorillonite",
-        "蒙脱石"
+        "蒙脱石",
+        "Montmorillonite",
+        "Argile montmorillonite"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3272,7 +3310,8 @@
       "explanation": "Natural mineral powder sometimes used as an anti-caking agent. Food-grade is safe.",
       "common_aliases": [
         "DE",
-        "硅藻土"
+        "硅藻土",
+        "Terre de diatomées"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -3298,7 +3337,8 @@
       "explanation": "Deactivated yeast rich in B vitamins and trace minerals. Enhances palatability naturally.",
       "common_aliases": [
         "Dried Yeast",
-        "营养酵母"
+        "营养酵母",
+        "Levure nutritionnelle"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3311,7 +3351,8 @@
       "common_aliases": [
         "Kelp Meal",
         "Ascophyllum nodosum",
-        "干海带"
+        "干海带",
+        "Varech séché"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3364,7 +3405,9 @@
         "EPA",
         "DHA",
         "Omega 3",
-        "欧米伽3脂肪酸"
+        "欧米伽3脂肪酸",
+        "Oméga-3",
+        "Acides gras oméga-3"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3378,7 +3421,9 @@
         "Linoleic Acid",
         "Arachidonic Acid",
         "Omega 6",
-        "欧米伽6脂肪酸"
+        "欧米伽6脂肪酸",
+        "Oméga-6",
+        "Acide linoléique"
       ],
       "explanation_zh": "必需脂肪酸补充剂。支持皮肤、毛发和整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3391,7 +3436,10 @@
       "common_aliases": [
         "Soy Lecithin",
         "Sunflower Lecithin",
-        "卵磷脂"
+        "卵磷脂",
+        "Lécithine",
+        "Lécithine de soja",
+        "E322"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3405,7 +3453,9 @@
         "Calendula",
         "Lutein",
         "Tagetes erecta",
-        "万寿菊提取物"
+        "万寿菊提取物",
+        "Souci",
+        "Extrait de souci"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3418,7 +3468,9 @@
       "common_aliases": [
         "Green Lipped Mussel",
         "Perna canaliculus",
-        "新西兰绿贻贝"
+        "新西兰绿贻贝",
+        "Moule verte de Nouvelle-Zélande",
+        "Moule aux orles verts"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3430,7 +3482,8 @@
       "explanation": "First milk containing immune-supporting antibodies and growth factors.",
       "common_aliases": [
         "Bovine Colostrum",
-        "初乳"
+        "初乳",
+        "Colostrum"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3455,7 +3508,8 @@
       "explanation": "Supports digestive health and pH balance. Contains beneficial enzymes and bacteria.",
       "common_aliases": [
         "ACV",
-        "苹果醋"
+        "苹果醋",
+        "Vinaigre de cidre"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3761,7 +3815,9 @@
       "safety_rating": "caution",
       "explanation": "Acidifying agent used for pH control. Safe in small amounts but excessive phosphorus can stress kidneys.",
       "common_aliases": [
-        "磷酸"
+        "磷酸",
+        "Acide phosphorique",
+        "E338"
       ],
       "explanation_zh": "酸度调节剂。用于调控食品pH值。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -3773,7 +3829,8 @@
       "explanation": "Used in dental health formulas to reduce tartar buildup. VOHC accepted ingredient.",
       "common_aliases": [
         "SHMP",
-        "六偏磷酸钠"
+        "六偏磷酸钠",
+        "Hexamétaphosphate de sodium"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -3811,7 +3868,9 @@
       "explanation": "Leavening agent and emulsifier used in pet food processing. Generally safe.",
       "common_aliases": [
         "SAPP",
-        "酸式焦磷酸钠"
+        "酸式焦磷酸钠",
+        "Pyrophosphate acide de sodium",
+        "E450"
       ],
       "explanation_zh": "乳化剂。帮助油水混合，改善食品质地。",
       "sources": ["AAFCO"]
@@ -3853,7 +3912,8 @@
       "common_aliases": [
         "Dried Seaweed",
         "Ocean Kelp",
-        "海藻粉"
+        "海藻粉",
+        "Farine d'algues marines"
       ],
       "explanation_zh": "必需脂肪酸补充剂。支持皮肤、毛发和整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3865,7 +3925,8 @@
       "explanation": "Herb supporting digestive health and blood sugar regulation.",
       "common_aliases": [
         "Fenugreek Seed",
-        "胡芦巴"
+        "胡芦巴",
+        "Fenugrec"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3877,7 +3938,8 @@
       "explanation": "Anti-inflammatory herb. Safe in small amounts but excessive use can affect electrolyte balance.",
       "common_aliases": [
         "Glycyrrhiza glabra",
-        "甘草"
+        "甘草",
+        "Réglisse"
       ],
       "explanation_zh": "天然抗炎成分。支持关节和消化健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3890,7 +3952,8 @@
       "common_aliases": [
         "Astragalus Root",
         "Huang Qi",
-        "黄芪"
+        "黄芪",
+        "Astragale"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3902,7 +3965,8 @@
       "explanation": "Immune-supporting herb that may help fight infections and reduce inflammation.",
       "common_aliases": [
         "Echinacea purpurea",
-        "紫锥菊"
+        "紫锥菊",
+        "Échinacée"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3914,7 +3978,8 @@
       "explanation": "Soothing herb supporting digestive tract health. Coats and protects the gut lining.",
       "common_aliases": [
         "Slippery Elm Bark",
-        "滑榆"
+        "滑榆",
+        "Orme rouge"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3926,7 +3991,9 @@
       "explanation": "Mucilaginous herb soothing the digestive tract and supporting healthy gut lining.",
       "common_aliases": [
         "Althaea officinalis",
-        "药蜀葵根"
+        "药蜀葵根",
+        "Guimauve",
+        "Racine de guimauve"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3938,7 +4005,8 @@
       "explanation": "Natural calming herb particularly attractive to cats (similar effect to catnip).",
       "common_aliases": [
         "Valerian",
-        "缬草"
+        "缬草",
+        "Valériane"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3950,7 +4018,8 @@
       "explanation": "Amino acid from green tea promoting calm, relaxed behavior without sedation.",
       "common_aliases": [
         "Theanine",
-        "茶氨酸"
+        "茶氨酸",
+        "L-théanine"
       ],
       "explanation_zh": "氨基酸补充剂。支持蛋白质合成和身体机能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3962,7 +4031,9 @@
       "explanation": "Natural herb that stimulates play behavior in cats. Safe and non-addictive.",
       "common_aliases": [
         "Nepeta cataria",
-        "猫薄荷"
+        "猫薄荷",
+        "Herbe à chat",
+        "Cataire"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4198,7 +4269,8 @@
       "safety_rating": "safe",
       "explanation": "Anti-caking agent and lubricant used in kibble production. Generally safe.",
       "common_aliases": [
-        "硬脂酸钙"
+        "硬脂酸钙",
+        "Stéarate de calcium"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4210,7 +4282,9 @@
       "explanation": "Anti-caking agent preventing clumping. Generally recognized as safe.",
       "common_aliases": [
         "Silica",
-        "二氧化硅"
+        "二氧化硅",
+        "Dioxyde de silicium",
+        "E551"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4221,7 +4295,8 @@
       "safety_rating": "safe",
       "explanation": "Flow agent used in supplement manufacturing. Safe in small amounts.",
       "common_aliases": [
-        "硬脂酸镁"
+        "硬脂酸镁",
+        "Stéarate de magnésium"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4361,7 +4436,8 @@
       "common_aliases": [
         "Yeast Extract",
         "Yeast Cell Wall",
-        "水解酵母"
+        "水解酵母",
+        "Levure hydrolysée"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4373,7 +4449,8 @@
       "explanation": "Polysaccharide from yeast or mushrooms that modulates and strengthens immune function.",
       "common_aliases": [
         "Beta Glucans",
-        "β-葡聚糖"
+        "β-葡聚糖",
+        "Bêta-glucanes"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4386,7 +4463,8 @@
       "common_aliases": [
         "Dried Shiitake",
         "Lentinula edodes",
-        "香菇"
+        "香菇",
+        "Shiitaké"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4399,7 +4477,8 @@
       "common_aliases": [
         "Ganoderma lucidum",
         "Lingzhi",
-        "灵芝"
+        "灵芝",
+        "Reishi"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4412,7 +4491,9 @@
       "common_aliases": [
         "Trametes versicolor",
         "Coriolus versicolor",
-        "云芝"
+        "云芝",
+        "Tramète versicolore",
+        "Coriolus"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4424,7 +4505,9 @@
       "explanation": "Mushroom supporting cognitive function and nerve health.",
       "common_aliases": [
         "Hericium erinaceus",
-        "猴头菇"
+        "猴头菇",
+        "Hydne hérisson",
+        "Crinière de lion"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4477,7 +4560,8 @@
       "common_aliases": [
         "Beta-Sitosterol",
         "Plant Sterols",
-        "植物甾醇"
+        "植物甾醇",
+        "Phytostérols"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4503,7 +4587,8 @@
       "common_aliases": [
         "Oil of Oregano",
         "Origanum vulgare",
-        "牛至油"
+        "牛至油",
+        "Huile d'origan"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4515,7 +4600,8 @@
       "explanation": "Culinary herb with natural antimicrobial and antioxidant properties.",
       "common_aliases": [
         "Dried Thyme",
-        "百里香"
+        "百里香",
+        "Thym"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4527,7 +4613,8 @@
       "explanation": "Herb with antioxidant and anti-inflammatory properties.",
       "common_aliases": [
         "Dried Sage",
-        "鼠尾草"
+        "鼠尾草",
+        "Sauge"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4540,7 +4627,8 @@
       "common_aliases": [
         "Dried Basil",
         "Sweet Basil",
-        "罗勒"
+        "罗勒",
+        "Basilic"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4552,7 +4640,8 @@
       "explanation": "Herb supporting digestive health with carminative properties.",
       "common_aliases": [
         "Dried Dill",
-        "莳萝"
+        "莳萝",
+        "Aneth"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -4592,7 +4681,8 @@
       "common_aliases": [
         "Ceylon Cinnamon",
         "Cassia",
-        "肉桂粉"
+        "肉桂粉",
+        "Cannelle moulue"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -4714,7 +4804,8 @@
       "explanation": "Natural source of glucosamine and chondroitin for joint health.",
       "common_aliases": [
         "Chicken Cartilage Meal",
-        "鸡软骨"
+        "鸡软骨",
+        "Cartilage de poulet"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -4919,7 +5010,8 @@
       "common_aliases": [
         "Sufficient Water for Processing",
         "Water Sufficient for Processing",
-        "水"
+        "水",
+        "Eau"
       ],
       "explanation_zh": "保湿剂。保持食品水分和柔软质地。",
       "sources": ["AAFCO"]
@@ -5013,7 +5105,8 @@
       "explanation": "Milk sugar that many adult pets cannot digest (lactose intolerance). Can cause digestive upset.",
       "common_aliases": [
         "Milk Sugar",
-        "乳糖"
+        "乳糖",
+        "Lactose"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -5026,7 +5119,8 @@
       "common_aliases": [
         "Almonds",
         "Almond Meal",
-        "杏仁"
+        "杏仁",
+        "Amande"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -5038,7 +5132,8 @@
       "explanation": "Can be difficult to digest. According to some veterinary sources, some varieties (black walnuts) may be harmful to dogs.",
       "common_aliases": [
         "Walnuts",
-        "核桃"
+        "核桃",
+        "Noix"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -5051,7 +5146,8 @@
       "common_aliases": [
         "Coffee",
         "Tea Extract",
-        "咖啡因"
+        "咖啡因",
+        "Caféine"
       ],
       "explanation_zh": "人工添加剂。安全性存在严重顾虑，不推荐。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -5065,7 +5161,8 @@
         "Ethanol",
         "Beer",
         "Wine",
-        "酒精"
+        "酒精",
+        "Alcool"
       ],
       "explanation_zh": "人工添加剂。安全性存在严重顾虑，不推荐。",
       "sources": ["ASPCA APCC", "Merck Veterinary Manual"]
@@ -5754,7 +5851,8 @@
       "explanation": "Fermented goat milk with probiotics, easier to digest than cow milk dairy.",
       "common_aliases": [
         "Goat Kefir",
-        "山羊奶酸奶"
+        "山羊奶酸奶",
+        "Yaourt au lait de chèvre"
       ],
       "explanation_zh": "益生菌补充剂。支持消化健康和肠道菌群平衡。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5767,7 +5865,8 @@
       "common_aliases": [
         "Goat Milk Kefir",
         "Cow Milk Kefir",
-        "开菲尔"
+        "开菲尔",
+        "Kéfir"
       ],
       "explanation_zh": "益生菌补充剂。支持消化健康和肠道菌群平衡。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -5984,7 +6083,8 @@
       "explanation": "Marine animal rich in chondroitin and collagen, supporting joint health.",
       "common_aliases": [
         "Dried Sea Cucumber",
-        "海参"
+        "海参",
+        "Concombre de mer"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6209,7 +6309,9 @@
       "common_aliases": [
         "Pumpkin Seeds",
         "Ground Pumpkin Seed",
-        "南瓜籽"
+        "南瓜籽",
+        "Graines de courge",
+        "Pépins de courge"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6222,7 +6324,8 @@
       "common_aliases": [
         "Sunflower Seeds",
         "Ground Sunflower Seed",
-        "葵花籽"
+        "葵花籽",
+        "Graines de tournesol"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6275,7 +6378,8 @@
       "common_aliases": [
         "Dried Nori",
         "紫菜",
-        "海苔"
+        "海苔",
+        "Nori"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6287,7 +6391,8 @@
       "explanation": "Edible seaweed rich in minerals, particularly magnesium and calcium.",
       "common_aliases": [
         "Dried Wakame",
-        "裙带菜"
+        "裙带菜",
+        "Wakamé"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6300,7 +6405,9 @@
       "common_aliases": [
         "Dried Dulse",
         "Palmaria palmata",
-        "红藻"
+        "红藻",
+        "Dulse",
+        "Palmaria"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6312,7 +6419,8 @@
       "explanation": "Adaptogenic mushroom with antioxidant and immune-modulating properties.",
       "common_aliases": [
         "Inonotus obliquus",
-        "白桦茸"
+        "白桦茸",
+        "Chaga"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6325,7 +6433,8 @@
       "common_aliases": [
         "Cordyceps sinensis",
         "Cordyceps militaris",
-        "冬虫夏草"
+        "冬虫夏草",
+        "Cordyceps"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6337,7 +6446,8 @@
       "explanation": "Medicinal mushroom with immune-supporting beta-glucans.",
       "common_aliases": [
         "Grifola frondosa",
-        "舞茸"
+        "舞茸",
+        "Maïtaké"
       ],
       "explanation_zh": "免疫支持补充剂。促进免疫系统正常功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6349,7 +6459,8 @@
       "explanation": "Natural antimicrobial and antioxidant from olive leaves.",
       "common_aliases": [
         "Oleuropein",
-        "橄榄叶提取物"
+        "橄榄叶提取物",
+        "Extrait de feuille d'olivier"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6362,7 +6473,8 @@
       "common_aliases": [
         "GSE",
         "Proanthocyanidins",
-        "葡萄籽提取物"
+        "葡萄籽提取物",
+        "Extrait de pépins de raisin"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6374,7 +6486,8 @@
       "explanation": "Potent antioxidant (pycnogenol) supporting cardiovascular and joint health.",
       "common_aliases": [
         "Pycnogenol",
-        "松树皮提取物"
+        "松树皮提取物",
+        "Extrait d'écorce de pin"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6455,7 +6568,8 @@
       "common_aliases": [
         "Moringa Leaf",
         "Moringa oleifera",
-        "辣木"
+        "辣木",
+        "Moringa"
       ],
       "explanation_zh": "氨基酸补充剂。支持蛋白质合成和身体机能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6467,7 +6581,8 @@
       "explanation": "Young wheat plant rich in chlorophyll and nutrients. Gluten-free at this growth stage.",
       "common_aliases": [
         "Wheat Grass Juice",
-        "小麦草"
+        "小麦草",
+        "Herbe de blé"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6479,7 +6594,8 @@
       "explanation": "Young barley plant providing chlorophyll, enzymes, and antioxidants.",
       "common_aliases": [
         "Barley Grass Juice",
-        "大麦草"
+        "大麦草",
+        "Herbe d'orge"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6491,7 +6607,8 @@
       "explanation": "Grass varieties (oat, wheat, barley) grown for cats to nibble. Aids digestion and hairball passage.",
       "common_aliases": [
         "Pet Grass",
-        "猫草"
+        "猫草",
+        "Herbe pour chat"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6503,7 +6620,8 @@
       "explanation": "Pineapple-derived enzyme aiding protein digestion and reducing inflammation.",
       "common_aliases": [
         "Pineapple Enzyme",
-        "菠萝蛋白酶"
+        "菠萝蛋白酶",
+        "Bromélaïne"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6515,7 +6633,8 @@
       "explanation": "Papaya-derived enzyme supporting protein digestion.",
       "common_aliases": [
         "Papaya Enzyme",
-        "木瓜蛋白酶"
+        "木瓜蛋白酶",
+        "Papaïne"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6526,7 +6645,8 @@
       "safety_rating": "safe",
       "explanation": "Digestive enzyme breaking down fats for better absorption.",
       "common_aliases": [
-        "脂肪酶"
+        "脂肪酶",
+        "Lipase"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6537,7 +6657,8 @@
       "safety_rating": "safe",
       "explanation": "Digestive enzyme breaking down proteins for better absorption.",
       "common_aliases": [
-        "蛋白酶"
+        "蛋白酶",
+        "Protéase"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6548,7 +6669,8 @@
       "safety_rating": "safe",
       "explanation": "Digestive enzyme breaking down starches into simple sugars for absorption.",
       "common_aliases": [
-        "淀粉酶"
+        "淀粉酶",
+        "Amylase"
       ],
       "explanation_zh": "消化健康补充剂。支持营养吸收和肠道功能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6559,7 +6681,8 @@
       "safety_rating": "safe",
       "explanation": "Enzyme breaking down plant cell walls (cellulose) for better nutrient extraction.",
       "common_aliases": [
-        "纤维素酶"
+        "纤维素酶",
+        "Cellulase"
       ],
       "explanation_zh": "消化酶补充剂。帮助营养物质分解和吸收。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6572,7 +6695,8 @@
       "common_aliases": [
         "HA",
         "Sodium Hyaluronate",
-        "透明质酸"
+        "透明质酸",
+        "Acide hyaluronique"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6585,7 +6709,8 @@
       "common_aliases": [
         "Hydrolyzed Collagen",
         "Collagen Peptides",
-        "胶原蛋白"
+        "胶原蛋白",
+        "Collagène"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6610,7 +6735,8 @@
       "common_aliases": [
         "ALA",
         "R-Lipoic Acid",
-        "α-硫辛酸"
+        "α-硫辛酸",
+        "Acide alpha-lipoïque"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6622,7 +6748,8 @@
       "explanation": "Amino acid supporting glutathione production and liver detoxification.",
       "common_aliases": [
         "NAC",
-        "N-乙酰半胱氨酸"
+        "N-乙酰半胱氨酸",
+        "N-acétylcystéine"
       ],
       "explanation_zh": "氨基酸补充剂。支持蛋白质合成和身体机能。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6635,7 +6762,8 @@
       "common_aliases": [
         "Natural Astaxanthin",
         "Haematococcus pluvialis",
-        "虾青素"
+        "虾青素",
+        "Astaxanthine"
       ],
       "explanation_zh": "关节保健补充剂。支持关节灵活性和软骨健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6647,7 +6775,8 @@
       "explanation": "Carotenoid supporting eye health and vision protection.",
       "common_aliases": [
         "Marigold-Derived Lutein",
-        "叶黄素"
+        "叶黄素",
+        "Lutéine"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6658,7 +6787,8 @@
       "safety_rating": "safe",
       "explanation": "Carotenoid antioxidant supporting eye health, often paired with lutein.",
       "common_aliases": [
-        "玉米黄质"
+        "玉米黄质",
+        "Zéaxanthine"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6670,7 +6800,8 @@
       "explanation": "Antioxidant carotenoid from tomatoes supporting cardiovascular and prostate health.",
       "common_aliases": [
         "Tomato Lycopene",
-        "番茄红素"
+        "番茄红素",
+        "Lycopène"
       ],
       "explanation_zh": "天然抗氧化成分。支持免疫和细胞健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6682,7 +6813,8 @@
       "explanation": "Phospholipid supporting cognitive function and brain health in aging pets.",
       "common_aliases": [
         "PS",
-        "磷脂酰丝氨酸"
+        "磷脂酰丝氨酸",
+        "Phosphatidylsérine"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6771,7 +6903,8 @@
       "common_aliases": [
         "Kelp Meal",
         "Sea Vegetable Meal",
-        "干海藻粉"
+        "干海藻粉",
+        "Farine d'algues"
       ],
       "explanation_zh": "营养补充成分。支持宠物整体健康。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6811,7 +6944,8 @@
       "explanation": "Natural herb supporting fresh breath and digestive comfort.",
       "common_aliases": [
         "Spearmint Leaf",
-        "留兰香"
+        "留兰香",
+        "Menthe verte séchée"
       ],
       "explanation_zh": "食品添加剂。用于改善食品品质或加工性能。",
       "sources": ["AAFCO"]
@@ -6823,7 +6957,8 @@
       "explanation": "Contains eugenol, which according to some sources may be harmful in large amounts, especially to cats. Small amounts in food are generally considered safe.",
       "common_aliases": [
         "Clove Oil",
-        "丁香"
+        "丁香",
+        "Clou de girofle"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -6834,7 +6969,9 @@
       "safety_rating": "caution",
       "explanation": "Contains anethole. Generally considered safe in very small amounts, but according to some sources may be harmful in larger quantities.",
       "common_aliases": [
-        "八角"
+        "八角",
+        "Anis étoilé",
+        "Badiane"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -6846,7 +6983,8 @@
       "explanation": "Can cause GI upset and the whole leaf can be a choking/blockage hazard. Best avoided.",
       "common_aliases": [
         "Bay Leaves",
-        "月桂叶"
+        "月桂叶",
+        "Laurier"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -6858,7 +6996,8 @@
       "explanation": "Contains piperine which enhances nutrient absorption but can irritate the GI tract in excess.",
       "common_aliases": [
         "Piperine",
-        "黑胡椒"
+        "黑胡椒",
+        "Poivre noir"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -6871,7 +7010,9 @@
       "common_aliases": [
         "Capsaicin",
         "Chili Pepper",
-        "辣椒"
+        "辣椒",
+        "Piment de Cayenne",
+        "Piment"
       ],
       "explanation_zh": "食品添加剂。安全性存在一定争议。",
       "sources": ["FDA CVM", "AAFCO"]
@@ -6935,7 +7076,9 @@
       "common_aliases": [
         "Tryptophan",
         "L-色氨酸",
-        "色氨酸"
+        "色氨酸",
+        "Tryptophane",
+        "L-tryptophane"
       ],
       "explanation_zh": "必需氨基酸，支持血清素合成。有助于宠物的情绪稳定和睡眠质量。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -6962,7 +7105,8 @@
         "Spearmint",
         "Dried Spearmint",
         "留兰香提取物",
-        "薄荷提取物"
+        "薄荷提取物",
+        "Extrait de menthe verte"
       ],
       "explanation_zh": "天然调味剂和口气清新剂。一般对宠物安全，可改善口腔健康。",
       "sources": ["AAFCO"]
