@@ -12,7 +12,9 @@
         "Deboned Chicken",
         "Whole Chicken",
         "鸡肉",
-        "新鲜鸡肉"
+        "新鲜鸡肉",
+        "Poulet",
+        "Volaille"
       ],
       "explanation_zh": "优质完整蛋白质来源，氨基酸谱优秀，适合猫犬。",
       "sources": ["AAFCO"]
@@ -25,7 +27,10 @@
       "common_aliases": [
         "Dried Chicken",
         "Dehydrated Chicken",
-        "鸡肉粉"
+        "鸡肉粉",
+        "Farine de poulet",
+        "Volaille déshydratée",
+        "Farine de volaille"
       ],
       "explanation_zh": "脱水浓缩鸡肉蛋白，按重量计蛋白质含量高于新鲜鸡肉。",
       "sources": ["AAFCO"]
@@ -65,7 +70,8 @@
       "common_aliases": [
         "Fresh Chicken Liver",
         "Freeze-Dried Chicken Liver",
-        "鸡肝"
+        "鸡肝",
+        "Foie de poulet"
       ],
       "explanation_zh": "营养丰富的内脏肉，富含铁、维生素A和B族维生素。极佳的适口性增强剂。",
       "sources": ["AAFCO"]
@@ -77,7 +83,8 @@
       "explanation": "Quality organ meat high in taurine, essential for cats and beneficial for dogs.",
       "common_aliases": [
         "Fresh Chicken Heart",
-        "鸡心"
+        "鸡心",
+        "Cœur de poulet"
       ],
       "explanation_zh": "优质内脏肉，牛磺酸含量高，对猫必需，对犬有益。",
       "sources": ["AAFCO"]
@@ -91,7 +98,8 @@
         "Fresh Turkey",
         "Deboned Turkey",
         "Whole Turkey",
-        "火鸡肉"
+        "火鸡肉",
+        "Dinde"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。适合对鸡肉敏感的宠物。",
       "sources": ["AAFCO"]
@@ -104,7 +112,9 @@
       "common_aliases": [
         "Dried Turkey",
         "Dehydrated Turkey",
-        "火鸡肉粉"
+        "火鸡肉粉",
+        "Farine de dinde",
+        "Dinde déshydratée"
       ],
       "explanation_zh": "浓缩火鸡蛋白，优质氨基酸来源。",
       "sources": ["AAFCO"]
@@ -118,7 +128,8 @@
         "Fresh Duck",
         "Deboned Duck",
         "Whole Duck",
-        "鸭肉"
+        "鸭肉",
+        "Canard"
       ],
       "explanation_zh": "新型蛋白质来源，适合常见蛋白质过敏的宠物。富含铁质。",
       "sources": ["AAFCO"]
@@ -131,7 +142,9 @@
       "common_aliases": [
         "Dried Duck",
         "Dehydrated Duck",
-        "鸭肉粉"
+        "鸭肉粉",
+        "Farine de canard",
+        "Canard déshydraté"
       ],
       "explanation_zh": "浓缩鸭肉蛋白来源，生物价值高。",
       "sources": ["AAFCO"]
@@ -147,7 +160,8 @@
         "Whole Salmon",
         "Atlantic Salmon",
         "三文鱼",
-        "鲑鱼"
+        "鲑鱼",
+        "Saumon"
       ],
       "explanation_zh": "omega-3脂肪酸（EPA/DHA）的优质来源，支持皮肤、毛发和关节健康。",
       "sources": ["AAFCO"]
@@ -161,7 +175,9 @@
         "Dried Salmon",
         "Dehydrated Salmon",
         "三文鱼粉",
-        "鲑鱼粉"
+        "鲑鱼粉",
+        "Farine de saumon",
+        "Saumon déshydraté"
       ],
       "explanation_zh": "浓缩三文鱼蛋白，omega-3含量高。优质蛋白质来源。",
       "sources": ["AAFCO"]
@@ -189,7 +205,8 @@
         "Fresh Whitefish",
         "Deboned Whitefish",
         "Ocean Whitefish",
-        "白鱼"
+        "白鱼",
+        "Poisson blanc"
       ],
       "explanation_zh": "低脂蛋白质来源，富含omega-3。对食物敏感的宠物通常耐受良好。",
       "sources": ["AAFCO"]
@@ -201,7 +218,8 @@
       "explanation": "Concentrated fish protein source. Good amino acid profile.",
       "common_aliases": [
         "Dried Whitefish",
-        "白鱼粉"
+        "白鱼粉",
+        "Farine de poisson blanc"
       ],
       "explanation_zh": "浓缩鱼类蛋白质来源，氨基酸谱良好。",
       "sources": ["AAFCO"]
@@ -215,7 +233,8 @@
         "Fresh Herring",
         "Whole Herring",
         "Deboned Herring",
-        "鲱鱼"
+        "鲱鱼",
+        "Hareng"
       ],
       "explanation_zh": "小型多脂鱼类，富含omega-3脂肪酸。处于食物链底端，污染物较少。",
       "sources": ["AAFCO"]
@@ -227,7 +246,9 @@
       "explanation": "Concentrated herring protein with excellent omega-3 content.",
       "common_aliases": [
         "Dried Herring",
-        "鲱鱼粉"
+        "鲱鱼粉",
+        "Farine de hareng",
+        "Hareng déshydraté"
       ],
       "explanation_zh": "浓缩鲱鱼蛋白，omega-3含量优秀。",
       "sources": ["AAFCO"]
@@ -251,7 +272,7 @@
       "explanation": "High-quality fish meal from menhaden, rich in omega-3s and highly digestible protein.",
       "common_aliases": [
         "Menhaden Meal",
-        "鲱鱼粉"
+        "Farine de menhaden"
       ],
       "explanation_zh": "优质鱼粉，富含omega-3，蛋白质消化率高。",
       "sources": ["AAFCO"]
@@ -264,7 +285,8 @@
       "common_aliases": [
         "Fresh Mackerel",
         "Whole Mackerel",
-        "鲭鱼"
+        "鲭鱼",
+        "Maquereau"
       ],
       "explanation_zh": "多脂鱼类，富含omega-3脂肪酸，优质蛋白质来源。",
       "sources": ["AAFCO"]
@@ -277,7 +299,9 @@
       "common_aliases": [
         "Fresh Sardines",
         "Whole Sardines",
-        "沙丁鱼"
+        "沙丁鱼",
+        "Sardine",
+        "Sardines"
       ],
       "explanation_zh": "小型鱼类，富含omega-3和钙质。汞含量风险低。",
       "sources": ["AAFCO"]
@@ -291,7 +315,8 @@
         "Fresh Trout",
         "Deboned Trout",
         "Rainbow Trout",
-        "鳟鱼"
+        "鳟鱼",
+        "Truite"
       ],
       "explanation_zh": "优质淡水鱼蛋白质，富含omega-3脂肪酸。",
       "sources": ["AAFCO"]
@@ -305,7 +330,9 @@
         "Fresh Cod",
         "Pacific Cod",
         "Atlantic Cod",
-        "鳕鱼"
+        "鳕鱼",
+        "Cabillaud",
+        "Morue"
       ],
       "explanation_zh": "低脂白色鱼肉蛋白，高消化率，脂肪含量低。",
       "sources": ["AAFCO"]
@@ -319,7 +346,8 @@
         "Fresh Tuna",
         "Skipjack Tuna",
         "金枪鱼",
-        "吞拿鱼"
+        "吞拿鱼",
+        "Thon"
       ],
       "explanation_zh": "良好的蛋白质来源，但汞含量可能较高。建议适量食用，尤其是猫。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -333,7 +361,8 @@
         "Fresh Beef",
         "Deboned Beef",
         "Whole Beef",
-        "牛肉"
+        "牛肉",
+        "Bœuf"
       ],
       "explanation_zh": "优质红肉蛋白质，富含铁、锌和B族维生素。",
       "sources": ["AAFCO"]
@@ -346,7 +375,9 @@
       "common_aliases": [
         "Dried Beef",
         "Dehydrated Beef",
-        "牛肉粉"
+        "牛肉粉",
+        "Farine de bœuf",
+        "Bœuf déshydraté"
       ],
       "explanation_zh": "浓缩牛肉蛋白来源，氨基酸谱良好。",
       "sources": ["AAFCO"]
@@ -358,7 +389,8 @@
       "explanation": "Highly nutritious organ meat rich in vitamin A, iron, and B12.",
       "common_aliases": [
         "Fresh Beef Liver",
-        "牛肝"
+        "牛肝",
+        "Foie de bœuf"
       ],
       "explanation_zh": "高营养内脏肉，富含维生素A、铁和B12。",
       "sources": ["AAFCO"]
@@ -370,7 +402,8 @@
       "explanation": "Excellent source of taurine and CoQ10. Quality organ meat.",
       "common_aliases": [
         "Fresh Beef Heart",
-        "牛心"
+        "牛心",
+        "Cœur de bœuf"
       ],
       "explanation_zh": "牛磺酸和辅酶Q10的优质来源。优质内脏肉。",
       "sources": ["AAFCO"]
@@ -397,7 +430,8 @@
         "Fresh Lamb",
         "Deboned Lamb",
         "Whole Lamb",
-        "羊肉"
+        "羊肉",
+        "Agneau"
       ],
       "explanation_zh": "优质蛋白质来源，适合对鸡肉或牛肉过敏的宠物。",
       "sources": ["AAFCO"]
@@ -410,7 +444,8 @@
       "common_aliases": [
         "Dried Lamb",
         "Dehydrated Lamb",
-        "羊肉粉"
+        "羊肉粉",
+        "Farine d'agneau"
       ],
       "explanation_zh": "浓缩羊肉蛋白来源，消化率良好。",
       "sources": ["AAFCO"]
@@ -422,7 +457,8 @@
       "explanation": "Nutrient-dense organ meat, natural source of many vitamins and minerals.",
       "common_aliases": [
         "Fresh Lamb Liver",
-        "羊肝"
+        "羊肝",
+        "Foie d'agneau"
       ],
       "explanation_zh": "营养丰富的内脏肉，天然维生素和矿物质来源。",
       "sources": ["AAFCO"]
@@ -436,7 +472,9 @@
         "Fresh Venison",
         "Deboned Venison",
         "Deer",
-        "鹿肉"
+        "鹿肉",
+        "Chevreuil",
+        "Venaison"
       ],
       "explanation_zh": "瘦肉型新型蛋白质，适合过敏体质宠物的排除饮食。",
       "sources": ["AAFCO"]
@@ -448,7 +486,8 @@
       "explanation": "Concentrated venison protein, excellent for limited ingredient diets.",
       "common_aliases": [
         "Dried Venison",
-        "鹿肉粉"
+        "鹿肉粉",
+        "Farine de chevreuil"
       ],
       "explanation_zh": "浓缩鹿肉蛋白来源，低过敏性蛋白质。",
       "sources": ["AAFCO"]
@@ -462,7 +501,8 @@
         "Fresh Bison",
         "Buffalo",
         "水牛肉",
-        "野牛肉"
+        "野牛肉",
+        "Bison"
       ],
       "explanation_zh": "瘦肉型新型蛋白质来源，铁含量高。适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -475,7 +515,8 @@
       "common_aliases": [
         "Fresh Rabbit",
         "Deboned Rabbit",
-        "兔肉"
+        "兔肉",
+        "Lapin"
       ],
       "explanation_zh": "瘦肉型新型蛋白质，非常适合有食物敏感性的宠物。",
       "sources": ["AAFCO"]
@@ -487,7 +528,8 @@
       "explanation": "Novel protein source, lean and flavorful. Good for rotation diets.",
       "common_aliases": [
         "Fresh Wild Boar",
-        "野猪肉"
+        "野猪肉",
+        "Sanglier"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -500,7 +542,8 @@
       "common_aliases": [
         "Fresh Pork",
         "Deboned Pork",
-        "猪肉"
+        "猪肉",
+        "Porc"
       ],
       "explanation_zh": "优质蛋白质来源，富含硫胺素。过敏性低于鸡肉或牛肉。",
       "sources": ["AAFCO"]
@@ -512,7 +555,8 @@
       "explanation": "Concentrated pork protein, good amino acid profile.",
       "common_aliases": [
         "Dried Pork",
-        "猪肉粉"
+        "猪肉粉",
+        "Farine de porc"
       ],
       "explanation_zh": "浓缩猪肉蛋白来源，氨基酸含量良好。",
       "sources": ["AAFCO"]
@@ -524,7 +568,8 @@
       "explanation": "Nutrient-dense organ meat high in vitamin A and iron.",
       "common_aliases": [
         "Fresh Pork Liver",
-        "猪肝"
+        "猪肝",
+        "Foie de porc"
       ],
       "explanation_zh": "营养密集的内脏肉，富含铁和B族维生素。",
       "sources": ["AAFCO"]
@@ -552,7 +597,8 @@
       "common_aliases": [
         "Fresh Goat",
         "Deboned Goat",
-        "山羊肉"
+        "山羊肉",
+        "Chèvre"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -565,7 +611,8 @@
       "common_aliases": [
         "Fresh Quail",
         "Whole Quail",
-        "鹌鹑肉"
+        "鹌鹑肉",
+        "Caille"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -577,7 +624,8 @@
       "explanation": "Novel poultry protein with good amino acid profile.",
       "common_aliases": [
         "Fresh Pheasant",
-        "野鸡肉"
+        "野鸡肉",
+        "Faisan"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -593,7 +641,9 @@
         "Dried Egg",
         "Egg Product",
         "鸡蛋",
-        "全蛋"
+        "全蛋",
+        "Œuf",
+        "Œufs"
       ],
       "explanation_zh": "完整蛋白质来源，含所有必需氨基酸。高消化率。",
       "sources": ["AAFCO"]
@@ -605,7 +655,9 @@
       "explanation": "Generic term - quality varies. Named fish meals (salmon meal, herring meal) are preferred as they identify the specific source.",
       "common_aliases": [
         "Generic Fish Meal",
-        "鱼粉"
+        "鱼粉",
+        "Farine de poisson",
+        "Poisson"
       ],
       "explanation_zh": "浓缩蛋白来源。品质因原料来源不同而异，需关注具体成分标注。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -1529,6 +1581,7 @@
       "explanation": "Natural extract that reduces stool odor. Also has anti-inflammatory properties.",
       "common_aliases": [
         "Yucca Extract",
+        "Yucca",
         "丝兰提取物"
       ],
       "explanation_zh": "天然植物提取物，可减轻粪便异味。",
@@ -2707,7 +2760,9 @@
       "common_aliases": [
         "Egg Powder",
         "Dried Whole Egg",
-        "蛋粉"
+        "蛋粉",
+        "Œuf en poudre",
+        "Œuf séché"
       ],
       "explanation_zh": "脱水全蛋，保留蛋白质含量。浓缩蛋白来源。",
       "sources": ["AAFCO"]
@@ -2720,7 +2775,9 @@
       "common_aliases": [
         "Dried Cheese",
         "Cheese",
-        "奶酪"
+        "奶酪",
+        "Fromage blanc",
+        "Fromage cottage"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -2733,7 +2790,9 @@
       "common_aliases": [
         "Whey Protein",
         "Dried Whey",
-        "乳清"
+        "乳清",
+        "Lactosérum",
+        "Petit-lait"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -2759,7 +2818,8 @@
       "common_aliases": [
         "Chicken Bone Broth",
         "Beef Bone Broth",
-        "骨头汤"
+        "骨头汤",
+        "Bouillon d'os"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -3087,6 +3147,7 @@
       "explanation": "Rich source of B vitamins and minerals. Natural flea deterrent and palatability enhancer.",
       "common_aliases": [
         "Dried Brewers Yeast",
+        "Levure de bière",
         "Saccharomyces cerevisiae",
         "啤酒酵母"
       ],
@@ -3321,7 +3382,8 @@
         "Krill Meal",
         "Krill Oil",
         "Antarctic Krill",
-        "磷虾"
+        "磷虾",
+        "Krill"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -3334,7 +3396,9 @@
       "common_aliases": [
         "Mussels",
         "Blue Mussel",
-        "贻贝"
+        "贻贝",
+        "Moule",
+        "Moules"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -3347,7 +3411,9 @@
       "common_aliases": [
         "Dried Shrimp",
         "Shrimp Meal",
-        "虾"
+        "虾",
+        "Crevette",
+        "Crevettes"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -3359,7 +3425,8 @@
       "explanation": "Shellfish protein rich in zinc and B12. Good novel protein for some diets.",
       "common_aliases": [
         "Crab Meal",
-        "螃蟹"
+        "螃蟹",
+        "Crabe"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -3372,7 +3439,8 @@
       "common_aliases": [
         "Anchovies",
         "Anchovy Meal",
-        "凤尾鱼"
+        "凤尾鱼",
+        "Anchois"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -3385,7 +3453,10 @@
       "common_aliases": [
         "Alaska Pollock",
         "Walleye Pollock",
-        "鳕鱼"
+        "鳕鱼",
+        "Lieu",
+        "Colin",
+        "Lieu d'Alaska"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -3397,7 +3468,8 @@
       "explanation": "Freshwater fish protein, mild-flavored and easily digestible.",
       "common_aliases": [
         "Channel Catfish",
-        "鲶鱼"
+        "鲶鱼",
+        "Poisson-chat"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -3408,7 +3480,8 @@
       "safety_rating": "safe",
       "explanation": "Mild white fish protein, easily digestible but lower in omega-3s than oily fish.",
       "common_aliases": [
-        "罗非鱼"
+        "罗非鱼",
+        "Tilapia"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -3420,7 +3493,9 @@
       "explanation": "Novel protein, very lean and nutrient-dense. Excellent for limited ingredient diets.",
       "common_aliases": [
         "Fresh Elk",
-        "麋鹿肉"
+        "麋鹿肉",
+        "Élan",
+        "Wapiti"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -3432,7 +3507,8 @@
       "explanation": "Novel protein very low in fat. Excellent for allergy elimination diets.",
       "common_aliases": [
         "Fresh Kangaroo",
-        "袋鼠肉"
+        "袋鼠肉",
+        "Kangourou"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -3445,7 +3521,8 @@
       "common_aliases": [
         "Fresh Alligator",
         "Crocodile",
-        "鳄鱼肉"
+        "鳄鱼肉",
+        "Alligator"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -3460,7 +3537,9 @@
         "BSF Larvae",
         "Dried Insects",
         "Hermetia illucens",
-        "昆虫蛋白"
+        "昆虫蛋白",
+        "Protéines d'insectes",
+        "Insectes"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -3474,7 +3553,9 @@
         "Hydrolyzed Chicken",
         "Hydrolyzed Soy",
         "Hydrolyzed Salmon",
-        "水解蛋白"
+        "水解蛋白",
+        "Protéines hydrolysées",
+        "Hydrolysat"
       ],
       "explanation_zh": "水解蛋白质，分子量小，适合过敏体质宠物。低过敏性蛋白来源。",
       "sources": ["AAFCO"]
@@ -3487,7 +3568,9 @@
       "common_aliases": [
         "Spray-Dried Animal Plasma",
         "Porcine Plasma",
-        "血浆蛋白"
+        "血浆蛋白",
+        "Plasma",
+        "Plasma sanguin"
       ],
       "explanation_zh": "蛋白质来源，但需注意品质和来源。建议适量食用。",
       "sources": ["AAFCO", "Veterinary nutrition literature"]
@@ -3784,7 +3867,8 @@
       "common_aliases": [
         "Raw Goat Milk",
         "Goat Milk Powder",
-        "羊奶"
+        "羊奶",
+        "Lait de chèvre"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -3947,7 +4031,9 @@
       "explanation": "Dairy protein derivative providing essential amino acids.",
       "common_aliases": [
         "Casein",
-        "酪蛋白酸钠"
+        "酪蛋白酸钠",
+        "Caséinate de sodium",
+        "Caséine"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -4387,7 +4473,8 @@
       "explanation": "Nutrient-dense organ meat rich in iron and B vitamins.",
       "common_aliases": [
         "Fresh Duck Liver",
-        "鸭肝"
+        "鸭肝",
+        "Foie de canard"
       ],
       "explanation_zh": "营养丰富的内脏肉，适口性极佳。",
       "sources": ["AAFCO"]
@@ -4399,7 +4486,8 @@
       "explanation": "Quality organ meat providing essential vitamins and minerals.",
       "common_aliases": [
         "Fresh Turkey Liver",
-        "火鸡肝"
+        "火鸡肝",
+        "Foie de dinde"
       ],
       "explanation_zh": "优质内脏肉，富含必需维生素和矿物质。",
       "sources": ["AAFCO"]
@@ -4411,7 +4499,9 @@
       "explanation": "Organ meat rich in B12, selenium, and iron. Part of quality organ meat blends.",
       "common_aliases": [
         "Fresh Beef Kidney",
-        "牛肾"
+        "牛肾",
+        "Rognon de bœuf",
+        "Rein de bœuf"
       ],
       "explanation_zh": "优质内脏肉，天然维生素和矿物质的丰富来源。",
       "sources": ["AAFCO"]
@@ -4423,7 +4513,8 @@
       "explanation": "Lean organ meat rich in protein. Common in quality raw and fresh diets.",
       "common_aliases": [
         "Fresh Beef Lung",
-        "牛肺"
+        "牛肺",
+        "Poumon de bœuf"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -4436,7 +4527,9 @@
       "common_aliases": [
         "Green Tripe",
         "Green Beef Tripe",
-        "牛肚"
+        "牛肚",
+        "Tripes de bœuf",
+        "Panse de bœuf"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -4448,7 +4541,8 @@
       "explanation": "Lean organ meat high in protein, iron, and B12.",
       "common_aliases": [
         "Fresh Chicken Gizzard",
-        "鸡胗"
+        "鸡胗",
+        "Gésier de poulet"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -4472,7 +4566,8 @@
       "explanation": "Fresh pork with bones removed, quality whole meat protein.",
       "common_aliases": [
         "Fresh Pork",
-        "去骨猪肉"
+        "去骨猪肉",
+        "Porc désossé"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -4484,7 +4579,8 @@
       "explanation": "Organ meat rich in taurine and CoQ10, supporting heart health.",
       "common_aliases": [
         "Fresh Pork Heart",
-        "猪心"
+        "猪心",
+        "Cœur de porc"
       ],
       "explanation_zh": "优质内脏肉，牛磺酸含量高。对猫必需，对犬有益。",
       "sources": ["AAFCO"]
@@ -4496,7 +4592,8 @@
       "explanation": "Nutrient-dense organ meat rich in B vitamins and minerals.",
       "common_aliases": [
         "Fresh Pork Kidney",
-        "猪肾"
+        "猪肾",
+        "Rognon de porc"
       ],
       "explanation_zh": "优质内脏肉，天然维生素和矿物质的丰富来源。",
       "sources": ["AAFCO"]
@@ -4508,7 +4605,8 @@
       "explanation": "Organ meat high in taurine, CoQ10, and B vitamins.",
       "common_aliases": [
         "Fresh Lamb Heart",
-        "羊心"
+        "羊心",
+        "Cœur d'agneau"
       ],
       "explanation_zh": "优质内脏肉，牛磺酸含量高。对猫必需，对犬有益。",
       "sources": ["AAFCO"]
@@ -4520,7 +4618,8 @@
       "explanation": "Organ meat providing essential B12, selenium, and iron.",
       "common_aliases": [
         "Fresh Lamb Kidney",
-        "羊肾"
+        "羊肾",
+        "Rognon d'agneau"
       ],
       "explanation_zh": "优质内脏肉，天然维生素和矿物质的丰富来源。",
       "sources": ["AAFCO"]
@@ -4532,7 +4631,9 @@
       "explanation": "Digestive organ rich in enzymes and beneficial bacteria.",
       "common_aliases": [
         "Green Lamb Tripe",
-        "羊肚"
+        "羊肚",
+        "Tripes d'agneau",
+        "Panse d'agneau"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -4545,7 +4646,8 @@
       "common_aliases": [
         "Whole Prey",
         "Prey Model",
-        "完整猎物比例"
+        "完整猎物比例",
+        "Proie entière"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5149,7 +5251,8 @@
       "explanation": "Chicken preserved by freeze-drying, retaining maximum nutrients and flavor.",
       "common_aliases": [
         "FD Chicken",
-        "冻干鸡肉"
+        "冻干鸡肉",
+        "Poulet lyophilisé"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5161,7 +5264,8 @@
       "explanation": "Beef preserved by freeze-drying for maximum nutrient retention.",
       "common_aliases": [
         "FD Beef",
-        "冻干牛肉"
+        "冻干牛肉",
+        "Bœuf lyophilisé"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5173,7 +5277,8 @@
       "explanation": "Salmon preserved by freeze-drying, maintaining omega-3 content and protein quality.",
       "common_aliases": [
         "FD Salmon",
-        "冻干三文鱼"
+        "冻干三文鱼",
+        "Saumon lyophilisé"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5185,7 +5290,8 @@
       "explanation": "Duck preserved by freeze-drying for maximum nutrient and flavor retention.",
       "common_aliases": [
         "FD Duck",
-        "冻干鸭肉"
+        "冻干鸭肉",
+        "Canard lyophilisé"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5197,7 +5303,8 @@
       "explanation": "Turkey preserved by freeze-drying, retaining all essential amino acids.",
       "common_aliases": [
         "FD Turkey",
-        "冻干火鸡肉"
+        "冻干火鸡肉",
+        "Dinde lyophilisée"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5209,7 +5316,8 @@
       "explanation": "Lamb preserved by freeze-drying for concentrated nutrition.",
       "common_aliases": [
         "FD Lamb",
-        "冻干羊肉"
+        "冻干羊肉",
+        "Agneau lyophilisé"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5222,7 +5330,8 @@
       "common_aliases": [
         "FD Liver",
         "FD Chicken Liver",
-        "冻干肝脏"
+        "冻干肝脏",
+        "Foie lyophilisé"
       ],
       "explanation_zh": "营养丰富的内脏肉，富含维生素和矿物质。优质天然营养来源。",
       "sources": ["AAFCO"]
@@ -5234,7 +5343,8 @@
       "explanation": "Uncooked chicken for raw feeding diets. High-quality protein in its most natural form.",
       "common_aliases": [
         "Fresh Raw Chicken",
-        "生鸡肉"
+        "生鸡肉",
+        "Poulet cru"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5246,7 +5356,8 @@
       "explanation": "Uncooked beef for raw diets. Rich in enzymes and natural nutrients.",
       "common_aliases": [
         "Fresh Raw Beef",
-        "生牛肉"
+        "生牛肉",
+        "Bœuf cru"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5258,7 +5369,8 @@
       "explanation": "Gently dehydrated chicken preserving more nutrients than high-heat meal processing.",
       "common_aliases": [
         "Air-Dried Chicken",
-        "脱水鸡肉"
+        "脱水鸡肉",
+        "Poulet déshydraté"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5270,7 +5382,8 @@
       "explanation": "Gently dehydrated fish protein with preserved omega-3 content.",
       "common_aliases": [
         "Air-Dried Fish",
-        "脱水鱼"
+        "脱水鱼",
+        "Poisson déshydraté"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5282,7 +5395,8 @@
       "explanation": "Gently dehydrated lamb retaining natural nutrients and flavor.",
       "common_aliases": [
         "Air-Dried Lamb",
-        "脱水羊肉"
+        "脱水羊肉",
+        "Agneau déshydraté"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5294,7 +5408,8 @@
       "explanation": "Gently dehydrated pork preserving natural nutrition profile.",
       "common_aliases": [
         "Air-Dried Pork",
-        "脱水猪肉"
+        "脱水猪肉",
+        "Porc déshydraté"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5306,7 +5421,8 @@
       "explanation": "Bone-in chicken part providing natural calcium, glucosamine, and protein.",
       "common_aliases": [
         "Raw Chicken Necks",
-        "鸡脖"
+        "鸡脖",
+        "Cous de poulet"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5318,7 +5434,8 @@
       "explanation": "Bone-in part providing natural calcium and protein for raw diets.",
       "common_aliases": [
         "Raw Chicken Wings",
-        "鸡翅"
+        "鸡翅",
+        "Ailes de poulet"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5330,7 +5447,8 @@
       "explanation": "Dark meat with higher fat content providing flavor and essential fatty acids.",
       "common_aliases": [
         "Chicken Thighs",
-        "鸡腿肉"
+        "鸡腿肉",
+        "Cuisse de poulet"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5342,7 +5460,8 @@
       "explanation": "Organ meat rich in taurine, essential for cats.",
       "common_aliases": [
         "Fresh Turkey Heart",
-        "火鸡心"
+        "火鸡心",
+        "Cœur de dinde"
       ],
       "explanation_zh": "富含牛磺酸的内脏肉，对猫必需。",
       "sources": ["AAFCO"]
@@ -5354,7 +5473,8 @@
       "explanation": "Lean organ meat high in protein and iron.",
       "common_aliases": [
         "Fresh Turkey Gizzard",
-        "火鸡胗"
+        "火鸡胗",
+        "Gésier de dinde"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5366,7 +5486,8 @@
       "explanation": "Organ meat providing taurine and CoQ10.",
       "common_aliases": [
         "Fresh Duck Heart",
-        "鸭心"
+        "鸭心",
+        "Cœur de canard"
       ],
       "explanation_zh": "优质内脏肉，牛磺酸含量高。对猫必需，对犬有益。",
       "sources": ["AAFCO"]
@@ -5378,7 +5499,8 @@
       "explanation": "Novel protein organ meat rich in taurine.",
       "common_aliases": [
         "Fresh Venison Heart",
-        "鹿心"
+        "鹿心",
+        "Cœur de chevreuil"
       ],
       "explanation_zh": "优质内脏肉，牛磺酸含量高。对猫必需，对犬有益。",
       "sources": ["AAFCO"]
@@ -5390,7 +5512,8 @@
       "explanation": "Novel protein organ meat rich in vitamin A and iron.",
       "common_aliases": [
         "Fresh Venison Liver",
-        "鹿肝"
+        "鹿肝",
+        "Foie de chevreuil"
       ],
       "explanation_zh": "营养丰富的内脏肉，富含维生素和矿物质。优质天然营养来源。",
       "sources": ["AAFCO"]
@@ -5402,7 +5525,8 @@
       "explanation": "Nutrient-dense novel protein organ meat.",
       "common_aliases": [
         "Fresh Bison Liver",
-        "水牛肝"
+        "水牛肝",
+        "Foie de bison"
       ],
       "explanation_zh": "营养丰富的内脏肉，富含维生素和矿物质。优质天然营养来源。",
       "sources": ["AAFCO"]
@@ -5414,7 +5538,8 @@
       "explanation": "Novel protein organ meat for sensitive pets.",
       "common_aliases": [
         "Fresh Rabbit Liver",
-        "兔肝"
+        "兔肝",
+        "Foie de lapin"
       ],
       "explanation_zh": "营养丰富的内脏肉，富含维生素和矿物质。优质天然营养来源。",
       "sources": ["AAFCO"]
@@ -5426,7 +5551,8 @@
       "explanation": "Novel protein organ meat rich in iron and B vitamins.",
       "common_aliases": [
         "Fresh Goat Liver",
-        "山羊肝"
+        "山羊肝",
+        "Foie de chèvre"
       ],
       "explanation_zh": "营养丰富的内脏肉，富含维生素和矿物质。优质天然营养来源。",
       "sources": ["AAFCO"]
@@ -5463,7 +5589,8 @@
       "explanation": "Concentrated sardine protein rich in omega-3s and calcium.",
       "common_aliases": [
         "Dried Sardine",
-        "沙丁鱼粉"
+        "沙丁鱼粉",
+        "Farine de sardine"
       ],
       "explanation_zh": "浓缩蛋白来源，按重量计蛋白质含量高。优质氨基酸来源。",
       "sources": ["AAFCO"]
@@ -5475,7 +5602,8 @@
       "explanation": "Concentrated mackerel protein with high omega-3 content.",
       "common_aliases": [
         "Dried Mackerel",
-        "鲭鱼粉"
+        "鲭鱼粉",
+        "Farine de maquereau"
       ],
       "explanation_zh": "浓缩蛋白来源，按重量计蛋白质含量高。优质氨基酸来源。",
       "sources": ["AAFCO"]
@@ -5487,7 +5615,8 @@
       "explanation": "Lean white fish protein, mild and easily digestible.",
       "common_aliases": [
         "Fresh Haddock",
-        "黑线鳕"
+        "黑线鳕",
+        "Églefin"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5499,7 +5628,8 @@
       "explanation": "Lean flatfish protein, mild-flavored and easily digestible.",
       "common_aliases": [
         "Fresh Flounder",
-        "比目鱼"
+        "比目鱼",
+        "Flet"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5512,7 +5642,8 @@
       "common_aliases": [
         "Fresh Sole",
         "Dover Sole",
-        "鳎鱼"
+        "鳎鱼",
+        "Sole"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5525,7 +5656,8 @@
       "common_aliases": [
         "Fresh Perch",
         "Yellow Perch",
-        "鲈鱼"
+        "鲈鱼",
+        "Perche"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5537,7 +5669,8 @@
       "explanation": "Freshwater fish protein, lean and mild-flavored.",
       "common_aliases": [
         "Fresh Walleye",
-        "梭鲈"
+        "梭鲈",
+        "Doré"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5550,7 +5683,8 @@
       "common_aliases": [
         "Northern Pike",
         "Fresh Pike",
-        "梭子鱼"
+        "梭子鱼",
+        "Brochet"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5563,7 +5697,8 @@
       "common_aliases": [
         "Fresh Whiting",
         "Silver Hake",
-        "牙鳕"
+        "牙鳕",
+        "Merlan"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5576,7 +5711,8 @@
       "common_aliases": [
         "Fresh Smelt",
         "Rainbow Smelt",
-        "胡瓜鱼"
+        "胡瓜鱼",
+        "Éperlan"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5589,7 +5725,9 @@
       "common_aliases": [
         "Calamari",
         "Dried Squid",
-        "鱿鱼"
+        "鱿鱼",
+        "Calamar",
+        "Calmar"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5602,7 +5740,8 @@
       "common_aliases": [
         "Clams",
         "Clam Juice",
-        "蛤蜊"
+        "蛤蜊",
+        "Palourde"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5615,7 +5754,8 @@
       "common_aliases": [
         "Oysters",
         "Oyster Meal",
-        "牡蛎"
+        "牡蛎",
+        "Huître"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5628,7 +5768,9 @@
       "common_aliases": [
         "Scallops",
         "Dried Scallop",
-        "扇贝"
+        "扇贝",
+        "Coquille Saint-Jacques",
+        "Noix de Saint-Jacques"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5639,7 +5781,8 @@
       "safety_rating": "safe",
       "explanation": "Premium shellfish protein rich in minerals and omega-3s.",
       "common_aliases": [
-        "鲍鱼"
+        "鲍鱼",
+        "Ormeau"
       ],
       "explanation_zh": "优质蛋白质来源，富含omega-3脂肪酸。支持皮肤和毛发健康。",
       "sources": ["AAFCO"]
@@ -5663,7 +5806,8 @@
       "explanation": "Concentrated novel poultry protein.",
       "common_aliases": [
         "Dried Pheasant",
-        "野鸡肉粉"
+        "野鸡肉粉",
+        "Farine de faisan"
       ],
       "explanation_zh": "浓缩蛋白来源，按重量计蛋白质含量高。优质氨基酸来源。",
       "sources": ["AAFCO"]
@@ -5675,7 +5819,8 @@
       "explanation": "Nutrient-dense small eggs with excellent amino acid profile.",
       "common_aliases": [
         "Quail Eggs",
-        "鹌鹑蛋"
+        "鹌鹑蛋",
+        "Œuf de caille"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -5687,7 +5832,8 @@
       "explanation": "Novel poultry protein, leaner than chicken.",
       "common_aliases": [
         "Fresh Guinea Fowl",
-        "珍珠鸡"
+        "珍珠鸡",
+        "Pintade"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -5699,7 +5845,8 @@
       "explanation": "Exotic novel protein, very lean red meat from poultry. Hypoallergenic.",
       "common_aliases": [
         "Fresh Ostrich",
-        "鸵鸟肉"
+        "鸵鸟肉",
+        "Autruche"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -5711,7 +5858,8 @@
       "explanation": "Novel protein used in some European pet foods for allergy management.",
       "common_aliases": [
         "Horsemeat",
-        "马肉"
+        "马肉",
+        "Cheval"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -5723,7 +5871,8 @@
       "explanation": "Exotic novel protein for extreme food sensitivities.",
       "common_aliases": [
         "Fresh Crocodile",
-        "鳄鱼"
+        "鳄鱼",
+        "Crocodile"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -5735,7 +5884,8 @@
       "explanation": "Novel protein used in Middle Eastern and specialty pet foods.",
       "common_aliases": [
         "Camel Meat",
-        "骆驼肉"
+        "骆驼肉",
+        "Chameau"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -5748,7 +5898,8 @@
       "common_aliases": [
         "Yak Meat",
         "Yak Milk",
-        "牦牛肉"
+        "牦牛肉",
+        "Yak"
       ],
       "explanation_zh": "新型蛋白质来源，适合对常见蛋白质过敏的宠物。",
       "sources": ["AAFCO"]
@@ -5760,7 +5911,8 @@
       "explanation": "Novel red meat protein, leaner than beef with good mineral content.",
       "common_aliases": [
         "Buffalo Meat",
-        "水牛"
+        "水牛",
+        "Buffle"
       ],
       "explanation_zh": "瘦肉型优质蛋白质来源。脂肪含量低，消化率高。",
       "sources": ["AAFCO"]
@@ -6529,7 +6681,8 @@
       "explanation": "Milk protein coagulated with rennet enzyme. Good amino acid source if pet tolerates dairy.",
       "common_aliases": [
         "Casein",
-        "凝乳酪蛋白"
+        "凝乳酪蛋白",
+        "Caséine présure"
       ],
       "explanation_zh": "优质蛋白质来源，提供必需氨基酸。适合猫犬。",
       "sources": ["AAFCO"]
@@ -6620,7 +6773,9 @@
         "Meat and Animal By-Products",
         "Viandes et Sous-Produits Animaux",
         "Viande et Sous-Produits d'Origine Animale",
-        "Viandes et Sous-Produits d'Origine Animale"
+        "Viandes et Sous-Produits d'Origine Animale",
+        "Viande",
+        "Viandes"
       ],
       "explanation_fr": "Déclaration générique de type UE regroupant des viandes et parties animales non précisées. La source et la qualité réelles peuvent varier fortement d'un lot à l'autre, et le fabricant ne précise ni l'espèce ni les morceaux utilisés — un point de vigilance en cas d'allergie connue.",
       "sources": ["FEDIAF Code of Good Labelling Practice"]
